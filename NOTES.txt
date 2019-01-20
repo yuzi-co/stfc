@@ -1,0 +1,71 @@
+81354: -4792, -514 .. Cita Laga[15] .. noble gas mining
+81459: -4854, -380 .. Opla[20] .. noble gas mining
+81286: -4733, -560 .. Elona[13] .. raw gas
+
+
+my routine:
+ check gifts (10min, 4h, 24h categories)
+   note: 10min timer for 'next' gift starts after you claim it, so claim
+         promptly if you can!
+   note: bug bug if 'gift' ever says '00s' it means 'click me to claim'
+   note: bug bug if you are in the 'gifts' section and a gift says '00s' then
+         click 'recruit' on the bottom and back to 'gifts' on the bottom so
+         it can show the 'claim' button (saves time vs going back and clicking
+         on gifts again, aka screen refresh within gifts is faster vs going to
+         alt view back to gifts) interior view of station resources, click on
+         them to store them (dilithium, tritanium, parsteel)
+ try to keep...
+   building/upgrading bits of the station
+   researching new bits for station and combat
+   note: building/repairing/researching can be 'free' if you click on 'free'
+         when it gets to < 5min to completion
+ try really hard to avoid paying for time, gifts can give you speedups,
+   missions can give you speedups, latinum i try to save for resources that
+   are hard to find, including ship xp for leveling up ships
+ when missions take you to a new cluster of systems, after you've done a step
+   in a mission, send the ship to the surrounding systems, you can always
+   go back and view them later (oncd it has started warping, click on the next
+   system to visit, and wait for it to drop out of warp to send it on again.
+   once a system has a white circle around it, you can see stuff inside except
+   details of missions or accept missions). Good trick for finding resources
+   later!
+
+ 
+tricks:
+o when construction is nearly at 5min, know what your next construction
+  project will be, and if it is not depending on the existing
+  construction project it will inform you the queue is full, click 'speed
+  up' and then just sit on the screen until it shows 'free' after it has
+  ticked down to less than 5min, click 'free' and instantly the 2nd
+  project will start.  i believe this saves a few seconds on construction
+  vs clicking 'free' then going to find the next project and clicking
+  'upgrade'
+o when attacking ships to gather resources (safter than mining
+  especially early on), you can quickly move on to the next target by
+  choosing 'attack' then scrolling the screen to find the next target, and
+  waiting for the battle to finish before clicking 'attack' then moving on
+  to the next target .. etc. shaves time vs letting the battle end then
+  finding a target to click on it and wait for the dialog to open and
+  click 'attack'
+o note that the icons on the generators interior to the station show how
+  full the generators are, especially parsteel seems to be overly
+  abundantly generated vs need so if the wearhouse is full, and you click
+  on the generator it releases resources and stops generation; if you
+  expect the wearhouse to be full when you click, don't click, it lets all
+  generates 'store' more than if you fill the wearhouse and stop
+  production
+o note that the AI that advises you doesn't always know everything, use
+  your brain. I've been bugged to go on missions I can't possibly complete
+  because I need to destroy a ship that requires me to have a ship of
+  strength 10,000 but I only have a ship of 5,000 .. or it bugs me to
+  build a new ship when I haven't even managed to research the plans or
+  collect the plans for the given ship!
+o alliances.  You joined one.
+  o click the icon to give help to members
+  o click the 'ask for help' (it can speed up construction/research/repairs)
+  o donate extra resources (parsteel seems to be produced more than I use)
+    by clicking the alliance icon (lower left) then contribute then '3 AP'
+    for 11.25K parsteel, or if you have trantium in abundance etc. The higher
+    the level of your alliance, the more help you can send and receive, so
+    think of it as a group leveling up of your construction/research/repairs
+
