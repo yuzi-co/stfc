@@ -1,8 +1,3 @@
-81354: -4792, -514 .. Cita Laga[15] .. noble gas mining
-81459: -4854, -380 .. Opla[20] .. noble gas mining
-81286: -4733, -560 .. Elona[13] .. raw gas
-
-
 my routine:
  check gifts (10min, 4h, 24h categories)
    note: 10min timer for 'next' gift starts after you claim it, so claim

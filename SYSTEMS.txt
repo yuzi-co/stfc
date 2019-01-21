@@ -1,0 +1,16 @@
+     81354: -4792, -514 .  . Cita Laga[15]  .. noble gas
+     81459: -4854, -380 .  . Opla[20]       .. noble gas
+     81286: -4733, -560 .  . Elona[13]      .. raw gas
+1855008555: -4590,   -4 .  . Kaikara[18]    .. dilithium
+1854874708: -4547,   -3 .  . Kepler-018[20] .. 2* Raw Ore
+ 464460417: -4579,  -33 .  . Wezen[18]      .. tritanium
+1113049160: -4589,  -35 .  . Zhang[19]      .. tritanium
+1012246624: -4607,   -3 .MI. Vement[17]     .. parsteel 
+
+Key:
+
+ M = missions
+ I = Independent
+ V = Vulcan
+ R = Romulan
+ F = Federation
