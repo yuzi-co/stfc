@@ -1,11 +1,23 @@
-     81354: -4792, -514 .  . Cita Laga[15]  .. noble gas
-     81459: -4854, -380 .  . Opla[20]       .. noble gas
-     81286: -4733, -560 .  . Elona[13]      .. raw gas
-1855008555: -4590,   -4 .  . Kaikara[18]    .. dilithium
-1854874708: -4547,   -3 .  . Kepler-018[20] .. 2* Raw Ore
- 464460417: -4579,  -33 .  . Wezen[18]      .. tritanium
-1113049160: -4589,  -35 .  . Zhang[19]      .. tritanium
+     81354: -4792, -514 .... Cita Laga[15]  .. noble gas
+     81459: -4854, -380 .... Opla[20]       .. noble gas
+     81286: -4733, -560 .... Elona[13]      .. raw gas
+1855008555: -4590,   -4 .... Kaikara[18]    .. dilithium
+1854874708: -4547,   -3 .... Kepler-018[20] .. 2* Raw Ore
+ 464460417: -4579,  -33 .... Wezen[18]      .. tritanium
+1113049160: -4589,  -35 .... Zhang[19]      .. tritanium
 1012246624: -4607,   -3 .MI. Vement[17]     .. parsteel 
+2136091294: -4592,   -3 .MI. Bharani[16]    .. parsteel
+1316840322: -4554,  -41 .MI. Eizeb[16]      .. tritanium
+1791133099: -4482,  -38 .MI. Bubeau[18]     .. parsteel
+1745143614: -4699,  -55 .MI. Dhi'ban[14]    .. 2* raw ore (Phandra)
+1980030252: -5047,   -5 .MI. Zehoro[11]     .. nothing (Jellyfish?)
+Elva[11] .. (Jellyfish?)
+Maya[9] .. (Jellyfish?)
+1718038036: -4441,  -42 ..I. Fastolf[21]    .. 2* raw ore, 2* raw crystal
+ 827622990: -4428,   -3 ..R. V'varia[21]    .. 2* raw crystal
+2102605227: -4530,   -2 .MR. Davidul[20]    .. 3* raw ore
+     81286: -4733, -560 ..I. Elona[13]      .. 2* raw gas (Phandra)
+     81354:  -479, -514 ..I. Cita Laga[15]  .. 2* raw gas
 
 Key:
 
