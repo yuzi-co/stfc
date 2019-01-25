@@ -18,6 +18,7 @@ Maya[9] .. (Jellyfish?)
 2102605227: -4530,   -2 .MR. Davidul[20]    .. 3* raw ore
      81286: -4733, -560 ..I. Elona[13]      .. 2* raw gas (Phandra)
      81354:  -479, -514 ..I. Cita Laga[15]  .. 2* raw gas
+ 830770182:  -660,  283 ..F. Voss[20]       .. 3* raw gas
 
 Key:
 
