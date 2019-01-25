@@ -64,3 +64,12 @@ o alliances.  You joined one.
     the level of your alliance, the more help you can send and receive, so
     think of it as a group leveling up of your construction/research/repairs
 
+reference:
+
+o ship colors...
+   red    - generated 'opponents' for attacking to get spoils and experience
+   green  - your ships
+   blue   - other players ships
+   purple - ships in your alliance
+
+periodic table of elements:
