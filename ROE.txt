@@ -1,0 +1,33 @@
+Rules Of Engagement
+-------------------
+
+Fair Game to Attack:
+- a miner on a mine with 0 resources
+- a miner on a mine with recoverable cargo
+- a warship on a mine is fair game to attack
+- if you get bumped 'against roe rules' you can attack with your warship and
+  get your miner back on (or have help to do so)
+
+Can't Attack:
+- a miner actively mining with 0 recoverable cargo and resources still left
+  in the mine
+
+Some further verbose reasoning:
+
+Given that mining resources reset once a miner leaves after resources are 0,
+miners that start mining then go afk tat depleat the mine are 'wasting' the
+potential to mine for others.
+
+Given that there is typically a lot of protected cargo, attacking a miner
+that has 0 resources left in the mine sendes them back to their base with
+resources, and frees up the mine to be mined by others.
+
+Given that a warship (and mot a mining ship) mines much more slowly than
+a mining ship, if everybody mined with warships, many fewer resources would
+be mined and they would tie up the mines.  Therefore, a warship is 'fair game'
+to attack on a mine.
+
+Given that you can scan ships on mines to determine if there is cargo you
+could recover, and that it only shows more than 0 if they've gone over
+their protected cargo limit, they've exceeded their welcome on the mine and
+need to be sent home.
