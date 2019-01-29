@@ -19,6 +19,17 @@ Maya[9] .. (Jellyfish?)
      81286: -4733, -560 ..I. Elona[13]      .. 2* raw gas (Phandra)
      81354:  -479, -514 ..I. Cita Laga[15]  .. 2* raw gas
  830770182:  -660,  283 ..F. Voss[20]       .. 3* raw gas
+muraski 312 .. dilithium?
+clytomenens .. dilithium?
+kamia .. dilithium?
+Bellas[12] .. 2* raw crystal
+Zurak[13] .. 2* raw gas
+Lycia[14] .. 2* raw crystal
+Vindemiatrix[15] .. 2* raw gas
+Krah'Hor[18] .. dilithium
+Nelve[12] .. 2* raw crystal
+Friefra[10] .. trantium
+Yesop[9] .. parsteel
 
 Key:
 

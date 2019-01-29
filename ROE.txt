@@ -15,11 +15,11 @@ Can't Attack:
 Some further verbose reasoning:
 
 Given that mining resources reset once a miner leaves after resources are 0,
-miners that start mining then go afk tat depleat the mine are 'wasting' the
+miners that start mining then go afk that deplete the mine are 'wasting' the
 potential to mine for others.
 
 Given that there is typically a lot of protected cargo, attacking a miner
-that has 0 resources left in the mine sendes them back to their base with
+that has 0 resources left in the mine sends them back to their base with
 resources, and frees up the mine to be mined by others.
 
 Given that a warship (and mot a mining ship) mines much more slowly than
