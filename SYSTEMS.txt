@@ -1,41 +1,67 @@
-     81354: -4792, -514 .... Cita Laga[15]  .. noble gas
-     81459: -4854, -380 .... Opla[20]       .. noble gas
-     81286: -4733, -560 .... Elona[13]      .. raw gas
-1855008555: -4590,   -4 .... Kaikara[18]    .. dilithium
-1854874708: -4547,   -3 .... Kepler-018[20] .. 2* Raw Ore, ships drop 50 dilithium
- 464460417: -4579,  -33 .... Wezen[18]      .. tritanium
-1113049160: -4589,  -35 .... Zhang[19]      .. tritanium
-1012246624: -4607,   -3 .MI. Vement[17]     .. parsteel 
-2136091294: -4592,   -3 .MI. Bharani[16]    .. parsteel
-1316840322: -4554,  -41 .MI. Eizeb[16]      .. tritanium
-1791133099: -4482,  -38 .MI. Bubeau[18]     .. parsteel
-1745143614: -4699,  -55 .MI. Dhi'ban[14]    .. 2* raw ore (Phandra)
-1980030252: -5047,   -5 .MI. Zehoro[11]     .. nothing (Jellyfish?)
+  System#               ATTR Name[level]       mining ship chest contents
+
+     81354: -4792,  -514 .... Cita Laga[15]  .. 2*G
+     81459: -4854,  -380 .... Opla[20]       .. 2*G
+     81286: -4733,  -560 .... Elona[13]      .. 2*G
+1855008555: -4590,    -4 .... Kaikara[18]    .. DIL
+1854874708: -4547,    -3 .... Kepler-018[20] .. 2*O .. 50 DIL
+ 464460417: -4579,   -33 .... Wezen[18]      .. TRI
+1113049160: -4589,   -35 .... Zhang[19]      .. TRI
+1012246624: -4607,    -3 .MI. Vement[17]     .. PAR 
+2136091294: -4592,    -3 .MI. Bharani[16]    .. PAR
+1316840322: -4554,   -41 .MI. Eizeb[16]      .. TRI
+1791133099: -4482,   -38 .MI. Bubeau[18]     .. PAR
+1745143614: -4699,   -55 .MI. Dhi'ban[14]    .. 2*O .. Phandra
+1980030252: -5047,    -5 .MI. Zehoro[11]     .. NIL .. Jellyfish?
+1718038036: -4441,   -42 ..I. Fastolf[21]    .. 2*O, 2*C
+ 827622990: -4428,    -3 ..R. V'varia[21]    .. 2*C
+2102605227: -4530,    -2 .MR. Davidul[20]    .. 3*O
+     81286: -4733,  -560 ..I. Elona[13]      .. 2*G .. Phandra
+     81354:  -479,  -514 ..I. Cita Laga[15]  .. 2*G
+ 830770182:  -660,   283 ..F. Voss[20]       .. 3*G
+     78653: -5680, -1583 ..I. Winber[5]      .. PAR .. 99-135 PAR
+     78727: -5864, -1785 ..I. Worhundelja[9] .. TRI .. IP, BP, OX, 71-91 TRI
 Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
-1718038036: -4441,  -42 ..I. Fastolf[21]    .. 2* raw ore, 2* raw crystal
- 827622990: -4428,   -3 ..R. V'varia[21]    .. 2* raw crystal
-2102605227: -4530,   -2 .MR. Davidul[20]    .. 3* raw ore
-     81286: -4733, -560 ..I. Elona[13]      .. 2* raw gas (Phandra)
-     81354:  -479, -514 ..I. Cita Laga[15]  .. 2* raw gas
- 830770182:  -660,  283 ..F. Voss[20]       .. 3* raw gas
-muraski 312 .. dilithium?
-clytomenens .. dilithium?
-kamia .. dilithium?
-Bellas[12] .. 2* raw crystal
-Zurak[13] .. 2* raw gas
-Lycia[14] .. 2* raw crystal
-Vindemiatrix[15] .. 2* raw gas
-Krah'Hor[18] .. dilithium
-Nelve[12] .. 2* raw crystal
-Friefra[10] .. trantium
-Yesop[9] .. parsteel
-Sona .. ships drop 40 or more dilithium
+muraski 312 .. DIL?
+clytomenens .. DIL?
+kamia .. DIL?
+Bellas[12] .. 2*C .. Dilithium?
+Zurak[13] .. 2*G
+Lycia[14] .. 2*C
+Vindemiatrix[15] .. 2*G
+Krah'Hor[18] .. DIL
+Nelve[12] .. 2*C
+Friefra[10] .. TRI
+Yesop[9] .. PAR
+Sona .. 40+ DIL
+New Sligo[1] .. .. 51-74 PAR
 
 Key:
 
- M = missions
- I = Independent
- V = Vulcan
- R = Romulan
- F = Federation
+ System Atrributes:
+
+   F = Federation
+   I = Independent
+   M = missions
+   R = Romulan
+   V = Vulcan
+
+ Resource Shorthand
+
+  2*C = 2* Raw Crystal
+  2*G = 2* Raw Gas
+  2*O = 2* Raw Ore
+  3*G = 3* Raw Gas
+  3*O = 3* Raw Ore
+  DIL = Dilithium
+  NIL = no mining resource
+  PAR = Parsteel
+  TRI = Tritanium
+
+ Ohter bits
+
+  IP = Interceptor Parts
+  BP = Battleship Parts
+  OX   = Officer Experience
+  EP = Explorer Parts
