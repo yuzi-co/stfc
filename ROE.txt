@@ -3,7 +3,7 @@ Rules Of Engagement
 
 Fair Game to Attack:
 - a miner on a mine with 0 resources
-- a miner on a mine with recoverable cargo
+- a miner on a mine with recoverable cargo (see below)
 - a warship on a mine is fair game to attack
 - if you get bumped 'against roe rules' you can attack with your warship and
   get your miner back on (or have help to do so)
@@ -13,6 +13,17 @@ Can't Attack:
   in the mine
 
 Some further verbose reasoning:
+
+Recoverable cargo .. if you tap the mine, it shows you the resource, and has
+a [scan] and [attack] button.  If you tap the 'scan' button, you get a battle
+lineup.  If you tap the [rewards] chest at the bottom, it will show you
+'Enemy Cargo'.  If 'Enemy Cargo' is empty, they are not over their protected
+limit.  If you want to see your ship's protected limit, you select your
+ship, then tap the [manage] button (only available when at your base), then
+on the right choose the 'details' tab and under the 'utility' section you
+can see your protected cargo limit.
+
+See 'NOTES.txt' on ship color meaning.
 
 Given that mining resources reset once a miner leaves after resources are 0,
 miners that start mining then go afk that deplete the mine are 'wasting' the
@@ -31,3 +42,8 @@ Given that you can scan ships on mines to determine if there is cargo you
 could recover, and that it only shows more than 0 if they've gone over
 their protected cargo limit, they've exceeded their welcome on the mine and
 need to be sent home.
+
+Note your 'Inbox' has a record of your last 20 battles, in the event you
+want to write down who attacked you or click on his name to send him a
+polite message ;-)
+
