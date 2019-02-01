@@ -1,42 +1,70 @@
   System#               ATTR Name[level]      mining..ship chest contents
 
-     81354: -4792,  -514 .... Cita Laga[15]  .. 2*G
-     81459: -4854,  -380 .... Opla[20]       .. 2*G
-     81286: -4733,  -560 .... Elona[13]      .. 2*G
-1855008555: -4590,    -4 .... Kaikara[18]    .. DIL
-1854874708: -4547,    -3 .... Kepler-018[20] .. 2*O .. 50 DIL
- 464460417: -4579,   -33 .... Wezen[18]      .. TRI
-1113049160: -4589,   -35 .... Zhang[19]      .. TRI
-1012246624: -4607,    -3 .MI. Vement[17]     .. PAR 
-2136091294: -4592,    -3 .MI. Bharani[16]    .. PAR
-1316840322: -4554,   -41 .MI. Eizeb[16]      .. TRI
-1791133099: -4482,   -38 .MI. Bubeau[18]     .. PAR
-1745143614: -4699,   -55 .MI. Dhi'ban[14]    .. 2*O .. Phandra
-1980030252: -5047,    -5 .MI. Zehoro[11]     .. NIL .. Jellyfish?
-1718038036: -4441,   -42 ..I. Fastolf[21]    .. 2*O, 2*C
- 827622990: -4428,    -3 ..R. V'varia[21]    .. 2*C
-2102605227: -4530,    -2 .MR. Davidul[20]    .. 3*O
-     81286: -4733,  -560 ..I. Elona[13]      .. 2*G .. Phandra
-     81354:  -479,  -514 ..I. Cita Laga[15]  .. 2*G
- 830770182:  -660,   283 ..F. Voss[20]       .. 3*G
-     78653: -5680, -1583 ..I. Winber[5]      .. PAR .. 99-135 PAR
-     78727: -5864, -1785 ..I. Worhundelja[9] .. TRI ..  71-91 TRI
-IP, BP, OX
-     78791: -5294, -1577 ..I. Maynard[2]     .. NIL ..  61-64 PAR
-     77669: -5851, -1560 .MI. Klora[2]       .. PAR ..     53 PAR
-     76330: -5895, -1609 ..I. Lyra[1]        ..     ..  47-56 PAR, EP
-     79370: -5172, -1580 .MI. Bridford[4]    .. PAR .. 95-128 PAR
-     76338: -5935, -1578 ..I. Vatok[1]       .. NIL ..     53 PAR
-     76334: -5819, -1641 .MI. Injerra[1]     .. NIL ..  43-51 PAR, EP
-     78967: -5212, -1498 .MI. Dolcan[2]      .. PAR ..  51-55 PAR, EP
-     78023: -5156, -1461 ..I. Alacti[2]      .. NIL ..  46-48 PAR, EP
-     78521: -5796, -1508 .MI. Aker[4]        .. PAR .. 88-135 PAR, EP
+     81459: -4854,  -380 .... Opla[20]           .. 2*G
+1091871393: -4798,   -39 .... Pune[16]           .. PAR .. DIL
+1726465367: -4803,    -3 .... Oltomon[17]        .. TRI .. PAR
+     81397: -4824,  -335 .... Freyda[17]         .. TRI .. TRI
+ 830770182:  -660,   283 ..F. Voss[20]           .. 3*G .. PAR+DIL
+  37068128: -4957,  -314 ..F. Aruna[21]          .. TRI .. PAR+DIL
+1385663190: -4935,   -37 .... Dalukerinborva[18] .. TRI .. TRI
+ 937831006: -4971,  -399 .... Kosz[19]           .. TRI .. PAR
+ 910353989: -4926,   -40 .... Skyedark[18]       .. PAR .. DIL
+ 335238400: -4882,    -4 .... Gelvin[19]         .. PAR .. TRI
+ 507279929: -4842,   -43 ..I. Ora Leraa[16]      .. TRI .. PAR
+ 958423648: -4798,    -4 ..F. Lorilla[18]        .. DIL .. TRI
 
-     76604: -5894, -1495 ..I. Hroga[2]       .. PAR ..     45 PAR, EP
-     78968: -5134, -1680 ..I. Aetisan[2]     .. PAR ..  50-69 PAR, OX, EP
-     76332: -5941, -1461 ..I. Yerma[1]       .. NIL ..  43-66 PAR, EP
-     78793: -5160, -1725 ..I. Entrunar[1]    .. NIL ..  43-44 PAR, EP
-     76342: -6040, -1494 ..I. Berebul[1]     .. NIL ..     78 PAR, 1MS, OX
+ 849541812: -4444,   -55 ..I. Azha[20]           .. 2*C ..    200 PAR
+  11909028: -4387,  -532 ..I. Zeta Polis[19]     .. PAR .. DIL
+1911521293: -4402,   -52 ..I. Wasat[19]          .. TRI ..    770 PAR
+1591474708: -4423,    -5 ..I. Kaus Media[17]     .. PAR ..    153 TRI
+1718038036: -4441,   -42 ..I. Fastolf[21]        .. 2*O, 2*C
+  69523071: -4462,  -527 ..I. Kaus Borealis[17]  .. PAR ..    480 PAR
+1154764176: -4487,   -54 ..I. Kaus Australis[16] .. TRI ..     53 DIL
+ 553301075: -4528,   -56 ..K. Krah'Hor[18]       .. DIL .. PAR
+1790049115: -4585,   -60 ..I. Vindemiatrix[15]   .. 2*G ..     40 DIL
+1263278966: -4480,    -5 ..I. Jishui[16]         .. PAR ..    146 TRI
+1357784499: -4465,    -5 ..I. Todem[18]          .. TRI ..    549 PAR
+1172806400: -4446,    -6 ..I. Helvetios[18]      .. PAR ..     42 DIL
+ 789724593: -4368,   -63 ..K. Antonehk[21]       .. TRI ..    765 PAR + 68 TRI
+ 846029245: -4250,    -6 ..K. Khitomer[23]
+1735899624: -4306,    -5 ..K. Francihk[20]       .. 3*C ..    658 PAR + 58 TRI
+
+
+     81354: -4792,  -514 .... Cita Laga[15]      .. 2*G
+     81286: -4733,  -560 .... Elona[13]          .. 2*G
+1855008555: -4590,    -4 .... Kaikara[18]        .. DIL
+1854874708: -4547,    -3 .... Kepler-018[20]     .. 2*O .. 50 DIL
+ 464460417: -4579,   -33 .... Wezen[18]          .. TRI
+1113049160: -4589,   -35 .... Zhang[19]          .. TRI
+1012246624: -4607,    -3 .MI. Vement[17]         .. PAR 
+2136091294: -4592,    -3 .MI. Bharani[16]        .. PAR
+1316840322: -4554,   -41 .MI. Eizeb[16]          .. TRI
+1791133099: -4482,   -38 .MI. Bubeau[18]         .. PAR
+1745143614: -4699,   -55 .MI. Dhi'ban[14]        .. 2*O .. Phandra
+1980030252: -5047,    -5 .MI. Zehoro[11]         .. NIL .. Jellyfish?
+ 827622990: -4428,    -3 ..R. V'varia[21]        .. 2*C
+2102605227: -4530,    -2 .MR. Davidul[20]        .. 3*O
+     81286: -4733,  -560 ..I. Elona[13]          .. 2*G .. Phandra
+     81354:  -479,  -514 ..I. Cita Laga[15]      .. 2*G
+     78653: -5680, -1583 ..I. Winber[5]          .. PAR .. 99-135 PAR
+     78727: -5864, -1785 ..I. Worhundelja[9]     .. TRI ..  71-91 TRI
+IP, BP, OX
+     78791: -5294, -1577 ..I. Maynard[2]         .. NIL ..  61-64 PAR
+     77669: -5851, -1560 .MI. Klora[2]           .. PAR ..     53 PAR
+     76330: -5895, -1609 ..I. Lyra[1]            ..     ..  47-56 PAR, EP
+     79370: -5172, -1580 .MI. Bridford[4]        .. PAR .. 95-128 PAR
+     76338: -5935, -1578 ..I. Vatok[1]           .. NIL ..     53 PAR
+     76334: -5819, -1641 .MI. Injerra[1]         .. NIL ..  43-51 PAR, EP
+     78967: -5212, -1498 .MI. Dolcan[2]          .. PAR ..  51-55 PAR, EP
+     78023: -5156, -1461 ..I. Alacti[2]          .. NIL ..  46-48 PAR, EP
+     78521: -5796, -1508 .MI. Aker[4]            .. PAR .. 88-135 PAR, EP
+    
+     76604: -5894, -1495 ..I. Hroga[2]           .. PAR ..     45 PAR, EP
+     78968: -5134, -1680 ..I. Aetisan[2]         .. PAR ..  50-69 PAR, OX, EP
+     76332: -5941, -1461 ..I. Yerma[1]           .. NIL ..  43-66 PAR, EP
+     78793: -5160, -1725 ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
+     76342: -6040, -1494 ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
+
 Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
 Murasaki 312 .. DIL?
@@ -45,8 +73,6 @@ kamia .. DIL?
 Bellas[12] .. 2*C .. Dilithium?
 Zurak[13] .. 2*G
 Lycia[14] .. 2*C
-Vindemiatrix[15] .. 2*G
-Krah'Hor[18] .. DIL
 Nelve[12] .. 2*C
 Friefra[10] .. TRI
 Yesop[9] .. PAR
