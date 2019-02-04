@@ -1,0 +1,113 @@
+Generators
+----------
+
+Resource
+ |  Level 
+ |   |  Generation/hr
+ |   |     |    Storage
+ |   |     |       |   Hrs To Full
+ |   |     |       |     |   Gen Count
+ |   |     |       |     |      |    Total/hr
+\./ \./   \./     \./   \./    \./    \./
+PAR  17   2050  19000   9h16m   3    6150
+PAR  20   2825  28250
+PAR  30   5400  65000
+PAR  40   8900 124500
+PAR  50  15100 272000
+TRI  17    310   2025   6h31m   2     620
+TRI  20    425   2975
+TRI  30    820   6600
+TRI  40   1350  13500
+TRI  50   2300  27500
+DIL  17     70    335   4h47m   2     140
+DIL  20     98    490
+DIL  30    195   1170
+DIL  40    365   2200
+DIL  50    620   3725
+
+Wearhouses
+----------
+
+Resource
+ |  Level 
+ |   |  Storage
+ |   |       |
+ |   |       |
+ |   |       |
+\./ \./     \./
+PAR  17    83000
+PAR  20   163000
+PAR  30   300000
+PAR  40  7800000
+PAR  50 12700000
+TRI  17    36000
+TRI  20    80000
+TRI  30  1200000
+TRI  40  2000000
+TRI  50  3200000
+DIL   1      500
+DIL   2      675
+DIL   3      975
+DIL   4     1350
+DIL   5     2100
+DIL   6     2600
+DIL   7     3300
+DIL   8     3600
+DIL   9     3800
+DIL  10     4000
+DIL  11     4200
+DIL  12     4400
+DIL  13     4600
+DIL  14     4800
+DIL  15     5000
+DIL  16     5250
+DIL  17     5500
+DIL  18     6000
+DIL  19     7250
+DIL  20     8000
+
+Vaults
+----------
+
+Resource
+ |  Level 
+ |   |    Storage
+ |   |      |
+ |   |      |
+ |   |      |
+\./ \./    \./
+PAR  12   90000
+PAR  17  117000
+PAR  20  143500
+PAR  30  306000
+PAR  40  635000
+PAR  50 1200000
+TRI  11   23000
+TRI  17   29750
+TRI  20   35000
+TRI  30   65000
+TRI  40  122000
+TRI  50  215000
+DIL   1    1200
+DIL   2    1220
+DIL   3    1230
+DIL   4    1260
+DIL   5    1290
+DIL   6    1340
+DIL   7    1400
+DIL   8    1475
+DIL   9    1575
+DIL  10    1700
+DIL  11    1875
+DIL  12    2000
+DIL  13    2200
+DIL  14    2425
+DIL  15    2700
+DIL  16    3000
+DIL  17    3325
+DIL  18    3700
+DIL  19    4125
+DIL  20    4600
+DIL  30   12300
+DIL  40   27250
+DIL  50   51750
