@@ -29,9 +29,13 @@
  846029245: -4250,    -6 ..K. Khitomer[23]
 1735899624: -4306,    -5 ..K. Francihk[20]       .. 3*C ..    658 PAR + 58 TRI
 
+1017582787: -4713,   -42 ..I. Midnight[19]       .. DIL .. 48 DIL
+ 604074052: -4684,    -4 ..I. Dle'greffo[18]     .. PAR .. 45 DIL
+  60112512: -4681,   -44 ..I. Gra[18]            .. TRI .. 581 PAR
+
 
      81354: -4792,  -514 .... Cita Laga[15]      .. 2*G
-     81286: -4733,  -560 .... Elona[13]          .. 2*G
+     81286: -4733,  -560 .... Elona[13]          .. 2*G .. DIL
 1855008555: -4590,    -4 .... Kaikara[18]        .. DIL .. 53 DIL
 1854874708: -4547,    -3 .... Kepler-018[20]     .. 2*O .. 50 DIL
  464460417: -4579,   -33 .... Wezen[18]          .. TRI
@@ -65,12 +69,14 @@ IP, BP, OX
      78793: -5160, -1725 ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
      76342: -6040, -1494 ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
 
+Aciben[17] .. TRI .. 47 DIL, 2*B
+
 Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
 Murasaki 312 .. DIL?
 clytomenens .. DIL?
 kamia .. DIL?
-Bellas[12] .. 2*C .. Dilithium?
+Bellas[12] .. 2*C .. DIL
 Zurak[13] .. 2*G
 Lycia[14] .. 2*C
 Nelve[12] .. 2*C
@@ -96,6 +102,8 @@ Key:
   2*C = 2* Raw Crystal
   2*G = 2* Raw Gas
   2*O = 2* Raw Ore
+  2*B = 2* Battleship Parts
+  2*I = 2* Interceptor Parts
   3*G = 3* Raw Gas
   3*O = 3* Raw Ore
   DIL = Dilithium
