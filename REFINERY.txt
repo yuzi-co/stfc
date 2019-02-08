@@ -1,0 +1,22 @@
+Some people are wondering what refinery output corresponds to batchsize and
+perhaps even refinery level.
+
+So I'm logging my refinery utilizations in the event someone can see a pattern.
+
+                  RL Time  G2C CRC URC G2G CRG G2O   CRO
+20190208 14:34:08 16  10h                       3K   160
+20190208 14:35:44 16  10h               3K 450
+20190208 14:37:44 16  10h   3K  80   4
+
+
+Key
+---
+G2O = Grade 2 Ore
+G2C = Grade 2 Crystal
+G2G = Grade 2 Gas
+
+CRO = Common Refined Ore
+CRC = Common Refined Crystal
+CRG = Common Refined Gas
+
+URC = Uncommon Refined Crystal
