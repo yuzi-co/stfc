@@ -3,11 +3,13 @@ perhaps even refinery level.
 
 So I'm logging my refinery utilizations in the event someone can see a pattern.
 
-                  RL Time  G2C CRC URC G2G CRG G2O   CRO
-20190208 14:34:08 16  10h                       3K   160
-20190208 14:35:44 16  10h               3K 450
-20190208 14:37:44 16  10h   3K  80   4
-
+                  RL Time  G2CO G2C CRC URC  G2GO G2G CRG  G2OO G2O   CRO
+20190208 14:34:08 16  10h                                        3K   160
+20190208 14:35:44 16  10h                          3K 450
+20190208 14:37:44 16  10h        3K  80  4
+20190211 12:51:47 16  10h  9203  3K 160 
+20190211 12:53:31 16  10h                  10000   3K 450
+20190211 12:55:19 16                                      9938   3K   240
 
 Key
 ---
