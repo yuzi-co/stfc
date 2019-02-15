@@ -1,24 +1,43 @@
-Some people are wondering what refinery output corresponds to batchsize and
-perhaps even refinery level.
+The refinery is able to refine 2* Crystal, Ore, and Gas.
 
-So I'm logging my refinery utilizations in the event someone can see a pattern.
+At level 20, it adds 3* Crystal, Ore, and Gas.
 
-                  RL Time  G2CO G2C CRC URC  G2GO G2G CRG  G2OO G2O   CRO
-20190208 14:34:08 16  10h                                        3K   160
-20190208 14:35:44 16  10h                          3K 450
+One batch produces a random output (supposedly) of uncommon and common
+refined materials.
+
+Some batches produce zero uncommon materials.
+
+If you want more than one batch, you 'burn' more material. 3k for 1 batch,
+15k for 2 batches.  The output (as I understand it) is tied to the batch count
+not the raw material input.
+
+I'm logging my refinery utilizations in the event someone wants to do some math.
+                                G2Gas
+                  RL Time Start G2C C2C U2C  G2GO G2G U2G  C2G  G2OO  G2O   C2O U2O
+20190208 14:34:08 16  10h                                              3K   160
+20190208 14:35:44 16  10h                          3K      450
 20190208 14:37:44 16  10h        3K  80  4
 20190211 12:51:47 16  10h  9203  3K 160 
-20190211 12:53:31 16  10h                  10000   3K 450
-20190211 12:55:19 16                                      9938   3K   240
+20190211 12:53:31 16  10h                  10000   3K      450
+20190211 12:55:19 16  10h                                       9938   3K   240
+20190212 15:00:54 17  10h                                              3K   240
+20190212 15:01:59 17  10h                  40000   3K   8  180
+20190212 15:03:06 17  10h 36000  3K 160
+20190213 01:59:32 17  10h 33000  3K 200    37000   3K      450 42000   3K   160
+20190214 12:56:46 17  10h 27000  3K 180    45000   3K      450 36000   3K   160   8
 
 Key
 ---
-G2O = Grade 2 Ore
+C2C = Common Refined Crystal
+C2G = Common Refined Gas
+C2O = Common Refined Ore
+
 G2C = Grade 2 Crystal
 G2G = Grade 2 Gas
+G2O = Grade 2 Ore
 
-CRO = Common Refined Ore
-CRC = Common Refined Crystal
-CRG = Common Refined Gas
+U2C = Uncommon Refined Crystal
+U2G = Uncommon Refined Gas
+U2O = Uncommon Refined Ore
 
-URC = Uncommon Refined Crystal
+***O = Own at time refine button pressed
