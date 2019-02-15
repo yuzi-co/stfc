@@ -10,17 +10,75 @@ Nevertheless, I have figured out a few things:
  - captains 'work well' and 'increse effectiveness of abilities' if you put
    bridge offers that 'work well' with the captain, a lightning bolt indicates
    this once a captain has been chosen
+ - station abilities are active only if the officer is on a ship docked at
+   the station
 
-Helvia  Cap Parsteel Miner     +20% mining parsteel
-        Off Gold Rush          +50% warp speed if cargo == 0
-K'Bisch Cap Tritanium Miner    +20% mining tritanium
-        Off Defensive Mining   -12% damage if attacked while mining
-T'Laan  Cap Thorough Scans     +15% Ship XP if fighting hostiles
-        Off Objective Defense  - 7% damage by kinetic weapons if hostile
-Scott   Cap Sturdy Ship        +10% ship hull health
-        Off Warp Theory        + 2  warp distance
-Gaila   Cap Parsteel Hunter    +25% parsteel if attacking hostile for parsteel
-        Off Critical Avoidance -20% damage if hostile opponent
+Captain Maneuvers
+-----------------
+Uhura   Scan the Enemy         -10% decrease weapon damage of opponent
+Helvia  Parsteel Miner         +20% mining parsteel
+K'Bisch Tritanium Miner        +20% mining tritanium
+T'Laan  Thorough Scans         +15% Ship XP if fighting hostiles
+Scott   Sturdy Ship            +10% ship hull health
+Gaila   Parsteel Hunter        +25% parsteel if attacking hostile
+McCoy   Doctor                 +10% health of all officers
+Spock   Knowledgeable          + 5% weapon damage to opponent
+Domitia Dilithium Miner        +35% mining dilithium
+Kirk    motivational           + 8% attack, defense, health of bridge crew
+Vel     Dilithium Hunter       +40% dilithium if attacking hostile
+Vartoq  Interceptor Specialist +20% weapon damage if attacking player
+Komal   Battleship Specialist  +20% weapon damage if attacking player
+Shev    Tritanium Hunter       +25% tritanium if attcking hostile
+Rukor   Explorer Specialist    +20% weapon damage if attacking player
+Zahra   Station Expert         +10% hull health if defending station
+
+Officer Abilities
+-----------------
+Uhura   Negotiations           + 9% shield health
+Helvia  Gold Rush              +50% warp speed if cargo == 0
+K'Bisch Defensive Mining       -12% damage if attacked while mining
+T'Laan  Objective Defense      - 7% damage by kinetic weapons if hostile
+Scott   Warp Theory            + 2  warp distance
+Gaila   Critical Avoidance     -20% damage if hostile opponent
+McCoy   Psychologist           + 8% Captain Maneuver
+Spock   Kobayashi Manu         +12% shield deflection, armor, dodge
+Domitia Hurry Home             +50% warp speed if cargo is full
+Kirk    Tactician              + 8% weapon damage
+Vel     Chirurgical Precision  + 7% kinetic weapon damage
+Vartoq  Kinetic Boost          + 7% kinetic weapon damage if attacking player
+Komal   Resist Kinetic         - 5% kinetic damage if player attacking
+Shev    Justice Dealer         + 5% energy weapons if attacking hostile
+Rukor   Energy Boost           + 5% energy weapons if attacking player
+Zahra   Home Engineer          + 5% weapon damage if defending station
+
+Stats
+-----
+Level (Current / Max)
+  | Strength
+  |     |  Attack
+  |     |   | Defense
+  |     |   |   | Health
+  |     |   |   |   |
+  |     |   |   |   |
+ \|/   \|/ \|/ \|/ \|/   Name                                 Rank
+----- ---- --- --- --- -------------------------------------- ----------------
+15/15  580  60  25  60  Cadet Nyota Uhura (Another Time)      Lieut. III
+15/15  580  73  36  36  Cadet Hikaru Sulu (Another Time)      Lieut. III
+12/15  384  24  24  48  Cadet Leonard McCoy (Another Time)    Lieut. III
+11/15  384  22  43  22  Instuctor Spock (Another Time)        Lieut. III
+10/10  270  22  19  49  Gaila (Starfleet Academy)             Lieut. JG II
+10/10  270   7  46  37  Helvia (Surveyors & Miners)           Lieut. JG II
+10/10  270   7  34  49  K'Bisch (Surveyors & Miners)          Lieut. JG II
+10/10  270  22  49  19  T'Laan (Starfleet Academy)            Lieut. JG II
+10/10  267  15  37  37  Cadet Montgomery Scott (Another Time) Lieut. JG II
+10/10  258   7  42  37  Domitia (Surveyors & Miners)          Lieut. JG II
+10/10  231  32  32  13  Cadet James T. Kirk (Another Time)    Lieut. JG II
+ 8/10  225  25  25  25  Vel K'Bentayr                         Lieut. JG II
+ 7/10  165  30  11  14  Vartoq (Glory in the Kill)            Lieut. JG II
+ 5/5    98  25  16   8  Komal (Glory in the Kill)             Ensign I
+ 5/5    98  26  12  11  Shev Akria (Starfleet Academy)        Ensign I
+ 5/5    96  30  16   2  Rukor (Glory in the Kill)             Ensign I
+
 
 Teams
 -----
@@ -30,5 +88,7 @@ Parsteel hunting:
 Tritanium hunting:
 Dilithium hunting:
 Parsteel mining:
+  Cap  Helvia (increases mining rate by 20% + 50% warp speed if empty)
+  Off  McCoy  (increases captain maneauver by 8%)
 Tritanium mining:
 Dilithium mining:
