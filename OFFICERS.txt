@@ -15,41 +15,53 @@ Nevertheless, I have figured out a few things:
 
 Captain Maneuvers
 -----------------
-Uhura   Scan the Enemy         -10% decrease weapon damage of opponent
-Helvia  Parsteel Miner         +20% mining parsteel
-K'Bisch Tritanium Miner        +20% mining tritanium
-T'Laan  Thorough Scans         +15% Ship XP if fighting hostiles
-Scott   Sturdy Ship            +10% ship hull health
-Gaila   Parsteel Hunter        +25% parsteel if attacking hostile
-McCoy   Doctor                 +10% health of all officers
-Spock   Knowledgeable          + 5% weapon damage to opponent
-Domitia Dilithium Miner        +35% mining dilithium
-Kirk    motivational           + 8% attack, defense, health of bridge crew
-Vel     Dilithium Hunter       +40% dilithium if attacking hostile
-Vartoq  Interceptor Specialist +20% weapon damage if attacking player
-Komal   Battleship Specialist  +20% weapon damage if attacking player
-Shev    Tritanium Hunter       +25% tritanium if attcking hostile
-Rukor   Explorer Specialist    +20% weapon damage if attacking player
-Zahra   Station Expert         +10% hull health if defending station
+Uhura    Scan the Enemy         -10% decrease weapon damage of opponent
+Helvia   Parsteel Miner         +20% mining parsteel
+K'Bisch  Tritanium Miner        +20% mining tritanium
+T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
+Scott    Sturdy Ship            +10% ship hull health
+Gaila    Parsteel Hunter        +25% parsteel if attacking hostile
+McCoy    Doctor                 +10% health of all officers
+Spock    Knowledgeable          + 5% weapon damage to opponent
+Domitia  Dilithium Miner        +35% mining dilithium
+Kirk     motivational           + 8% attack, defense, health of bridge crew
+Vel      Dilithium Hunter       +40% dilithium if attacking hostile
+Vartoq   Interceptor Specialist +20% weapon damage if attacking player
+Komal    Battleship Specialist  +20% weapon damage if attacking player
+Shev     Tritanium Hunter       +25% tritanium if attcking hostile
+Rukor    Explorer Specialist    +20% weapon damage if attacking player
+Zahra    Station Expert         +10% hull health if defending station
+Jabilo   Break Through          +10% armor piercing, shield piercing, accuracy
+                                    if defending station
+Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
+Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
+Klaa     Hot Pursuit            +25% impulse speed
+D'jaoki  War of Endurance       +10% health for 1min after winning
 
 Officer Abilities
 -----------------
-Uhura   Negotiations           + 9% shield health
-Helvia  Gold Rush              +50% warp speed if cargo == 0
-K'Bisch Defensive Mining       -12% damage if attacked while mining
-T'Laan  Objective Defense      - 7% damage by kinetic weapons if hostile
-Scott   Warp Theory            + 2  warp distance
-Gaila   Critical Avoidance     -20% damage if hostile opponent
-McCoy   Psychologist           + 8% Captain Maneuver
-Spock   Kobayashi Manu         +12% shield deflection, armor, dodge
-Domitia Hurry Home             +50% warp speed if cargo is full
-Kirk    Tactician              + 8% weapon damage
-Vel     Chirurgical Precision  + 7% kinetic weapon damage
-Vartoq  Kinetic Boost          + 7% kinetic weapon damage if attacking player
-Komal   Resist Kinetic         - 5% kinetic damage if player attacking
-Shev    Justice Dealer         + 5% energy weapons if attacking hostile
-Rukor   Energy Boost           + 5% energy weapons if attacking player
-Zahra   Home Engineer          + 5% weapon damage if defending station
+Uhura    Negotiations           + 9% shield health
+Helvia   Gold Rush              +50% warp speed if cargo == 0
+K'Bisch  Defensive Mining       -12% damage if attacked while mining
+T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
+Scott    Warp Theory            + 2  warp distance
+Gaila    Critical Avoidance     -20% damage if hostile opponent
+McCoy    Psychologist           + 8% Captain Maneuver
+Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+Domitia  Hurry Home             +50% warp speed if cargo is full
+Kirk     Tactician              + 8% weapon damage
+Vel      Chirurgical Precision  + 7% kinetic weapon damage
+Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+Komal    Resist Kinetic         - 5% kinetic damage if player attacking
+Shev     Justice Dealer         + 5% energy weapons if attacking hostile
+Rukor    Energy Boost           + 5% energy weapons if attacking player
+Zahra    Home Engineer          + 5% weapon damage if defending station
+Jabilo   Slip Through           +10% dodge, armor, shield deflection if
+                                    defending station
+Chen     Energy Absorber        -10% energy weapons if hostile attacking
+Gonzales Problem Solver         + 5% critical hit damage if hostile
+Klaa     Critical Strike        + 8% critical hit damage
+D'jaoki  Shatter Defenses       -20% decreases crew health if opponent burning
 
 Stats
 -----
@@ -78,6 +90,12 @@ Level (Current / Max)
  5/5    98  25  16   8  Komal (Glory in the Kill)             Ensign I
  5/5    98  26  12  11  Shev Akria (Starfleet Academy)        Ensign I
  5/5    96  30  16   2  Rukor (Glory in the Kill)             Ensign I
+ 5/5    84   9   5  28  Zahra (Lower Decks)                   Ensign I
+ 5/5    82  12  19  10  jabilo M'Benga (Lower Decks)          Ensign I
+ 5/5   260  48  48  34  Grace Chen (Starfleet Academy)        Ensign I
+ 5/5   260  48  34  48  Lucia Gonzales (Starfleet Academy)    Ensign I
+ 4/5   200  16  21  63  Klaa (Glory in the Kill)              Ensign I
+ 1/5   118  32   5  22  D'jaoki (Romulan Patriots)            Ensign I
 
 
 Teams
