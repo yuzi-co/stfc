@@ -16,19 +16,19 @@ Nevertheless, I have figured out a few things:
 Captain Maneuvers
 -----------------
 Uhura    Scan the Enemy         -10% decrease weapon damage of opponent
-Helvia   Parsteel Miner         +20% mining parsteel
-K'Bisch  Tritanium Miner        +20% mining tritanium
+Helvia   Parsteel Miner         +20% mining PAR
+K'Bisch  Tritanium Miner        +20% mining TRI
+Domitia  Dilithium Miner        +35% mining DIL
+Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+Shev     Tritanium Hunter       +25% TRI if attcking hostile
+Vel      Dilithium Hunter       +40% DIL if attacking hostile
 T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
 Scott    Sturdy Ship            +10% ship hull health
-Gaila    Parsteel Hunter        +25% parsteel if attacking hostile
 McCoy    Doctor                 +10% health of all officers
 Spock    Knowledgeable          + 5% weapon damage to opponent
-Domitia  Dilithium Miner        +35% mining dilithium
 Kirk     motivational           + 8% attack, defense, health of bridge crew
-Vel      Dilithium Hunter       +40% dilithium if attacking hostile
 Vartoq   Interceptor Specialist +20% weapon damage if attacking player
 Komal    Battleship Specialist  +20% weapon damage if attacking player
-Shev     Tritanium Hunter       +25% tritanium if attcking hostile
 Rukor    Explorer Specialist    +20% weapon damage if attacking player
 Zahra    Station Expert         +10% hull health if defending station
 Jabilo   Break Through          +10% armor piercing, shield piercing, accuracy
@@ -74,28 +74,28 @@ Level (Current / Max)
   |     |   |   |   |
  \|/   \|/ \|/ \|/ \|/   Name                                 Rank
 ----- ---- --- --- --- -------------------------------------- ----------------
-15/15  580  60  25  60  Cadet Nyota Uhura (Another Time)      Lieut. III
-15/15  580  73  36  36  Cadet Hikaru Sulu (Another Time)      Lieut. III
-12/15  384  24  24  48  Cadet Leonard McCoy (Another Time)    Lieut. III
-11/15  384  22  43  22  Instuctor Spock (Another Time)        Lieut. III
-10/10  270  22  19  49  Gaila (Starfleet Academy)             Lieut. JG II
-10/10  270   7  46  37  Helvia (Surveyors & Miners)           Lieut. JG II
-10/10  270   7  34  49  K'Bisch (Surveyors & Miners)          Lieut. JG II
-10/10  270  22  49  19  T'Laan (Starfleet Academy)            Lieut. JG II
-10/10  267  15  37  37  Cadet Montgomery Scott (Another Time) Lieut. JG II
-10/10  258   7  42  37  Domitia (Surveyors & Miners)          Lieut. JG II
-10/10  231  32  32  13  Cadet James T. Kirk (Another Time)    Lieut. JG II
- 8/10  225  25  25  25  Vel K'Bentayr                         Lieut. JG II
+ 5/5    84   9   5  28  Zahra (Lower Decks)                   Ensign I
+ 3/5   148  40   6  28  D'jaoki (Romulan Patriots)            Ensign I
  7/10  165  30  11  14  Vartoq (Glory in the Kill)            Lieut. JG II
- 5/5    98  25  16   8  Komal (Glory in the Kill)             Ensign I
  5/5    98  26  12  11  Shev Akria (Starfleet Academy)        Ensign I
  5/5    96  30  16   2  Rukor (Glory in the Kill)             Ensign I
- 5/5    84   9   5  28  Zahra (Lower Decks)                   Ensign I
+ 5/5    98  25  16   8  Komal (Glory in the Kill)             Ensign I
  5/5    82  12  19  10  jabilo M'Benga (Lower Decks)          Ensign I
- 5/5   260  48  48  34  Grace Chen (Starfleet Academy)        Ensign I
- 5/5   260  48  34  48  Lucia Gonzales (Starfleet Academy)    Ensign I
+10/10  270  22  19  49  Gaila (Starfleet Academy)             Lieut. JG II
  4/5   200  16  21  63  Klaa (Glory in the Kill)              Ensign I
- 3/5   148  40   6  28  D'jaoki (Romulan Patriots)            Ensign I
+12/15  384  24  24  48  Cadet Leonard McCoy (Another Time)    Lieut. III
+ 8/10  225  25  25  25  Vel K'Bentayr                         Lieut. JG II
+15/15  580  60  25  60  Cadet Nyota Uhura (Another Time)      Lieut. III
+10/10  231  32  32  13  Cadet James T. Kirk (Another Time)    Lieut. JG II
+ 5/5   260  48  34  48  Lucia Gonzales (Starfleet Academy)    Ensign I
+10/10  270   7  34  49  K'Bisch (Surveyors & Miners)          Lieut. JG II
+15/15  580  73  36  36  Cadet Hikaru Sulu (Another Time)      Lieut. III
+10/10  267  15  37  37  Cadet Montgomery Scott (Another Time) Lieut. JG II
+10/10  258   7  42  37  Domitia (Surveyors & Miners)          Lieut. JG II
+11/15  384  22  43  22  Instuctor Spock (Another Time)        Lieut. III
+10/10  270   7  46  37  Helvia (Surveyors & Miners)           Lieut. JG II
+ 5/5   260  48  48  34  Grace Chen (Starfleet Academy)        Ensign I
+10/10  270  22  49  19  T'Laan (Starfleet Academy)            Lieut. JG II
 
 
 Teams
@@ -103,9 +103,9 @@ Teams
 Specific tasks call for specific teams for best effectiveness...
 
 Parsteel hunting:
-  Cap Gaila    (+25% parsteel, -20% damage if hostile)
-  Off Gonzales (+ 5% critical hit if hostile)
-  Off Chen     (-10% energy weapons from hostiles,     cap +20% dodge etc)
+  Cap Gaila    (+25% PAR, -20% damage if hostile)
+  Off Gonzales (+10% Captain, + 5% critical hit if hostile)
+  Off Chen     (+10% Captain, -10% energy weapons from hostiles, cap +20% dodge)
 
     vs
   Off Vel      (+ 7% kinetic weapon damage to hostile, cap dil hunt)
@@ -114,14 +114,25 @@ Parsteel hunting:
     vs
   Off T'Laan   (- 7% kinetic weapon from hostile,      cap ship XP)
   
-Tritanium hunting:
-Dilithium hunting:
-Parsteel mining:
+TRI hunting:
+DIL hunting:
+  Cap  Vel     (+40% DIL from hostile, +7% kinetic weapon)
+  Off  Gaila   (+10% Captain)
+  Off  Gonzales(+10% Captain)
+  Crew Chen
+  Crew Shev
+PAR mining:
   Cap  Helvia  (increases mining rate by 20% + 50% warp speed if empty)
+  Off  Domitia (+50% warp if full, +15% Captain)
+  Off  K'Bisch (-12% damage if attacked while minig, +15% Captain)
+TRI mining:
+  Cap  K'Bisch (+20% TRI mining, -12% damage if attacked while mining)
   Off  McCoy   (increases captain maneauver by 8%)
   Off  Scott   (+2 warp distance)
-Tritanium mining:
-Dilithium mining:
+DIL mining:
+  Cap  Domitia (+35% mining, +50% warp if cargo full)
+  Off  K'Bisch (+15% Captain, -12% damage if attacked while minig)
+  Off  Helvia  (+15% Captain, -50% warp if empty)
 
 Station defense:
   Cap  Zahra   (+10% hull health defending station + 5% weapon damage)
