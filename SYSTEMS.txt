@@ -69,6 +69,8 @@ IP, BP, OX
      78793: -5160, -1725 ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
      76342: -6040, -1494 ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
 
+71466: ..I. Heima[1] .. .. 62 PAR
+
 Aciben[17] .. TRI .. 47 DIL, 2*B
 
 Elva[11] .. (Jellyfish?)
