@@ -103,10 +103,27 @@ Teams
 Specific tasks call for specific teams for best effectiveness...
 
 Parsteel hunting:
+  Cap Gaila    (+25% parsteel, -20% damage if hostile)
+  Off Gonzales (+ 5% critical hit if hostile)
+  Off Chen     (-10% energy weapons from hostiles,     cap +20% dodge etc)
+
+    vs
+  Off Vel      (+ 7% kinetic weapon damage to hostile, cap dil hunt)
+    vs
+  Off Shev     (+ 5% energy weapons to hostile,        cap tri hunt)
+    vs
+  Off T'Laan   (- 7% kinetic weapon from hostile,      cap ship XP)
+  
 Tritanium hunting:
 Dilithium hunting:
 Parsteel mining:
-  Cap  Helvia (increases mining rate by 20% + 50% warp speed if empty)
-  Off  McCoy  (increases captain maneauver by 8%)
+  Cap  Helvia  (increases mining rate by 20% + 50% warp speed if empty)
+  Off  McCoy   (increases captain maneauver by 8%)
+  Off  Scott   (+2 warp distance)
 Tritanium mining:
 Dilithium mining:
+
+Station defense:
+  Cap  Zahra   (+10% hull health defending station + 5% weapon damage)
+  Off  Jabilo  (+10% dodge, armor, shield deflection defending station)
+  Off  Uhura   (+ 9% shield health)
