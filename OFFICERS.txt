@@ -1,0 +1,34 @@
+To me personally officers is somewhat a black art still.
+
+Nevertheless, I have figured out a few things:
+
+ - all officers have a 'captain' maneauver which activates if they are captain
+ - all officers have an 'officer ability' which activates if they are on the
+   bridge
+ - all officers have attack/defense/health points which contribute to the
+   ships strength if they are on the ship
+ - captains 'work well' and 'increse effectiveness of abilities' if you put
+   bridge offers that 'work well' with the captain, a lightning bolt indicates
+   this once a captain has been chosen
+
+Helvia  Cap Parsteel Miner     +20% mining parsteel
+        Off Gold Rush          +50% warp speed if cargo == 0
+K'Bisch Cap Tritanium Miner    +20% mining tritanium
+        Off Defensive Mining   -12% damage if attacked while mining
+T'Laan  Cap Thorough Scans     +15% Ship XP if fighting hostiles
+        Off Objective Defense  - 7% damage by kinetic weapons if hostile
+Scott   Cap Sturdy Ship        +10% ship hull health
+        Off Warp Theory        + 2  warp distance
+Gaila   Cap Parsteel Hunter    +25% parsteel if attacking hostile for parsteel
+        Off Critical Avoidance -20% damage if hostile opponent
+
+Teams
+-----
+Specific tasks call for specific teams for best effectiveness...
+
+Parsteel hunting:
+Tritanium hunting:
+Dilithium hunting:
+Parsteel mining:
+Tritanium mining:
+Dilithium mining:
