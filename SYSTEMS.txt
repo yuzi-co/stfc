@@ -68,7 +68,9 @@ IP, BP, OX
      76332: ..I. Yerma[1]           .. NIL ..  43-66 PAR, EP
      78793: ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
      76342: ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
- 452560379: ..I. Kauko[6] .. PAR .. 150 - 160 PAR
+ 452560379: ..I. Kauko[6]           .. PAR .. 150 - 160 PAR
+ 841664901: ..I. Gurdy[6]           .. PAR .. NIL
+1559195274: ..I. Rua[8]             .. TRI ..  79 - 89 TRI
 
 71466: ..I. Heima[1] .. .. 62 PAR
 
