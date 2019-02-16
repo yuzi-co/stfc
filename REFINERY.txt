@@ -13,7 +13,7 @@ not the raw material input.
 
 I'm logging my refinery utilizations in the event someone wants to do some math.
                                 G2Gas
-                  RL Time Start G2C C2C U2C  G2GO G2G U2G  C2G  G2OO  G2O   C2O U2O
+                  RL Time Start G2C C2C U2C  G2GO G2G U2G  C2G  G2OO  G2O   C2O U2O ML
 20190208 14:34:08 16  10h                                              3K   160
 20190208 14:35:44 16  10h                          3K      450
 20190208 14:37:44 16  10h        3K  80  4
@@ -25,7 +25,8 @@ I'm logging my refinery utilizations in the event someone wants to do some math.
 20190212 15:03:06 17  10h 36000  3K 160
 20190213 01:59:32 17  10h 33000  3K 200    37000   3K      450 42000   3K   160
 20190214 12:56:46 17  10h 27000  3K 180    45000   3K      450 36000   3K   160   8
-20190216 01:05:15 17  10h 21000  3K  80  8 47000   3K      360 32000   3K   160   0
+20190216 01:05:15 17  10h 21000  3K  80  8 47000   3K      360 32000   3K   160   0 17
+20190216 16:15:35 17  10h 18000  3K 180 10 46000   3K  10  270 29000   3K   180  10 18
 
 Key
 ---
@@ -42,3 +43,6 @@ U2G = Uncommon Refined Gas
 U2O = Uncommon Refined Ore
 
 ***O = Own at time refine button pressed
+
+RL = Refinery level
+ML = My Level
