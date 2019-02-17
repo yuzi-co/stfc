@@ -1,0 +1,14 @@
+In general the computer 'knows whats best' in terms of the next thing to build.
+
+However, there are times, like when you don't have resources to build the next thing,
+that perhaps building another cheaper thing might keep building vs delay everything to
+build the computer recommended next thing.
+
+Major milestones:
+
+Level 10 - players can attack you and vica versa
+Level 15 - your station can get attacked
+Level 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
+Level 17 - drydock c
+Level 18 - DIL generator C
+Level 20 - Refinery can refine 3* materials
