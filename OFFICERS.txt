@@ -54,7 +54,7 @@ Vel      Chirurgical Precision  + 7% kinetic weapon damage
 Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
 Komal    Resist Kinetic         - 5% kinetic damage if player attacking
 Shev     Justice Dealer         + 5% energy weapons if attacking hostile
-Rukor    Energy Boost           + 5% energy weapons if attacking player
+Rukor    Energy Boost           + 7% energy weapons if attacking player
 Zahra    Home Engineer          + 5% weapon damage if defending station
 Jabilo   Slip Through           +10% dodge, armor, shield deflection if
                                     defending station
@@ -74,28 +74,28 @@ Level (Current / Max)
   |     |   |   |   |    |
  \|/   \|/ \|/ \|/ \|/  \|/  Name                                 Rank
 ----- ---- --- --- --- ----- -------------------------------------- ----------------
- 5/5    84   9   5  28       Zahra (Lower Decks)                   Ensign I
- 3/5   148  40   6  28       D'jaoki (Romulan Patriots)            Ensign I
- 7/10  165  30  11  14       Vartoq (Glory in the Kill)            Lieut. JG II
- 5/5    98  26  12  11       Shev Akria (Starfleet Academy)        Ensign I
- 5/5    84  26  14   2 12/14 Rukor (Glory in the Kill)             Ensign I
- 5/5    98  25  16   8       Komal (Glory in the Kill)             Ensign I
- 5/5    82  12  19  10       jabilo M'Benga (Lower Decks)          Ensign I
-10/10  270  22  19  49       Gaila (Starfleet Academy)             Lieut. JG II
- 4/5   200  16  21  63       Klaa (Glory in the Kill)              Ensign I
+15/15  580  73  36  36  7/36 Cadet Hikaru Sulu (Another Time)      Lieut. III
+15/15  580  60  25  60  9/36 Cadet Nyota Uhura (Another Time)      Lieut. III
 12/15  448  28  28  56  8/36 Cadet Leonard McCoy (Another Time)    Lieut. III
- 8/10  225  25  25  25       Vel K'Bentayr                         Lieut. JG II
-15/15  580  60  25  60       Cadet Nyota Uhura (Another Time)      Lieut. III
-10/10  231  32  32  13       Cadet James T. Kirk (Another Time)    Lieut. JG II
- 5/5   260  48  34  48 10/24 Lucia Gonzales (Starfleet Academy)    Ensign I
-10/10  270   7  34  49       K'Bisch (Surveyors & Miners)          Lieut. JG II
-15/15  580  73  36  36       Cadet Hikaru Sulu (Another Time)      Lieut. III
-10/10  267  15  37  37       Cadet Montgomery Scott (Another Time) Lieut. JG II
-10/10  258   7  42  37       Domitia (Surveyors & Miners)          Lieut. JG II
-11/15  408  26  50  26       Instuctor Spock (Another Time)        Lieut. III
-10/10  270   7  46  37       Helvia (Surveyors & Miners)           Lieut. JG II
- 5/5   260  48  48  34  5/20 Grace Chen (Starfleet Academy)        Ensign I
-10/10  270  22  49  19       T'Laan (Starfleet Academy)            Lieut. JG II
+11/15  408  26  50  26  6/36 Instuctor Spock (Another Time)        Lieut. III
+10/10  270  22  49  19 10/20 T'Laan (Starfleet Academy)            Lieut. JG II
+10/10  270  22  19  49  2/30 Gaila (Starfleet Academy)             Lieut. JG II
+10/10  270   7  46  37  8/20 Helvia (Surveyors & Miners)           Lieut. JG II
+10/10  270   7  34  49 14/25 K'Bisch (Surveyors & Miners)          Lieut. JG II
+10/10  231  13  32  32 10/15 Cadet Montgomery Scott (Another Time) Lieut. JG II
+ 5/ 5  260  48  48  34  5/20 Grace Chen (Starfleet Academy)        Ensign I
+ 5/ 5  260  48  34  48 10/24 Lucia Gonzales (Starfleet Academy)    Ensign I
+10/10  258   7  42  37  3/30 Domitia (Surveyors & Miners)          Lieut. JG II
+10/10  231  32  32  13 13/20 Cadet James T. Kirk (Another Time)    Lieut. JG II
+ 9/10  243  27  27  27 11/25 Vel K'Bentayr                         Lieut. JG II
+ 5/ 5  236  20  25  73 10/28 Klaa (Glory in the Kill)              Ensign I
+ 7/10  165  30  11  14  3/30 Vartoq (Glory in the Kill)            Lieut. JG II
+ 3/ 5  148  40   6  28 36/24 D'jaoki (Romulan Patriots)            Ensign I
+ 5/ 5   98  26  12  11 13/10 Shev Akria (Starfleet Academy)        Ensign I
+ 5/ 5   84  21  14   7  7/10 Komal (Glory in the Kill)             Ensign I
+ 5/10  126  26  14   2  0/35 Rukor (Glory in the Kill)             Lieut. JG II
+ 5/ 5  100  11   6  33  1/ 8 Zahra (Lower Decks)                   Ensign I
+ 5/ 5   96  14  22  12  0/10 Jabilo M'Benga (Lower Decks)          Ensign I
 
 
 Teams
