@@ -62,6 +62,9 @@ IP, BP, OX
      78967: .MI. Dolcan[2]          .. PAR ..  51-55 PAR, EP
      78023: ..I. Alacti[2]          .. NIL ..  46-48 PAR, EP
      78521: .MI. Aker[4]            .. PAR .. 88-135 PAR, EP
+1379808121: ..F. Earorfilad[24]     .. DIL, 3*G ..856-878 PAR
+1490914183: ..I. Astrida[14]
+1691252927: ..K. K'amia[24]         .. DIL .. 68     DIL
     
      76604: ..I. Hroga[2]           .. PAR ..     45 PAR, EP
      78968: ..I. Aetisan[2]         .. PAR ..  50-69 PAR, OX, EP
@@ -80,7 +83,6 @@ Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
 Murasaki 312 .. DIL?
 clytomenens .. DIL?
-kamia .. DIL?
 Bellas[12] .. 2*C .. DIL
 Zurak[13] .. 2*G
 Lycia[14] .. 2*C
