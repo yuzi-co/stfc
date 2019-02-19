@@ -6,9 +6,165 @@ build the computer recommended next thing.
 
 Major milestones:
 
-Level 10 - players can attack you and vica versa
-Level 15 - your station can get attacked
-Level 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
-Level 17 - drydock c
-Level 18 - DIL generator C
-Level 20 - Refinery can refine 3* materials
+Ops 10 - players can attack you and vica versa
+Ops 15 - your station can get attacked
+Ops 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
+Ops 17 - drydock c
+Ops 18 - DIL generator C
+Ops 20 - Refinery can refine 3* materials
+
+R&D  0 -  0% research speed bonus
+R&D  1 -  0% research speed bonus
+R&D  2 -  3% research speed bonus
+R&D  3 -  4% research speed bonus
+R&D  4 -  5% research speed bonus
+R&D  5 -  6% research speed bonus
+R&D  6 -  8% research speed bonus
+R&D  7 -  9% research speed bonus
+R&D  8 - 11% research speed bonus
+R&D  9 - 12% research speed bonus
+R&D 10 - 14% research speed bonus
+R&D 11 - 16% research speed bonus
+R&D 12 - 18% research speed bonus
+R&D 13 - 20% research speed bonus
+R&D 14 - 22% research speed bonus
+R&D 15 - 24% research speed bonus
+R&D 16 - 26% research speed bonus
+R&D 17 - 29% research speed bonus
+R&D 18 - 31% research speed bonus
+R&D 19 - 34% research speed bonus
+R&D 20 - 36% research speed bonus
+R&D 21 - 37% research speed bonus
+R&D 22 - 42% research speed bonus
+R&D 23 - 45% research speed bonus
+R&D 24 - 48% research speed bonus
+R&D 25 - 51% research speed bonus
+R&D 26 - 55% research speed bonus
+R&D 27 - 58% research speed bonus
+R&D 28 - 62% research speed bonus
+R&D 29 - 65% research speed bonus
+R&D 30 - 69% research speed bonus
+R&D 31 - 73% research speed bonus
+R&D 32 - 77% research speed bonus
+R&D 33 - 81% research speed bonus
+R&D 34 - 85% research speed bonus
+R&D 35 - 89% research speed bonus
+R&D 36 - 93% research speed bonus
+R&D 37 - 98% research speed bonus
+R&D 38 -102% research speed bonus
+R&D 39 -107% research speed bonus
+R&D 40 -111% research speed bonus
+R&D 41 -116% research speed bonus
+R&D 42 -121% research speed bonus
+R&D 43 -126% research speed bonus
+R&D 44 -131% research speed bonus
+R&D 45 -137% research speed bonus
+R&D 46 -143% research speed bonus
+R&D 47 -149% research speed bonus
+R&D 48 -155% research speed bonus
+R&D 49 -161% research speed bonus
+R&D 50 -170% research speed bonus
+
+Astronautics Studio  0 -  0% research cost efficiency
+Astronautics Studio  1 -  0% research cost efficiency
+Astronautics Studio  2 -  3% research cost efficiency
+Astronautics Studio  3 -  4% research cost efficiency
+Astronautics Studio  4 -  5% research cost efficiency
+Astronautics Studio  5 -  6% research cost efficiency
+Astronautics Studio  6 -  8% research cost efficiency
+Astronautics Studio  7 -  9% research cost efficiency
+Astronautics Studio  8 - 11% research cost efficiency
+Astronautics Studio  9 - 12% research cost efficiency
+Astronautics Studio 10 - 14% research cost efficiency
+Astronautics Studio 11 - 16% research cost efficiency
+Astronautics Studio 12 - 18% research cost efficiency
+Astronautics Studio 13 - 20% research cost efficiency
+Astronautics Studio 14 - 22% research cost efficiency
+Astronautics Studio 15 - 24% research cost efficiency
+Astronautics Studio 16 - 26% research cost efficiency
+Astronautics Studio 17 - 29% research cost efficiency
+Astronautics Studio 18 - 31% research cost efficiency
+Astronautics Studio 19 - 34% research cost efficiency
+Astronautics Studio 20 - 36% research cost efficiency
+Astronautics Studio 21 - 39% research cost efficiency
+Astronautics Studio 22 - 42% research cost efficiency
+Astronautics Studio 23 - 45% research cost efficiency
+Astronautics Studio 24 - 48% research cost efficiency
+Astronautics Studio 25 - 51% research cost efficiency
+Astronautics Studio 26 - 55% research cost efficiency
+Astronautics Studio 27 - 58% research cost efficiency
+Astronautics Studio 28 - 62% research cost efficiency
+Astronautics Studio 29 - 65% research cost efficiency
+Astronautics Studio 30 - 69% research cost efficiency
+Astronautics Studio 31 - 73% research cost efficiency
+Astronautics Studio 32 - 77% research cost efficiency
+Astronautics Studio 33 - 81% research cost efficiency
+Astronautics Studio 34 - 85% research cost efficiency
+Astronautics Studio 35 - 89% research cost efficiency
+Astronautics Studio 36 - 93% research cost efficiency
+Astronautics Studio 37 - 98% research cost efficiency
+Astronautics Studio 38 -102% research cost efficiency
+Astronautics Studio 39 -107% research cost efficiency
+Astronautics Studio 40 -111% research cost efficiency
+Astronautics Studio 41 -116% research cost efficiency
+Astronautics Studio 42 -121% research cost efficiency
+Astronautics Studio 43 -126% research cost efficiency
+Astronautics Studio 44 -131% research cost efficiency
+Astronautics Studio 45 -137% research cost efficiency
+Astronautics Studio 46 -143% research cost efficiency
+Astronautics Studio 47 -149% research cost efficiency
+Astronautics Studio 48 -155% research cost efficiency
+Astronautics Studio 49 -161% research cost efficiency
+Astronautics Studio 50 -170% research cost efficiency
+
+Defense Technologies  0 -  0% defense platform damage bonus
+Defense Technologies  1 -  1% defense platform damage bonus
+Defense Technologies  2 -  2% defense platform damage bonus
+Defense Technologies  3 -  3% defense platform damage bonus
+Defense Technologies  4 -  4% defense platform damage bonus
+Defense Technologies  5 -  5% defense platform damage bonus
+Defense Technologies  6 -  6% defense platform damage bonus
+Defense Technologies  7 -  7% defense platform damage bonus
+Defense Technologies  8 -  8% defense platform damage bonus
+Defense Technologies  9 -  9% defense platform damage bonus
+Defense Technologies 10 - 10% defense platform damage bonus
+Defense Technologies 11 - 11% defense platform damage bonus
+Defense Technologies 12 - 12% defense platform damage bonus
+Defense Technologies 13 - 13% defense platform damage bonus
+Defense Technologies 14 - 14% defense platform damage bonus
+Defense Technologies 15 - 15% defense platform damage bonus
+Defense Technologies 16 - 16% defense platform damage bonus
+Defense Technologies 17 - 17% defense platform damage bonus
+Defense Technologies 18 - 18% defense platform damage bonus
+Defense Technologies 19 - 19% defense platform damage bonus
+Defense Technologies 20 - 20% defense platform damage bonus
+Defense Technologies 21 - 21% defense platform damage bonus
+Defense Technologies 22 - 22% defense platform damage bonus
+Defense Technologies 23 - 23% defense platform damage bonus
+Defense Technologies 24 - 24% defense platform damage bonus
+Defense Technologies 25 - 25% defense platform damage bonus
+Defense Technologies 26 - 26% defense platform damage bonus
+Defense Technologies 27 - 27% defense platform damage bonus
+Defense Technologies 28 - 28% defense platform damage bonus
+Defense Technologies 29 - 29% defense platform damage bonus
+Defense Technologies 30 - 30% defense platform damage bonus
+Defense Technologies 31 - 31% defense platform damage bonus
+Defense Technologies 32 - 32% defense platform damage bonus
+Defense Technologies 33 - 33% defense platform damage bonus
+Defense Technologies 34 - 34% defense platform damage bonus
+Defense Technologies 35 - 35% defense platform damage bonus
+Defense Technologies 36 - 36% defense platform damage bonus
+Defense Technologies 37 - 37% defense platform damage bonus
+Defense Technologies 38 - 38% defense platform damage bonus
+Defense Technologies 39 - 39% defense platform damage bonus
+Defense Technologies 40 - 40% defense platform damage bonus
+Defense Technologies 41 - 41% defense platform damage bonus
+Defense Technologies 42 - 42% defense platform damage bonus
+Defense Technologies 43 - 43% defense platform damage bonus
+Defense Technologies 44 - 44% defense platform damage bonus
+Defense Technologies 45 - 45% defense platform damage bonus
+Defense Technologies 46 - 46% defense platform damage bonus
+Defense Technologies 47 - 47% defense platform damage bonus
+Defense Technologies 48 - 48% defense platform damage bonus
+Defense Technologies 49 - 49% defense platform damage bonus
+Defense Technologies 50 - 50% defense platform damage bonus
