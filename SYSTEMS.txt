@@ -71,7 +71,6 @@ IP, BP, OX
      76332: ..I. Yerma[1]           .. NIL ..  43-66 PAR, EP
      78793: ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
      76342: ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
- 452560379: ..I. Kauko[6]           .. PAR .. 150 - 160 PAR
  841664901: ..I. Gurdy[6]           .. PAR .. NIL
 1559195274: ..I. Rua[8]             .. TRI ..  79 - 89 TRI
 
@@ -79,7 +78,15 @@ IP, BP, OX
 1203174739: ..I. Lycia[14]          .. 2RC .. 369 - 456 PAR
      81250: ..I. Bellas[12]         .. 2RC .. DIL
      83345: ..I. Nelve[12]          .. 2RC .. 340 - 421 DIL
+1413597356: ..F. Foaiveb[23]        .. 214 PAR, 60 DIL .. +6K, -48f, +14R
 
+ 667166609: ..I. Lezap[6]           .. PAR .. 177 PAR ..
+ 670982212: ..I. Tapio[6]           .. PAR .. 166 PAR ..
+ 452560379: ..I. Kauko[6]           .. PAR .. 150 - 160 PAR
+1740429538: ..I. Kibuka[6]          .. PAR .. 185 PAR ..
+ 930153285: ..I. Katonda[6]         .. PAR .. 163 PAR ..
+2147089484: ..I. Eshu[6]            .. PAR .. 179 PAR ..
+1614747268: ..I. Boru[7]            .. TRI .. 176 PAR ..
 
 Aciben[17] .. TRI .. 47 DIL, 2BP
 
