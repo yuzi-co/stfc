@@ -173,3 +173,21 @@ Defense Technologies 47 - 47% defense platform damage bonus
 Defense Technologies 48 - 48% defense platform damage bonus
 Defense Technologies 49 - 49% defense platform damage bonus
 Defense Technologies 50 - 50% defense platform damage bonus
+
+Construction Speed = building speed increase for all buildings
+Level - Increase
+    1 -  3%
+    2 -  7%
+    3 - 11%
+    4 - 15%
+    5 - 20%
+    6 - 26%
+    7 - 33%
+    8 - 40%
+    9 - 47%
+   10 - 55%
+   11 - 64%
+   12 - 75%
+   13 - 88%
+   14 -104%
+   15 -125%
