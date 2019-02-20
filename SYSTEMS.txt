@@ -1,10 +1,10 @@
   System#   ATTR Name[level]      mining..ship chest contents
 
-     81459: .... Opla[20]           .. 2*G
+     81459: .... Opla[20]           .. 2RG
 1091871393: .... Pune[16]           .. PAR .. DIL
 1726465367: .... Oltomon[17]        .. TRI .. PAR
      81397: .... Freyda[17]         .. TRI .. TRI
- 830770182: ..F. Voss[20]           .. 3*G .. PAR+DIL
+ 830770182: ..F. Voss[20]           .. 3RG .. PAR+DIL
   37068128: ..F. Aruna[21]          .. TRI .. PAR+DIL
 1385663190: .... Dalukerinborva[18] .. TRI .. TRI
  937831006: .... Kosz[19]           .. TRI .. PAR
@@ -13,15 +13,15 @@
  507279929: ..I. Ora Leraa[16]      .. TRI .. PAR
  958423648: ..F. Lorilla[18]        .. DIL .. TRI
 
- 849541812: ..I. Azha[20]           .. 2*C ..    200 PAR
+ 849541812: ..I. Azha[20]           .. 2RC ..    200 PAR
   11909028: ..I. Zeta Polis[19]     .. PAR .. DIL
 1911521293: ..I. Wasat[19]          .. TRI ..    770 PAR
 1591474708: ..I. Kaus Media[17]     .. PAR ..    153 TRI
-1718038036: ..I. Fastolf[21]        .. 2*O, 2*C
+1718038036: ..I. Fastolf[21]        .. 2RO, 2RC
   69523071: ..I. Kaus Borealis[17]  .. PAR ..    480 PAR
 1154764176: ..I. Kaus Australis[16] .. TRI ..     53 DIL
  553301075: ..K. Krah'Hor[18]       .. DIL .. PAR
-1790049115: ..I. Vindemiatrix[15]   .. 2*G ..     40 DIL
+1790049115: ..I. Vindemiatrix[15]   .. 2RG ..     40 DIL
 1263278966: ..I. Jishui[16]         .. PAR ..    146 TRI
 1357784499: ..I. Todem[18]          .. TRI ..    549 PAR
 1172806400: ..I. Helvetios[18]      .. PAR ..     42 DIL
@@ -34,22 +34,22 @@
   60112512: ..I. Gra[18]            .. TRI .. 581 PAR
 
 
-     81354: .... Cita Laga[15]      .. 2*G
-     81286: .... Elona[13]          .. 2*G .. DIL
+     81354: .... Cita Laga[15]      .. 2RG
+     81286: .... Elona[13]          .. 2RG .. DIL
 1855008555: .... Kaikara[18]        .. DIL .. 53 DIL
-1854874708: .... Kepler-018[20]     .. 2*O .. 50 DIL
+1854874708: .... Kepler-018[20]     .. 2RO .. 50 DIL
  464460417: .... Wezen[18]          .. TRI
 1113049160: .... Zhang[19]          .. TRI
 1012246624: .MI. Vement[17]         .. PAR 
 2136091294: .MI. Bharani[16]        .. PAR
 1316840322: .MI. Eizeb[16]          .. TRI
 1791133099: .MI. Bubeau[18]         .. PAR
-1745143614: .MI. Dhi'ban[14]        .. 2*O .. Phandra
+1745143614: .MI. Dhi'ban[14]        .. 2RO .. Phandra
 1980030252: .MI. Zehoro[11]         .. NIL .. Jellyfish?
- 827622990: ..R. V'varia[21]        .. 2*C
-2102605227: .MR. Davidul[20]        .. 3*O
-     81286: ..I. Elona[13]          .. 2*G .. Phandra
-     81354: ..I. Cita Laga[15]      .. 2*G
+ 827622990: ..R. V'varia[21]        .. 2RC
+2102605227: .MR. Davidul[20]        .. 3RO
+     81286: ..I. Elona[13]          .. 2RG .. Phandra
+     81354: ..I. Cita Laga[15]      .. 2RG
      78653: ..I. Winber[5]          .. PAR .. 99-135 PAR
      78727: ..I. Worhundelja[9]     .. TRI ..  71-91 TRI
 IP, BP, OX
@@ -62,7 +62,7 @@ IP, BP, OX
      78967: .MI. Dolcan[2]          .. PAR ..  51-55 PAR, EP
      78023: ..I. Alacti[2]          .. NIL ..  46-48 PAR, EP
      78521: .MI. Aker[4]            .. PAR .. 88-135 PAR, EP
-1379808121: ..F. Earorfilad[24]     .. DIL, 3*G ..856-878 PAR
+1379808121: ..F. Earorfilad[24]     .. DIL, 3RG ..856-878 PAR
 1490914183: ..I. Astrida[14]
 1691252927: ..K. K'amia[24]         .. DIL .. 68     DIL
     
@@ -75,18 +75,19 @@ IP, BP, OX
  841664901: ..I. Gurdy[6]           .. PAR .. NIL
 1559195274: ..I. Rua[8]             .. TRI ..  79 - 89 TRI
 
-71466: ..I. Heima[1] .. .. 62 PAR
+     71466: ..I. Heima[1] .. .. 62 PAR
 
-Aciben[17] .. TRI .. 47 DIL, 2*B
+
+Aciben[17] .. TRI .. 47 DIL, 2BP
 
 Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
 Murasaki 312 .. DIL?
 clytomenens .. DIL?
-Bellas[12] .. 2*C .. DIL
-Zurak[13] .. 2*G
-Lycia[14] .. 2*C
-Nelve[12] .. 2*C
+Bellas[12] .. 2RC .. DIL
+Zurak[13] .. 2RG
+Lycia[14] .. 2RC
+Nelve[12] .. 2RC
 Friefra[10] .. TRI
 Yesop[9] .. PAR
 Sona .. 40+ DIL
@@ -106,13 +107,13 @@ Key:
 
  Resource Shorthand
 
-  2*C = 2* Raw Crystal
-  2*G = 2* Raw Gas
-  2*O = 2* Raw Ore
-  2*B = 2* Battleship Parts
-  2*I = 2* Interceptor Parts
-  3*G = 3* Raw Gas
-  3*O = 3* Raw Ore
+  2RC = 2* Raw Crystal
+  2RG = 2* Raw Gas
+  2RO = 2* Raw Ore
+  2BP = 2* Battleship Parts
+  2IP = 2* Interceptor Parts
+  3RG = 3* Raw Gas
+  3RO = 3* Raw Ore
   DIL = Dilithium
   NIL = no mining resource
   PAR = Parsteel
