@@ -9,9 +9,14 @@ Major milestones:
 Ops 10 - players can attack you and vica versa
 Ops 15 - your station can get attacked
 Ops 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
-Ops 17 - drydock c
-Ops 18 - DIL generator C
+Ops 17 - Drydock C
+Ops 18 - DIL generator C, Unlock Ship Hangar
 Ops 20 - Refinery can refine 3* materials
+Ops 28 - Drydock D
+
+Ship Hangar - by default 10 slots, after Ops 18 can unlock the ability to
+              upgrade it, hull strength is increased for all ships as a result,
+              the higher the level the more hull strength
 
 R&D  0 -  0% research speed bonus
 R&D  1 -  0% research speed bonus
