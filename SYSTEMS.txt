@@ -75,7 +75,10 @@ IP, BP, OX
  841664901: ..I. Gurdy[6]           .. PAR .. NIL
 1559195274: ..I. Rua[8]             .. TRI ..  79 - 89 TRI
 
-     71466: ..I. Heima[1] .. .. 62 PAR
+     71466: ..I. Heima[1]           .. .. 62 PAR
+1203174739: ..I. Lycia[14]          .. 2RC .. 369 - 456 PAR
+     81250: ..I. Bellas[12]         .. 2RC .. DIL
+     83345: ..I. Nelve[12]          .. 2RC .. 340 - 421 DIL
 
 
 Aciben[17] .. TRI .. 47 DIL, 2BP
@@ -84,10 +87,8 @@ Elva[11] .. (Jellyfish?)
 Maya[9] .. (Jellyfish?)
 Murasaki 312 .. DIL?
 clytomenens .. DIL?
-Bellas[12] .. 2RC .. DIL
 Zurak[13] .. 2RG
-Lycia[14] .. 2RC
-Nelve[12] .. 2RC
+
 Friefra[10] .. TRI
 Yesop[9] .. PAR
 Sona .. 40+ DIL
