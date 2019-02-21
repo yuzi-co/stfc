@@ -104,19 +104,27 @@ Sona .. 40 DIL
 New Sligo[1] .. .. 51-74 PAR
 Wokapa[1] .. .. 44-74 PAR, EP
 
-New systems with Feb 21, 2019 update:
+New systems with Feb 21, 2019 update (1st 7 per announcement, last 6 new but not in announcement):
 
   System#   ATTR Name[level]      mining..ship chest contents
+ 218039082: ..I. Coridan[16]        .. DIL .. 47 DIL
+
 1691770428: .MI. Ajilon[25]         .. NIL ..
+ 739609161: ..F. Angostia[]         .. 3RG .. 336 PAR 87 DIL .. 12K -44F 23R
+
+1744652289: ..I. Maranga[25]        .. 3RO .. 
+ 255461687: .MI. Nerenda[25]        .. NIL .. NIL .. NIL 
+
+ 897954743: ..R. Zova Rehn[25]      .. 3RO .. 
+1417222872: ..I. Qualor[25]         .. 
+
  500227886: ..F. Achillon[25]       .. NIL .. 883 PAR 24 DIL .. 8K -31F 17R
  563050574: ..F. Rada Ban[25]       .. NIL .. 886 PAR 23 DIL .. 8K -31F 17R
  564692979: ..F. Pareleon[[26]      .. NIL .. 4629 PAR 168 DIL 931 TRI .. 41K -155F 82R .. 2381490 strength level26 hostile
- 218039082: ..I. Coridan[16]        .. DIL .. 47 DIL
- 739609161: ..F. Angostia[]         .. 3RG .. 336 PAR 87 DIL .. 12K -44F 23R
 1090722450: ..K. Ka'Bi[25]          .. NIL .. 958 PAR 20 DIL .. -31K 17F 8R .. 25 160954
  395344716: ..K. Kol Ran[25]        .. NIL .. 989 PAR 21 DIL .. -31K 17F 8R .. 
  265649208: ..K. Urthak[26]         .. NIL .. 3869 PAR 193 DIL 1170 TRI .. -155K 82F 41R .. 26 2381490
- 255461687: .MI. Nerenda[25]        .. NIL .. NIL .. NIL 
+
 
 Key:
 
