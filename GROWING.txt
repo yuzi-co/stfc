@@ -10,9 +10,17 @@ Ops 10 - players can attack you and vica versa
 Ops 15 - your station can get attacked
 Ops 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
 Ops 17 - Drydock C
-Ops 18 - DIL generator C, Unlock Ship Hangar
-Ops 20 - Refinery can refine 3* materials
-Ops 28 - Drydock D
+Ops 18 - TRI Gen C, Unlock Ship Hangar
+Ops 20 - Refinery can refine 3* materials, DIL Gen C
+Ops 22 - PAR Gen D
+Ops 23 - Unlock Science Labs
+Ops 28 - TRI Gen D, Drydock D
+Ops 30 - DIL Gen D
+Ops 32 - PAR Gen E
+Ops 38 - TRI Gen E
+Ops 40 - DIL Gen E
+Ops 42 - PAR Gen F
+Ops 50 - DIL Gen F,G,H; TRI Gen F,G,H; PAR Gen G,H
 
 Ship Hangar - by default 10 slots, after Ops 18 can unlock the ability to
               upgrade it, hull strength is increased for all ships as a result,
