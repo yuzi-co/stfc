@@ -104,7 +104,7 @@ Sona .. 40 DIL
 New Sligo[1] .. .. 51-74 PAR
 Wokapa[1] .. .. 44-74 PAR, EP
 
-New systems with Feb 21, 2019 update (1st 7 per announcement, last 6 new but not in announcement):
+New systems with Feb 21, 2019 update (1st 7 per announcement, last 9 new but not in announcement):
 
   System#   ATTR Name[level]      mining..ship chest contents
  218039082: ..I. Coridan[16]        .. DIL .. 47 DIL
@@ -115,8 +115,8 @@ New systems with Feb 21, 2019 update (1st 7 per announcement, last 6 new but not
 1744652289: ..I. Maranga[25]        .. 3RO .. 
  255461687: .MI. Nerenda[25]        .. NIL .. NIL .. NIL 
 
- 897954743: ..R. Zova Rehn[25]      .. 3RO .. 
-1417222872: ..I. Qualor[25]         .. 
+ 897954743: ..R. Zova Rehn[25]      .. 3RO .. 292 TRI 24 DIL .. 23K 12F -44R .. 26 67530
+1417222872: ..I. Qualor[25]         .. NIL .. 250 TRI 23 DIL .. 17K 8F -31R .. 25 52349
 
  500227886: ..F. Achillon[25]       .. NIL .. 883 PAR 24 DIL .. 8K -31F 17R
  563050574: ..F. Rada Ban[25]       .. NIL .. 886 PAR 23 DIL .. 8K -31F 17R
@@ -124,6 +124,9 @@ New systems with Feb 21, 2019 update (1st 7 per announcement, last 6 new but not
 1090722450: ..K. Ka'Bi[25]          .. NIL .. 958 PAR 20 DIL .. -31K 17F 8R .. 25 160954
  395344716: ..K. Kol Ran[25]        .. NIL .. 989 PAR 21 DIL .. -31K 17F 8R .. 
  265649208: ..K. Urthak[26]         .. NIL .. 3869 PAR 193 DIL 1170 TRI .. -155K 82F 41R .. 26 2381490
+ 180481608: ..R. Rana Nur[25]       .. NIL .. 991 PAR 20 DIL .. 17K 8F -31R .. 25 164162
+ 304388536: ..R. Aesuri[25]         .. NIL .. 1082 PAR 24 DIL .. 17K 8F -31R .. 25 164162
+ 809766889: ..R. Constina[26]       .. NIL .. 4971 PAR 189 DIL 619 TRI .. 82K 41F -155R .. 26 2381490
 
 
 Key:
