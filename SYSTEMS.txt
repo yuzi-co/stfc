@@ -4,8 +4,8 @@
 1091871393: .... Pune[16]           .. PAR .. DIL
 1726465367: .... Oltomon[17]        .. TRI .. PAR
      81397: .... Freyda[17]         .. TRI .. TRI
- 830770182: ..F. Voss[20]           .. 3RG .. PAR+DIL
-  37068128: ..F. Aruna[21]          .. TRI .. PAR+DIL
+ 830770182: ..F. Voss[20]           .. 3RG .. PAR DIL
+  37068128: ..F. Aruna[21]          .. TRI .. PAR DIL
 1385663190: .... Dalukerinborva[18] .. TRI .. TRI
  937831006: .... Kosz[19]           .. TRI .. PAR
  910353989: .... Skyedark[18]       .. PAR .. DIL
@@ -25,9 +25,9 @@
 1263278966: ..I. Jishui[16]         .. PAR ..    146 TRI
 1357784499: ..I. Todem[18]          .. TRI ..    549 PAR
 1172806400: ..I. Helvetios[18]      .. PAR ..     42 DIL
- 789724593: ..K. Antonehk[21]       .. TRI ..    765 PAR + 68 TRI
+ 789724593: ..K. Antonehk[21]       .. TRI ..    765 PAR 68 TRI
  846029245: ..K. Khitomer[23]
-1735899624: ..K. Francihk[20]       .. 3*C ..    658 PAR + 58 TRI
+1735899624: ..K. Francihk[20]       .. 3*C ..    658 PAR 58 TRI
 
 1017582787: ..I. Midnight[19]       .. DIL .. 48 DIL
  604074052: ..I. Dle'greffo[18]     .. PAR .. 45 DIL
@@ -78,7 +78,7 @@ IP, BP, OX
 1203174739: ..I. Lycia[14]          .. 2RC .. 369 - 456 PAR
      81250: ..I. Bellas[12]         .. 2RC .. DIL
      83345: ..I. Nelve[12]          .. 2RC .. 340 - 421 DIL
-1413597356: ..F. Foaiveb[23]        .. 214 PAR, 60 DIL .. +6K, -48f, +14R
+1413597356: ..F. Foaiveb[23]        .. 214 PAR, 60 DIL .. 6K, -48f, 14R
 
  667166609: ..I. Lezap[6]           .. PAR .. 177 PAR ..
  670982212: ..I. Tapio[6]           .. PAR .. 166 PAR ..
@@ -87,6 +87,8 @@ IP, BP, OX
  930153285: ..I. Katonda[6]         .. PAR .. 163 PAR ..
 2147089484: ..I. Eshu[6]            .. PAR .. 179 PAR ..
 1614747268: ..I. Boru[7]            .. TRI .. 176 PAR ..
+ 161490775: ..F. S'matharz[25]      .. TRI .. 82 DIL .. 
+ 840804243: ..F. lainey[27]         .. PAR .. 329 PAR 88 DIL .. 16K -61F 33R
 
 Aciben[17] .. TRI .. 47 DIL, 2BP
 
@@ -98,10 +100,23 @@ Zurak[13] .. 2RG
 
 Friefra[10] .. TRI
 Yesop[9] .. PAR
-Sona .. 40+ DIL
+Sona .. 40 DIL
 New Sligo[1] .. .. 51-74 PAR
 Wokapa[1] .. .. 44-74 PAR, EP
 
+New systems with Feb 21, 2019 update:
+
+  System#   ATTR Name[level]      mining..ship chest contents
+1691770428: .MI. Ajilon[25]         .. NIL ..
+ 500227886: ..F. Achillon[25]       .. NIL .. 883 PAR 24 DIL .. 8K -31F 17R
+ 563050574: ..F. Rada Ban[25]       .. NIL .. 886 PAR 23 DIL .. 8K -31F 17R
+ 564692979: ..F. Pareleon[[26]      .. NIL .. 4629 PAR 168 DIL 931 TRI .. 41K -155F 82R .. 2381490 strength level26 hostile
+ 218039082: ..I. Coridan[16]        .. DIL .. 47 DIL
+ 739609161: ..F. Angostia[]         .. 3RG .. 336 PAR 87 DIL .. 12K -44F 23R
+1090722450: ..K. Ka'Bi[25]          .. NIL .. 958 PAR 20 DIL .. -31K 17F 8R .. 25 160954
+ 395344716: ..K. Kol Ran[25]        .. NIL .. 989 PAR 21 DIL .. -31K 17F 8R .. 
+ 265649208: ..K. Urthak[26]         .. NIL .. 3869 PAR 193 DIL 1170 TRI .. -155K 82F 41R .. 26 2381490
+ 255461687: .MI. Nerenda[25]        .. NIL .. NIL .. NIL 
 
 Key:
 
