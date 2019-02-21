@@ -13,12 +13,12 @@ Ops 17 - Drydock C
 Ops 18 - TRI Gen C, Unlock Ship Hangar
 Ops 20 - Refinery can refine 3* materials, DIL Gen C
 Ops 22 - PAR Gen D
-Ops 23 - Unlock Science Labs
+Ops 23 - Unlock Science Labs, Unlock Technology Lab, Unlock Foundry
 Ops 28 - TRI Gen D, Drydock D
 Ops 30 - DIL Gen D
 Ops 32 - PAR Gen E
 Ops 38 - TRI Gen E
-Ops 40 - DIL Gen E
+Ops 40 - DIL Gen E, Armory
 Ops 42 - PAR Gen F
 Ops 50 - DIL Gen F,G,H; TRI Gen F,G,H; PAR Gen G,H
 
@@ -199,3 +199,8 @@ Level - Increase
    13 - 88%
    14 -104%
    15 -125%
+
+Armory = critical hit chance bonus / critical hit damage bonus
+Level - Increase
+    1 - 0.1% /  0.5%
+   50 - 5.0% / 50.0%
