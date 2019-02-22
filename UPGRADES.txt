@@ -50,10 +50,11 @@ B TRI Warehouse     19 Ops 19, TRI Gen B 19
 B Covert Think Tank  1 Ops 50, R&D 50
 B Shield Generator   1 Ops 50
 B Sensor Station     1 Ops 50
+B Defense Plat. E    1 R Defense Platforms 4
 
 R Fleet Commander    3 Ops 28
 R Def. Plat. Hull    3 R&D 19
 R Unl. Science Labs  1 Ops 23, R Pure Tritanium 1, R Pure Dilithium 1
 R Unl. Tech. Lab     1 Ops 23, R Pure Tritanium 1
 R Unl. Foundry       1 Ops 23
-
+R Defense Plat.      3 Ops 26
