@@ -52,6 +52,7 @@ B Shield Generator   1 Ops 50
 B Sensor Station     1 Ops 50
 B Defense Plat. E    1 R Defense Platforms 4
 
+Station
 R Fleet Commander    3 Ops 28
 R Def. Plat. Hull    3 R&D 19
 R Unl. Science Labs  1 Ops 23, R Pure Tritanium 1, R Pure Dilithium 1
@@ -59,3 +60,13 @@ R Unl. Tech. Lab     1 Ops 23, R Pure Tritanium 1
 R Unl. Foundry       1 Ops 23
 R Defense Plat.      3 Ops 26
 R DIL Fusion         7 DIL Gen 19
+
+Combat
+R Hull Density      10 R&D 19
+R Exploit Weakpoints 6 Energy Blast 3, Kinetic Shockwave 3
+R Pinpoint Targeting 2 Exploit Weakpoints 7, Energy Blast 4, Kinetic Shockwave 4
+R Piercing Shots     5 Kinetic Shockwave 3
+R Targeting Array    5 Energy Blast 3
+R Shield Penetration 5 Energy Blast 3, Kinetic Shockwave 3
+R Survey Hull Int.   5 Hull Density 10
+R Survey Firepower   4 Energy Blast 3
