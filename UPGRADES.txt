@@ -58,3 +58,4 @@ R Unl. Science Labs  1 Ops 23, R Pure Tritanium 1, R Pure Dilithium 1
 R Unl. Tech. Lab     1 Ops 23, R Pure Tritanium 1
 R Unl. Foundry       1 Ops 23
 R Defense Plat.      3 Ops 26
+R DIL Fusion         7 DIL Gen 19
