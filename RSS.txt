@@ -14,7 +14,6 @@ Buildings
  51000  1500    150    0    0   0   0   0   0   0   0   0   0   0   0   0  7h13m  B Defense Platf. C 14 -> 15
      ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 15 -> 16
      ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 16 -> 17
- 81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
 190400     0   2100    0    0   0   0   0   0   0   0   0   0   0   0   0 10h22m  B DIL Vault        16 -> 17
      ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0      ?  B DIL Vault        17 -> 18
   6000     0     40    0    0   0   0   0   0   0   0   0   0   0   0   0 24m04s  B TRI Generator     9 -> 10
@@ -124,3 +123,10 @@ DONE
 108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B        17 -> 18
               25900    0        0   0   0   0                                     R Prime Damage
   7926         1741    0        0   0   0   0                                     R DIL Fusion 5 -> 6
+ 81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
+
+    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
+    50     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0  5m00s  B Operations 2
+    10     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    15s  B PAR Gen B 1
+    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
+    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
