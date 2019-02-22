@@ -4,40 +4,42 @@ upgrade paths?
 Attempting to note it here..
 
 
-Type           Level
+Type             Level
 | Desc            Requirements
-B DIL Gen B         19 Ops 19, DIL Gen A 19
-B DIL Gen A         19 Ops 19
+B Armory             1 Ops 40, R&D 40
+B Astronautics      18 Ops 18, R&D 18
 B DIL GEN C          1 Ops 20, DIL Gen A  1
 B DIL GEN D          1 Ops 30, DIL Gen B  1
 B DIL GEN E          1 Ops 40, DIL Gen C  1
 B DIL GEN F          1 Ops 50, DIL Gen D  1
 B DIL GEN G          1 Ops 50, DIL Gen E  1
 B DIL GEN H          1 Ops 50, DIL Gen F  1
-B TRI Vault         18 Ops 18, TRI Gen B 18, PAR Vault 18
-B TRI Warehouse     19 Ops 19, TRI Gen B 19
-B TRI Gen D          1 Ops 28, TRI Gen B  1
-B TRI Gen E          1 Ops 38, TRI Gen C  1
-B TRI Gen F          1 Ops 48, TRI Gen D  1
-B TRI Gen G          1 Ops 50, TRI Gen E  1
-B TRI Gen H          1 Ops 50, TRI Gen F  1
-B PAR Wareehouse    19 Ops 19, PAR Gen A 19, PAR Gen B 19
+B DIL Gen A         19 Ops 19
+B DIL Gen B         19 Ops 19, DIL Gen A 19
+B Defense Tech      18 Ops 18, R&D 18
+B Drydock A         19 Ops 19
+B Drydock D          1 Fleet Commander 3
+B Engine Tech Lab    1 R Unlock Technology Lab 1
+B Foundry            1 R Unlock Foundry 1
 B PAR Gen D          1 Ops 22, PAR Gen B  1
 B PAR Gen E          1 Ops 32, PAR Gen C  1
 B PAR Gen F          1 Ops 42, PAR Gen D  1
 B PAR Gen G          1 Ops 50, PAR Gen E  1
 B PAR Gen H          1 Ops 50, PAR Gen F  1
-B Ship Hangar        1 Ops  2, Shipyard 11, Unlock Ship Hangar 1
+B PAR Warehouse     19 Ops 19, PAR Gen A 19, PAR Gen B 19
+B PAR Vault         19 Ops 19, PAR Gen B 19, PAR Warehouse
 B Refinery          18 Ops 18, Shipyard 18
-B Shipyard          18 Ops 18, R&D 18, Defense Technologies 12
-B Astronautics      18 Ops 18, R&D 18
-B Defense Tech      18 Ops 18, R&D 18
-B Drydock A         19 Ops 19
-B Drydock D          1 Fleet Commander 3
 B Science Lab        1 R Unlock Science Labs 1
-B Engine Tech Lab    1 R Unlock Technology Lab 1
-B Foundry            1 R Unlock Foundry 1
-B Armory             1 Ops 40, R&D 40
+B Ship Hangar        1 Ops  2, Shipyard 11, Unlock Ship Hangar 1
+B Shipyard          18 Ops 18, R&D 18, Defense Technologies 12
+B TRI Gen D          1 Ops 28, TRI Gen B  1
+B TRI Gen E          1 Ops 38, TRI Gen C  1
+B TRI Gen F          1 Ops 48, TRI Gen D  1
+B TRI Gen G          1 Ops 50, TRI Gen E  1
+B TRI Gen H          1 Ops 50, TRI Gen F  1
+B TRI Vault         18 Ops 18, TRI Gen B 18, PAR Vault 18
+B TRI Warehouse     19 Ops 19, TRI Gen B 19
+
 R Fleet Commander    3 Ops 28
 R Def. Plat. Hull    3 R&D 19
 R Unl. Science Labs  1 Ops 23, R Pure Tritanium 1, R Pure Dilithium 1
