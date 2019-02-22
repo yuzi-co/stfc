@@ -52,6 +52,8 @@ B Shield Generator   1 Ops 50
 B Sensor Station     1 Ops 50
 B Defense Plat. E    1 R Defense Platforms 4
 
+B Drydock B          1 R Fleet Commander 1
+
 Station
 R Fleet Commander    3 Ops 28
 R Def. Plat. Hull    3 R&D 19
@@ -61,12 +63,24 @@ R Unl. Foundry       1 Ops 23
 R Defense Plat.      3 Ops 26
 R DIL Fusion         7 DIL Gen 19
 
+R Fleet Commander    1 Ops  5, Construction Speed 1
+
 Combat
-R Hull Density      10 R&D 19
-R Exploit Weakpoints 6 Energy Blast 3, Kinetic Shockwave 3
-R Pinpoint Targeting 2 Exploit Weakpoints 7, Energy Blast 4, Kinetic Shockwave 4
-R Piercing Shots     5 Kinetic Shockwave 3
-R Targeting Array    5 Energy Blast 3
-R Shield Penetration 5 Energy Blast 3, Kinetic Shockwave 3
-R Survey Hull Int.   5 Hull Density 10
-R Survey Firepower   4 Energy Blast 3
+R Hull Density          10 R&D 19
+R Exploit Weakpoints     6 Energy Blast 3, Kinetic Shockwave 3
+R Pinpoint Targeting     2 Exploit Weakpoints 7, Energy Blast 4, Kinetic Shockwave 4
+R Piercing Shots         5 Kinetic Shockwave 3
+R Targeting Array        5 Energy Blast 3
+R Shield Penetration     5 Energy Blast 3, Kinetic Shockwave 3
+R Survey Hull Int.       5 Hull Density 10
+R Survey Firepower       4 Energy Blast 3
+R Evasive Intercept.     3 Hull Density 10
+R Explorer Barriers      3 Hull Density 10
+R Battleship Weaponry    2 Energy Blast 3, Kinetic Shockwave 3
+R Grade 3 Ship           1 Battleship Weaponry 2, Explorer Weaponry 2, Interceptor Weaponry 2, Shipyard 19
+R Prime Defenses         1 Grade 3 Ship Research 1
+R Prime Piercing         1 Grade 3 Ship Research 1
+R Unlock Kehra           1 Grade 3 Ship Research 1, R&D Department 20
+R Interceptor Hull Boost 1 Unlock Kehra 1
+R Interceptor Tactics    1 Unlock Kehra 1
+R Interceptor Shields    1 Unlock Kehra 1
