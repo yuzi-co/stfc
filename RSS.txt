@@ -38,10 +38,9 @@ Research
          578   1296    0        0   0   0   0                                     R Shield Penetration 2 -> 3
      ?            ?    0        0   0   0   0                                     R DIL Storage 5 -> 6
      0     0   1444    0        0   0   0   0                              9h32m  R Assembly Line 4 -> 5
-  7926         1741    0        0   0   0   0                                     R DIL Fusion (5/8)
+     ?            ?    0        0   0   0   0                                     R DIL Fusion 6 -> 7
         1741   2333    0        0   0   0   0                                     R Evasive Interceptors 1 -> 2
         1741   2333    0        0   0   0   0                                     R Fortified Battleships 1 -> 2
-              25900    0        0   0   0   0                                     R Prime Damage
               45700    0        0   0   0   0      80                      6h29m  R Prime Build Speed
               51800    0        0   0   0   0             100                     R Prime Shields (0/1)
               66000    0        0   0   0   0         125                         R Prime Hulls (0/1)
@@ -117,3 +116,5 @@ DONE
 217600 10000      0    0    0   0   0       0   0   0   0   0   0   0   0         B TRI Vault     17 -> 18
 108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock A        17 -> 18
 108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B        17 -> 18
+              25900    0        0   0   0   0                                     R Prime Damage
+  7926         1741    0        0   0   0   0                                     R DIL Fusion 5 -> 6
