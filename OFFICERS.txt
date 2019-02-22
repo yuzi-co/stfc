@@ -117,8 +117,10 @@ Parsteel hunting:
 TRI hunting:
 DIL hunting:
   Cap  Vel     (+40% DIL from hostile, +7% kinetic weapon)
-  Off  Gaila   (+10% Captain)
-  Off  Gonzales(+10% Captain)
+  Off  Gonzales(+10% Captain, +5% hostile critical hit)
+  Off  Gaila   (+10% Captain, -20% hostile damage)
+   -or-
+  Off  Shev    (+10% Captain, +5% hostile energy weapons)
   Crew Chen
   Crew Shev
 PAR mining:
@@ -140,4 +142,40 @@ Station defense:
   Off  Uhura   (+ 9% shield health)
 
 Rukor
+
+Vel
+  38 DIL -> 47 DIL = 23.684210% (Advertises 25%, 38*.25=9.5))
+  46 DIL -> 57 DIL = 23.913043% (Advertises 25%, 46*.25=11.5)
+
+Vel + Shev (+10% Captain)
+  44 DIL -> 59 DIL = 34.090909% (Advertises 25+10=35%, 44*.35=15.4)
+  50 DIL -> 67 DIL = 34.000000% (Advertises 25+10=35%, 50*.35=17.5)
+
+Vel + Shev (+10% Captain) + Gonzales (+10% Captain)
+  42 DIL -> 60 DIL = 42.857142% (Advertises 25+10+10=45%, 42*.45=18.9)
+  54 DIL -> 78 DIL = 44.444444% (Advertises 25+10+10=45%, 54*.45=24.3)
+
+Vel + Shev (+ 5% Captain) + Gaila (+10% Captain)
+Vel + Shev (+10% Captain) + T'Laan (5% Captain)
+Vel + Shev (+10% Captain) + Chen (5% Captain)
+
+Vel + T'Laan (+5% Captain)
+  38 DIL -> 49 DIL = 28.947368% (Advertises 25+ 5=30%, 38*.30=11.4)
+  54 DIL -> 70 DIL = 29.629629% (Advertises 25+ 5=30%, 54*.30=16.2)
+Vel + T'Laan (+5% Captain) + Chen (+5% Captain)
+Vel + T'Laan (+5% Captain) + Gaila (+10% Captain)
+Vel + T'Laan (+5% Captain) + Gonzales (+10% Captain)
+
+Vel + Gaila (+10% Captain)
+  48 DIL -> 64 DIL = 33.333333% (Advertises 25+10=35%, 48*.35=16.8)
+  57 DIL -> 76 DIL = 33.333333% (Advertises 25+10=35%, 57*.35=19.95)
+Vel + Gaila (+10% Captain) + T'Laan (+5% Captain)
+Vel + Gaila (+10% Captain) + Gonzales (+10% Captain)
+Vel + Gaila (+10% Captain) + Chen (+5% Captain)
+
+Vel + Chen (+ 5% Captain)
+Vel + Chen (+ 5% Captain) + Gonzales (+10% Captain)
+
+Vel + Gonzales (+10% Captain)
+
 
