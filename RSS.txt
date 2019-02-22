@@ -7,27 +7,26 @@ TODO
 
 Buildings
                                                                      Upgrade Type
-  PAR   TRI    DIL   2CC  2CG 2CO 2UO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
-217600 10000      0    0    0   0   0   0   0   0   0   0   0   0   0         B TRI Vault     17 -> 18
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock A 17 -> 18
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B 17 -> 18
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock C 17 -> 18
- 68000  8000      0    0  100   0   0   0   0   0   0   0   0   0   0  7h58m  B Defense Technologies 17 -> 18 
- 51000  1500    150    0    0   0   0   0   0   0   0   0   0   0   0  7h13m  B Defense Platform C 14 -> 15
-     ?     ?      ?    0    0   0   0   0   0   0   0   0   0   0   0         B Defense Platform C 15 -> 16
-     ?     ?      ?    0    0   0   0   0   0   0   0   0   0   0   0         B Defense Platform C 16 -> 17
- 81600     0   4000    0    0 100   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse 17 -> 18
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0  9h37m  B DIL Vault     16 -> 17
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0  9h37m  B DIL Vault     17 -> 18
-  6000           40    0    0   0   0   0   0   0   0   0   0   0   0 24m04s  B TRI Generator  9 -> 10
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 10 -> 11
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 11 -> 12
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 12 -> 13
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 13 -> 14
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 14 -> 15
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 15 -> 16
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 16 -> 17
-     ?            ?    0    0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator 17 -> 18
+  PAR   TRI    DIL   2CC  2UC 2CG 2CO 2UO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock C        17 -> 18
+ 68000  8000      0    0    0 100   0   0   0   0   0   0   0   0   0   0  7h58m  B Defense Techn.   17 -> 18 
+136000  4000    400    0  100   0   0   0   0   0   0   0   0   0   0   0 13h59m  B Defense Platf. A 17 -> 18
+ 51000  1500    150    0    0   0   0   0   0   0   0   0   0   0   0   0  7h13m  B Defense Platf. C 14 -> 15
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 15 -> 16
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 16 -> 17
+ 81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
+190400     0   2100    0    0   0   0   0   0   0   0   0   0   0   0   0 10h22m  B DIL Vault        16 -> 17
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0      ?  B DIL Vault        17 -> 18
+  6000     0     40    0    0   0   0   0   0   0   0   0   0   0   0   0 24m04s  B TRI Generator     9 -> 10
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    10 -> 11
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    11 -> 12
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    12 -> 13
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    13 -> 14
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    14 -> 15
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    15 -> 16
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    16 -> 17
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    17 -> 18
+122400  2000      0 1000   85   0   0   0   0   0   0   0   0   0   0   0 23h54m  B Shipyard         17 -> 18
 
 Research
                                                                      Upgrade Type
@@ -56,11 +55,11 @@ Ships
   PAR   TRI    DIL   2CC  2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
         7250           0    0   0   0   0   0   0   0   0   0   0   0 20h00m  E Shield MK2 + 8 2SP
         9000    220    0    0   0   0   0   0   0   0   0   0   0   0         E Cargo Bay MK2 + 16 2SP
-       12500   2900    0    0   0  63   0   0   0   0   0   0   0   0         T Phase Cannon MK5 + 54 2BP
-       12500   2900    0    0   0  63   0   0   0   0   0   0   0   0         T Phase Cannon MK5 + 54 2BP
-        8500           0    0   0   0   0   0   0   0   0   0   0   0         T Cargo Bay MK5 + 18 2BP
-               1400    0    0   0 375   0   0   0   0   0   0   0   0         T Warp Engines MK5 + 36 2BP
-       21000           0    0   0 750   0   0   0   0   0   0   0   0         T TRI Armor MK5 + 54 2BP
+       12500   2900    0    0   0  63   0   0   0   0   0  54   0   0         T Phase Cannon MK5
+       12500   2900    0    0   0  63   0   0   0   0   0  54   0   0         T Phase Cannon MK5
+        8500           0    0   0   0   0   0   0   0   0  18   0   0         T Cargo Bay MK5
+               1400    0    0   0 375   0   0   0   0   0  36   0   0         T Warp Engines MK5
+       21000           0    0   0 750   0   0   0   0   0  54   0   0         T TRI Armor MK5
 
 
 Key
@@ -92,10 +91,8 @@ DIL = Dilithium
 DONE
 ----
                                                                       Upgrade Type
-  PAR   TRI    DIL   2CC  2CG     2CO 2UO 3CG     3CC 3CO 2BP 2EP 2IP Time   \|/Description
-              11100                                                       R Prime Resources (177 Latinum)
-                                                                      Upgrade Type
   PAR   TRI    DIL   2CC  2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
+              11100                                                       R Prime Resources (177 Latinum)
   5333         1185                                                           R DIL Fusion (4/8)
   2796          511                                                           R DIL Storage (3/8)
   7852         1444                                                           R TRI Safeguard (0/8)
@@ -116,3 +113,6 @@ DONE
  15300     0   2804    0        0 150   0                             13h11m  R DIL Safeguard 0 -> 1
 204000  3000      0    0    0   0   0   0   0   0   0   0   0   0   0  7h58m  B PAR Vault     17 -> 18
 136000     0   1500    0    0   0   0   0   0   0   0   0   0   0   0  9h37m  B DIL Vault     15 -> 16
+217600 10000      0    0    0   0   0   0   0   0   0   0   0   0   0         B TRI Vault     17 -> 18
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock A        17 -> 18
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B        17 -> 18
