@@ -20,7 +20,9 @@ Ops 32 - PAR Gen E
 Ops 38 - TRI Gen E
 Ops 40 - DIL Gen E, Armory
 Ops 42 - PAR Gen F
-Ops 50 - DIL Gen F,G,H; TRI Gen F,G,H; PAR Gen G,H
+Ops 50 - DIL Gen F,G,H; TRI Gen F,G,H; PAR Gen G,H; Covert Think Tank; Shield Generator
+Ops 50 - Sensor Station; Bank; Market
+         
 
 Ship Hangar - by default 10 slots, after Ops 18 can unlock the ability to
               upgrade it, hull strength is increased for all ships as a result,
