@@ -31,24 +31,25 @@ Buildings
 Research
                                                                      Upgrade Type
   PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
- 27800         8143 3000        0   0   0   0                              1d02h  R Unlock Ship Hangar + 75 2UC
-  5481         10 7    0        0   0   0   0                                     R PAR Safeguarding (1/8)
-         578   1296    0        0   0   0   0                                     R Shield Penetration (2/8)
-     ?            ?    0        0   0   0   0                                     R DIL Storage (5/8)
-     0     0   1464    0        0   0   0   0                              9h32m  R Assembly Line 4 -> 5
+               3451   25       25   0  25   0                              9h20m  R Research Optimization 2 -> 3
+ 41600     0   8028    0        0   0 500  50   0                                 R Construction Speed       7-> 8
+ 27400         8028 3000   75   0   0   0   0                              1d02h  R Unlock Ship Hangar
+  5481         10 7    0        0   0   0   0                                     R PAR Safeguarding 1 -> 2
+         578   1296    0        0   0   0   0                                     R Shield Penetration 2 -> 3
+     ?            ?    0        0   0   0   0                                     R DIL Storage 5 -> 6
+     0     0   1444    0        0   0   0   0                              9h32m  R Assembly Line 4 -> 5
   7926         1741    0        0   0   0   0                                     R DIL Fusion (5/8)
-        1741   2333    0        0   0   0   0                                     R Evasive Interceptors (1/8)
-        1741   2333    0        0   0   0   0                                     R Fortified Battleships (1/8)
-               3630   25       25   0  25   0                                     R Research Optimization
+        1741   2333    0        0   0   0   0                                     R Evasive Interceptors 1 -> 2
+        1741   2333    0        0   0   0   0                                     R Fortified Battleships 1 -> 2
               25900    0        0   0   0   0                                     R Prime Damage
-              48100    0        0   0   0   0      80                      6h29m  R Prime Build Speed
+              45700    0        0   0   0   0      80                      6h29m  R Prime Build Speed
               51800    0        0   0   0   0             100                     R Prime Shields (0/1)
               66000    0        0   0   0   0         125                         R Prime Hulls (0/1)
-              74000    0        0   0   0   0     150                             R Prime Research Speed
-             103700    0        0   0   0   0          40                         R Prime Protection
-     ?            ?    0        0   0   0   0                                     R TRI Safeguard (1/8)
- 16600     0   4071    0        0   0   0   0                             15h05m  R Defense Platform Shields 2 -> 3
- 41600     0   8028    0        0   0 500  50   0                                 R Construction Speed 7-> 8
+              70400    0        0   0   0   0     150                             R Prime Research Speed
+              98500    0        0   0   0   0          40                 23h20m  R Prime Protection
+ 21800     0   4014    0    0   0   0   0   0   0   0   0   0   0   0   0 18h51m  R TRI Safeguard 1 -> 2
+ 16300     0   4014    0        0   0   0   0                             15h05m  R Defense Platform Shields 2 -> 3
+  5634     0   1373    0    0   0   0   0   0   0   0   0   0   0   0   0  9h20m  R Explorer Repairs         1-> 2
 
 Ships
                                                                  Upgrade Type
