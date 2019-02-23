@@ -53,6 +53,9 @@ B Sensor Station     1 Ops 50
 B Defense Plat. E    1 R Defense Platforms 4
 
 B Drydock B          1 R Fleet Commander 1
+B PAR Gen A          2 Ops 2
+B PAR GEN B          2 Ops 3, PAR Gen A 2
+B Refinery           1 R Unlock Refinery 1
 
 Station
 R Fleet Commander    3 Ops 28
@@ -64,6 +67,9 @@ R Defense Plat.      3 Ops 26
 R DIL Fusion         7 DIL Gen 19
 
 R Fleet Commander    1 Ops  5, Construction Speed 1
+R Unlock Refinery    1 Ops 10, R Unlock Astronautics 5
+R Unlock Astronautics 1 Ops 9, Repair Diagnostics 1, Assembly Line 1
+R Construction Speed 1 R&D 2
 
 Combat
 R Hull Density          10 R&D 19
