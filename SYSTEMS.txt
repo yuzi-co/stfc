@@ -92,6 +92,14 @@ IP, BP, OX
         42: .MI. Orion[12]          .. NIL .. 107 - 113 DIL
         54: ..I. Rigel[13]          .. NIL .. 326 - 347 PAR
 
+1036671379: .MF. Doska[27]          .. 3RG, DIL ..
+1547825221: ..F. Mapic[25]          .. PAR ..
+ 317030700: ..F. Queriz[26]         .. TRI ..
+1343179689: ..F. Metea[24]          .. TRI ..
+1881017308: .MF. Bazamex[24]        .. PAR ..
+ 287702734: ..F. Durchman[26]       .. PAR ..
+1675983977: ..F. Eagutim[25]        .. TRI ..
+
 Aciben[17] .. TRI .. 47 DIL, 2BP
 
 Elva[11] .. (Jellyfish?)
