@@ -89,6 +89,8 @@ IP, BP, OX
 1614747268: ..I. Boru[7]            .. TRI .. 176 PAR ..
  161490775: ..F. S'matharz[25]      .. TRI .. 82 DIL .. 
  840804243: ..F. lainey[27]         .. PAR .. 329 PAR 88 DIL .. 16K -61F 33R
+        42: .MI. Orion[12]          .. NIL .. 107 - 113 DIL
+        54: ..I. Rigel[13]          .. NIL .. 326 - 347 PAR
 
 Aciben[17] .. TRI .. 47 DIL, 2BP
 
