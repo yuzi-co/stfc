@@ -7,6 +7,7 @@ build the computer recommended next thing.
 Major milestones:
 
 Ops  5 - Drydock B
+Ops  9 - Unlock Astronautics
 Ops 10 - players can attack you and vica versa
 Ops 15 - your station can get attacked
 Ops 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
