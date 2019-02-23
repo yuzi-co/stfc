@@ -7,32 +7,30 @@ TODO
 
 Buildings
                                                                      Upgrade Type
-  PAR   TRI    DIL   2CC  2UC 2CG 2CO 2UO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock C        17 -> 18
- 68000  8000      0    0    0 100   0   0   0   0   0   0   0   0   0   0  7h58m  B Defense Techn.   17 -> 18 
-136000  4000    400    0  100   0   0   0   0   0   0   0   0   0   0   0 13h59m  B Defense Platf. A 17 -> 18
- 51000  1500    150    0    0   0   0   0   0   0   0   0   0   0   0   0  7h13m  B Defense Platf. C 14 -> 15
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 15 -> 16
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 16 -> 17
-190400     0   2100    0    0   0   0   0   0   0   0   0   0   0   0   0 10h22m  B DIL Vault        16 -> 17
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0      ?  B DIL Vault        17 -> 18
-  6000     0     40    0    0   0   0   0   0   0   0   0   0   0   0   0 24m04s  B TRI Generator     9 -> 10
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    10 -> 11
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    11 -> 12
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    12 -> 13
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    13 -> 14
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    14 -> 15
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    15 -> 16
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    16 -> 17
-     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    17 -> 18
-122400  2000      0 1000   85   0   0   0   0   0   0   0   0   0   0   0 23h54m  B Shipyard         17 -> 18
+  PAR   TRI    DIL   2CC  2UC 2CG 2CO 2UO 2UO 3CG 3UG 3CC 3CO 3UO 2BP 2EP 2IP Time   \|/Description
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock C        17 -> 18
+ 68000  8000      0    0    0 100   0   0   0   0   0   0   0   0   0   0   0  7h58m  B Defense Techn.   17 -> 18 
+136000  4000    400    0  100   0   0   0   0   0   0   0   0   0   0   0   0 13h59m  B Defense Platf. A 17 -> 18
+ 51000  1500    150    0    0   0   0   0   0   0   0   0   0   0   0   0   0  7h13m  B Defense Platf. C 14 -> 15
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 15 -> 16
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0         B Defense Platf. C 16 -> 17
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0      ?  B DIL Vault        17 -> 18
+  6000     0     40    0    0   0   0   0   0   0   0   0   0   0   0   0   0 24m04s  B TRI Generator     9 -> 10
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    10 -> 11
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    11 -> 12
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    12 -> 13
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    13 -> 14
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    14 -> 15
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    15 -> 16
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    16 -> 17
+     ?     0      ?    0    0   0   0   0   0   0   0   0   0   0   0   0   0 22m33s  B TRI Generator    17 -> 18
+122400  2000      0 1000   85   0   0   0   0   0   0   0   0   0   0   0   0 23h54m  B Shipyard         17 -> 18
 
 Research - Station
-                                                                     Upgrade Type
+                                                                              Upgrade Type
   PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 3UO 2BP 2EP 2IP Time   \|/Description
-               3451   25       25   0  25   0                                  9h20m  R Research Optimization 2 -> 3
- 41600     0   8028    0        0   0 500  50   0                                     R Construction Speed       7-> 8
  27400         8028 3000   75   0   0   0   0                                  1d02h  R Unlock Ship Hangar
+ 41600     0   8028    0        0   0 500  50   0                                     R Construction Speed       7-> 8
   5481         10 7    0        0   0   0   0                                         R PAR Safeguarding 1 -> 2
          578   1296    0        0   0   0   0                                         R Shield Penetration 2 -> 3
      ?            ?    0        0   0   0   0                                         R DIL Storage 5 -> 6
@@ -45,7 +43,7 @@ Research - Station
               98500    0        0   0   0   0          40                     23h20m  R Prime Protection
  21800     0   4014    0    0   0   0   0   0   0   0   0   0   0       0   0 18h51m  R TRI Safeguard 1 -> 2
  16300     0   4014    0        0   0   0   0                                 15h05m  R Defense Platform Shields 2 -> 3
-  5634     0   1373    0    0   0   0   0   0   0   0   0   0   0   0   0  9h20m  R Explorer Repairs         1-> 2
+  5634     0   1373    0    0   0   0   0   0   0   0   0   0   0   0   0   0  9h20m  R Explorer Repairs         1-> 2
 
 Research - Combat
                                                                           Upgrade Type
@@ -95,37 +93,39 @@ DIL = Dilithium
 
 DONE
 ----
-                                                                          Upgrade Type
-  PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
-              11100                                                               R Prime Resources (177 Latinum)
-  5333         1185                                                               R DIL Fusion (4/8)
-  2796          511                                                               R DIL Storage (3/8)
-  7852         1444                                                               R TRI Safeguard (0/8)
-  5926         1444                                                               R Defense Platform Shields (0/8)
-        2352   4444  150                                                          R Envoy
-  8000         1481                                                               R DIL Storage (4/8)
-  7500   225                                                                      B Drydock C 9 -> 10
- 29900   825                                                                      B Drydock B 13 -> 14
- 10800   300                                                                      B Drydock C 10 -> 11
- 54400  1500                                                                      B Drydock A 15 -> 16
- 43500         2000                                                               B TRI Vault 12 -> 13
- 76500         1125                                                               B PAR Vault 14 -> 15
- 66600         2800        25                                                     B Astronautics Studio 16 -> 17
- 81600          600      1000                                                     B R&D Dept.     17 -> 18 + 85 2UG
-  5000           30                                                       22m33s  B TRI Generator  8 ->  9
- 25500         3000                                                               B Defense Technologies 14 -> 15
- 95200  4000      0    0  100       0       0   0       0   0   0   0   0  7h58m  B Astronautics Studio 17 -> 18
- 15300     0   2804    0        0 150       0                             13h11m  R DIL Safeguard 0 -> 1
-204000  3000      0    0    0   0   0       0   0   0   0   0   0   0   0  7h58m  B PAR Vault     17 -> 18
-136000     0   1500    0    0   0   0       0   0   0   0   0   0   0   0  9h37m  B DIL Vault     15 -> 16
-217600 10000      0    0    0   0   0       0   0   0   0   0   0   0   0         B TRI Vault     17 -> 18
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock A        17 -> 18
-108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B        17 -> 18
-              25900    0        0   0   0   0                                     R Prime Damage
-  7926         1741    0        0   0   0   0                                     R DIL Fusion 5 -> 6
- 81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
+                                                                              Upgrade Type
+  PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 3UO 2BP 2EP 2IP Time   \|/Description
+              11100                                                 0                 R Prime Resources (177 Latinum)
+  5333         1185                                                 0                 R DIL Fusion (4/8)
+  2796          511                                                 0                 R DIL Storage (3/8)
+  7852         1444                                                 0                 R TRI Safeguard (0/8)
+  5926         1444                                                 0                 R Defense Platform Shields (0/8)
+        2352   4444  150                                            0                 R Envoy
+  8000         1481                                                 0                 R DIL Storage (4/8)
+  7500   225                                                        0                 B Drydock C 9 -> 10
+ 29900   825                                                        0                 B Drydock B 13 -> 14
+ 10800   300                                                        0                 B Drydock C 10 -> 11
+ 54400  1500                                                        0                 B Drydock A 15 -> 16
+ 43500         2000                                                 0                 B TRI Vault 12 -> 13
+ 76500         1125                                                 0                 B PAR Vault 14 -> 15
+ 66600         2800        25                                       0                 B Astronautics Studio 16 -> 17
+ 81600          600      1000                                       0                 B R&D Dept.     17 -> 18 + 85 2UG
+  5000           30                                                 0         22m33s  B TRI Generator  8 ->  9
+ 25500         3000                                                 0                 B Defense Technologies 14 -> 15
+ 95200  4000      0    0  100       0       0   0       0   0   0   0   0   0  7h58m  B Astronautics Studio 17 -> 18
+ 15300     0   2804    0        0 150       0                       0         13h11m  R DIL Safeguard 0 -> 1
+204000  3000      0    0    0   0   0       0   0   0   0   0   0   0   0   0  7h58m  B PAR Vault     17 -> 18
+136000     0   1500    0    0   0   0       0   0   0   0   0   0   0   0   0  9h37m  B DIL Vault     15 -> 16
+217600 10000      0    0    0   0   0       0   0   0   0   0   0   0   0   0         B TRI Vault     17 -> 18
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock A        17 -> 18
+108800  3000      0  100    0   0   0   0   0   0   0   0   0   0   0   0   0  9h55m  B Drydock B        17 -> 18
+              25900    0        0   0   0   0                       0                 R Prime Damage
+  7926         1741    0        0   0   0   0                       0                 R DIL Fusion 5 -> 6
+ 81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
+               3451   25       25   0  25   0                                  9h20m  R Research Optimization 2 -> 3
+190400     0   2100    0    0   0   0   0   0   0   0   0   0   0   0   0   0 10h22m  B DIL Vault        16 -> 17
 
-    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
-    50     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0  5m00s  B Operations 2
-    10     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    15s  B PAR Gen B 1
-    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0    45s  B PAR Gen A 2
+    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
+    50     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0  5m00s  B Operations 2
+    10     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    15s  B PAR Gen B 1
+    20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    45s  B PAR Gen A 2
