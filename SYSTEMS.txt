@@ -46,7 +46,7 @@
 1791133099: .MI. Bubeau[18]         .. PAR
 1745143614: .MI. Dhi'ban[14]        .. 2RO .. Phandra
 1980030252: .MI. Zehoro[11]         .. NIL .. Jellyfish?
- 827622990: ..R. V'varia[21]        .. 2RC
+ 827622990: ..R. V'varia[21]        .. TRI
 2102605227: .MR. Davidul[20]        .. 3RO
      81286: ..I. Elona[13]          .. 2RG .. Phandra
      81354: ..I. Cita Laga[15]      .. 2RG
