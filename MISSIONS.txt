@@ -1,3 +1,6 @@
+Jellyfish
+---------
+
 Orion            Corsair               x5 jellyfish parts
        Lefomio   Crossed Blades        x1 Jellyfish parts
 Rigel  Rigel VI  Encroachment          x3 Jellyfish parts, Rigellian Datapad
@@ -6,3 +9,9 @@ Rigel  Rigel VI  Encroachment          x3 Jellyfish parts, Rigellian Datapad
 Eojur  Eowixol   Interrogation Chamber x2 Jellyfish parts
                  Lurker                x3 Jellyfish parts
                  Regiment              x1 Jellyfish parts
+
+Klingon Ships
+-------------
+Qualor
+Narendra
+Ajilon
