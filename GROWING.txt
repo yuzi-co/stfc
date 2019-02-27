@@ -16,6 +16,7 @@ Ops 18 - TRI Gen C, Unlock Ship Hangar
 Ops 20 - Refinery can refine 3* materials, DIL Gen C
 Ops 22 - PAR Gen D
 Ops 23 - Unlock Science Labs, Unlock Technology Lab, Unlock Foundry
+Ops 26 - (or 27?) drop rate for uncommon g3 materials = 50%
 Ops 28 - TRI Gen D, Drydock D
 Ops 30 - DIL Gen D
 Ops 32 - PAR Gen E
