@@ -123,10 +123,10 @@ DIL hunting:
   Off  Shev    (+10% Captain, +5% hostile energy weapons)
   Crew Chen
   Crew Shev
-PAR mining:
-  Cap  Helvia  (increases mining rate by 20% + 50% warp speed if empty)
-  Off  Domitia (+50% warp if full, +15% Captain)
-  Off  K'Bisch (-12% damage if attacked while minig, +15% Captain)
+PAR mining (total of +50% mining rate)
+  Cap  Helvia  (increases mining rate by 20%, 50% warp speed if empty)
+  Off  Domitia (+15% Captain, +50% warp if full)
+  Off  K'Bisch (+15% Captain, -12% damage if attacked while mining)
 TRI mining:
   Cap  K'Bisch (+20% TRI mining, -12% damage if attacked while mining)
   Off  McCoy   (increases captain maneauver by 8%)
