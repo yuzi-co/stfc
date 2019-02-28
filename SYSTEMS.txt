@@ -1,104 +1,106 @@
   System#   ATTR Name[level]      mining..ship chest contents
 
-     81459: .... Opla[20]           .. 2RG
-1091871393: .... Pune[16]           .. PAR .. DIL
-1726465367: .... Oltomon[17]        .. TRI .. PAR
-     81397: .... Freyda[17]         .. TRI .. TRI
- 830770182: ..F. Voss[20]           .. 3RG .. PAR DIL
-  37068128: ..F. Aruna[21]          .. TRI .. PAR DIL
-1385663190: .... Dalukerinborva[18] .. TRI .. TRI
- 937831006: .... Kosz[19]           .. TRI .. PAR
- 910353989: .... Skyedark[18]       .. PAR .. DIL
- 335238400: .... Gelvin[19]         .. PAR .. TRI
- 507279929: ..I. Ora Leraa[16]      .. TRI .. PAR
- 958423648: ..F. Lorilla[18]        .. DIL .. TRI
+     81459    .. Opla[20]           .. 2RG
+1091871393    .. Pune[16]           .. PAR .. DIL
+1726465367    .. Oltomon[17]        .. TRI .. PAR
+     81397    .. Freyda[17]         .. TRI .. TRI
+ 830770182    F. Voss[20]           .. 3RG .. PAR DIL
+  37068128    F. Aruna[21]          .. TRI .. PAR DIL
+1385663190    .. Dalukerinborva[18] .. TRI .. TRI
+ 937831006    .. Kosz[19]           .. TRI .. PAR
+ 910353989    .. Skyedark[18]       .. PAR .. DIL
+ 335238400    .. Gelvin[19]         .. PAR .. TRI
+ 507279929    I. Ora Leraa[16]      .. TRI .. PAR
+ 958423648    F. Lorilla[18]        .. DIL .. TRI
 
- 849541812: ..I. Azha[20]           .. 2RC ..    200 PAR
-  11909028: ..I. Zeta Polis[19]     .. PAR .. DIL
-1911521293: ..I. Wasat[19]          .. TRI ..    770 PAR
-1591474708: ..I. Kaus Media[17]     .. PAR ..    153 TRI
-1718038036: ..I. Fastolf[21]        .. 2RO, 2RC
-  69523071: ..I. Kaus Borealis[17]  .. PAR ..    480 PAR
-1154764176: ..I. Kaus Australis[16] .. TRI ..     53 DIL
- 553301075: ..K. Krah'Hor[18]       .. DIL .. PAR
-1790049115: ..I. Vindemiatrix[15]   .. 2RG ..     40 DIL
-1263278966: ..I. Jishui[16]         .. PAR ..    146 TRI
-1357784499: ..I. Todem[18]          .. TRI ..    549 PAR
-1172806400: ..I. Helvetios[18]      .. PAR ..     42 DIL
- 789724593: ..K. Antonehk[21]       .. TRI ..    765 PAR 68 TRI
- 846029245: ..K. Khitomer[23]
-1735899624: ..K. Francihk[20]       .. 3*C ..    658 PAR 58 TRI
+ 849541812   .I. Azha[20]           .. 2RC ..    200 PAR
+  11909028   .I. Zeta Polis[19]     .. PAR .. DIL
+1911521293   .I. Wasat[19]          .. TRI ..    770 PAR
+1591474708   .I. Kaus Media[17]     .. PAR ..    153 TRI
+1718038036   .I. Fastolf[21]        .. 2RO, 2RC
+  69523071   .I. Kaus Borealis[17]  .. PAR ..    480 PAR
+1154764176   .I. Kaus Australis[16] .. TRI ..     53 DIL
+ 553301075   .K. Krah'Hor[18]       .. DIL .. PAR
+1790049115   .I. Vindemiatrix[15]   .. 2RG ..     40 DIL
+1263278966   .I. Jishui[16]         .. PAR ..    146 TRI
+1357784499   .I. Todem[18]          .. TRI ..    549 PAR
+1172806400   .I. Helvetios[18]      .. PAR ..     42 DIL
+ 789724593   .K. Antonehk[21]       .. TRI ..    765 PAR 68 TRI
+ 846029245   .K. Khitomer[23]
+1735899624   .K. Francihk[20]       .. 3*C ..    658 PAR 58 TRI
 
-1017582787: ..I. Midnight[19]       .. DIL .. 48 DIL
- 604074052: ..I. Dle'greffo[18]     .. PAR .. 45 DIL
-  60112512: ..I. Gra[18]            .. TRI .. 581 PAR
+1017582787   .I. Midnight[19]       .. DIL .. 48 DIL
+ 604074052   .I. Dle'greffo[18]     .. PAR .. 45 DIL
+  60112512   .I. Gra[18]            .. TRI .. 581 PAR
 
 
-     81354: .... Cita Laga[15]      .. 2RG
-     81286: .... Elona[13]          .. 2RG .. DIL
-1855008555: .... Kaikara[18]        .. DIL .. 53 DIL
-1854874708: .... Kepler-018[20]     .. 2RO .. 50 DIL
- 464460417: .... Wezen[18]          .. TRI
-1113049160: .... Zhang[19]          .. TRI
-1012246624: .MI. Vement[17]         .. PAR 
-2136091294: .MI. Bharani[16]        .. PAR
-1316840322: .MI. Eizeb[16]          .. TRI
-1791133099: .MI. Bubeau[18]         .. PAR
-1745143614: .MI. Dhi'ban[14]        .. 2RO .. Phandra
-1980030252: .MI. Zehoro[11]         .. NIL .. Jellyfish?
- 827622990: ..R. V'varia[21]        .. TRI
-2102605227: .MR. Davidul[20]        .. 3RO
-     81286: ..I. Elona[13]          .. 2RG .. Phandra
-     81354: ..I. Cita Laga[15]      .. 2RG
-     78653: ..I. Winber[5]          .. PAR .. 99-135 PAR
-     78727: ..I. Worhundelja[9]     .. TRI ..  71-91 TRI
+     81354   ... Cita Laga[15]      .. 2RG
+     81286   ... Elona[13]          .. 2RG .. DIL
+1855008555   ... Kaikara[18]        .. DIL .. 53 DIL
+1854874708   ... Kepler-018[20]     .. 2RO .. 50 DIL
+ 464460417   ... Wezen[18]          .. TRI
+1113049160   ... Zhang[19]          .. TRI
+1012246624   MI. Vement[17]         .. PAR 
+2136091294   MI. Bharani[16]        .. PAR
+1316840322   MI. Eizeb[16]          .. TRI
+1791133099   MI. Bubeau[18]         .. PAR
+1745143614   MI. Dhi'ban[14]        .. 2RO .. Phandra
+1980030252   MI. Zehoro[11]         .. NIL .. Jellyfish?
+ 827622990   .R. V'varia[21]        .. TRI
+2102605227   MR. Davidul[20]        .. 3RO
+     81286   .I. Elona[13]          .. 2RG .. Phandra
+     81354   .I. Cita Laga[15]      .. 2RG
+     78653   .I. Winber[5]          .. PAR .. 99-135 PAR
+     78727   .I. Worhundelja[9]     .. TRI ..  71-91 TRI
 IP, BP, OX
-     78791: ..I. Maynard[2]         .. NIL ..  61-64 PAR
-     77669: .MI. Klora[2]           .. PAR ..     53 PAR
-     76330: ..I. Lyra[1]            ..     ..  47-56 PAR, EP
-     79370: .MI. Bridford[4]        .. PAR .. 95-128 PAR
-     76338: ..I. Vatok[1]           .. NIL ..     53 PAR
-     76334: .MI. Injerra[1]         .. NIL ..  43-51 PAR, EP
-     78967: .MI. Dolcan[2]          .. PAR ..  51-55 PAR, EP
-     78023: ..I. Alacti[2]          .. NIL ..  46-48 PAR, EP
-     78521: .MI. Aker[4]            .. PAR .. 88-135 PAR, EP
-1379808121: ..F. Earorfilad[24]     .. DIL, 3RG ..856-878 PAR
-1490914183: ..I. Astrida[14]
-1691252927: ..K. K'amia[24]         .. DIL .. 68     DIL
+     78791   .I. Maynard[2]         .. NIL ..  61-64 PAR
+     77669   MI. Klora[2]           .. PAR ..     53 PAR
+     76330   .I. Lyra[1]            ..     ..  47-56 PAR, EP
+     79370   MI. Bridford[4]        .. PAR .. 95-128 PAR
+     76338   .I. Vatok[1]           .. NIL ..     53 PAR
+     76334   MI. Injerra[1]         .. NIL ..  43-51 PAR, EP
+     78967   MI. Dolcan[2]          .. PAR ..  51-55 PAR, EP
+     78023   .I. Alacti[2]          .. NIL ..  46-48 PAR, EP
+     78521   MI. Aker[4]            .. PAR .. 88-135 PAR, EP
+1379808121   .F. Earorfilad[24]     .. DIL, 3RG ..856-878 PAR
+1490914183   .I. Astrida[14]
+1691252927   .K. K'amia[24]         .. DIL .. 68     DIL
     
-     76604: ..I. Hroga[2]           .. PAR ..     45 PAR, EP
-     78968: ..I. Aetisan[2]         .. PAR ..  50-69 PAR, OX, EP
-     76332: ..I. Yerma[1]           .. NIL ..  43-66 PAR, EP
-     78793: ..I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
-     76342: ..I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
- 841664901: ..I. Gurdy[6]           .. PAR .. NIL
-1559195274: ..I. Rua[8]             .. TRI ..  79 - 89 TRI
+     76604   .I. Hroga[2]           .. PAR ..     45 PAR, EP
+     78968   .I. Aetisan[2]         .. PAR ..  50-69 PAR, OX, EP
+     76332   .I. Yerma[1]           .. NIL ..  43-66 PAR, EP
+     78793   .I. Entrunar[1]        .. NIL ..  43-44 PAR, EP
+     76342   .I. Berebul[1]         .. NIL ..     78 PAR, 1MS, OX
+ 841664901   .I. Gurdy[6]           .. PAR .. NIL
+1559195274   .I. Rua[8]             .. TRI ..  79 - 89 TRI
 
-     71466: ..I. Heima[1]           .. .. 62 PAR
-1203174739: ..I. Lycia[14]          .. 2RC .. 369 - 456 PAR
-     81250: ..I. Bellas[12]         .. 2RC .. DIL
-     83345: ..I. Nelve[12]          .. 2RC .. 340 - 421 DIL
-1413597356: ..F. Foaiveb[23]        .. 214 PAR, 60 DIL .. 6K, -48f, 14R
+     71466   .I. Heima[1]           .. .. 62 PAR
+1203174739   .I. Lycia[14]          .. 2RC .. 369 - 456 PAR
+     81250   .I. Bellas[12]         .. 2RC .. DIL
+     83345   .I. Nelve[12]          .. 2RC .. 340 - 421 DIL
+1413597356   .F. Foaiveb[23]        .. 214 PAR, 60 DIL .. 6K, -48f, 14R
 
- 667166609: ..I. Lezap[6]           .. PAR .. 177 PAR ..
- 670982212: ..I. Tapio[6]           .. PAR .. 166 PAR ..
- 452560379: ..I. Kauko[6]           .. PAR .. 150 - 160 PAR
-1740429538: ..I. Kibuka[6]          .. PAR .. 185 PAR ..
- 930153285: ..I. Katonda[6]         .. PAR .. 163 PAR ..
-2147089484: ..I. Eshu[6]            .. PAR .. 179 PAR ..
-1614747268: ..I. Boru[7]            .. TRI .. 176 PAR ..
- 161490775: ..F. S'matharz[25]      .. TRI .. 82 DIL .. 
- 840804243: ..F. lainey[27]         .. PAR .. 329 PAR 88 DIL .. 16K -61F 33R
-        42: .MI. Orion[12]          .. NIL .. 107 - 113 DIL
-        54: ..I. Rigel[13]          .. NIL .. 326 - 347 PAR
+ 667166609   .I. Lezap[6]           .. PAR .. 177 PAR ..
+ 670982212   .I. Tapio[6]           .. PAR .. 166 PAR ..
+ 452560379   .I. Kauko[6]           .. PAR .. 150 - 160 PAR
+1740429538   .I. Kibuka[6]          .. PAR .. 185 PAR ..
+ 930153285   .I. Katonda[6]         .. PAR .. 163 PAR ..
+2147089484   .I. Eshu[6]            .. PAR .. 179 PAR ..
+1614747268   .I. Boru[7]            .. TRI .. 176 PAR ..
+ 161490775   .F. S'matharz[25]      .. TRI .. 82 DIL .. 
+ 840804243   .F. lainey[27]         .. PAR .. 329 PAR 88 DIL .. 16K -61F 33R
+        42   MI. Orion[12]          .. NIL .. 107 - 113 DIL
+        54   .I. Rigel[13]          .. NIL .. 326 - 347 PAR
 
-1036671379: .MF. Doska[27]          .. 3RG, DIL ..
-1547825221: ..F. Mapic[25]          .. PAR ..
- 317030700: ..F. Queriz[26]         .. TRI ..
-1343179689: ..F. Metea[24]          .. TRI ..
-1881017308: .MF. Bazamex[24]        .. PAR ..
- 287702734: ..F. Durchman[26]       .. PAR ..
-1675983977: ..F. Eagutim[25]        .. TRI ..
+1036671379   MF. Doska[27]          .. 3RG, DIL ..
+1547825221   .F. Mapic[25]          .. PAR ..
+ 317030700   .F. Queriz[26]         .. TRI ..
+1343179689   .F. Metea[24]          .. TRI ..
+1881017308   MF. Bazamex[24]        .. PAR ..
+ 287702734   .F. Durchman[26]       .. PAR ..
+1675983977   .F. Eagutim[25]        .. TRI ..
+
+     81531 22 .I. Afritalis[30]
 
 Aciben[17] .. TRI .. 47 DIL, 2BP
 
@@ -117,26 +119,26 @@ Wokapa[1] .. .. 44-74 PAR, EP
 New systems with Feb 21, 2019 update (1st 7 per announcement, last 9 new but not in announcement):
 
   System#   ATTR Name[level]      mining..ship chest contents
- 218039082: ..I. Coridan[16]        .. DIL .. 47 DIL
+ 218039082   .I. Coridan[16]        .. DIL .. 47 DIL
 
-1691770428: .MI. Ajilon[25]         .. NIL ..
- 739609161: ..F. Angostia[]         .. 3RG .. 336 PAR 87 DIL .. 12K -44F 23R
+1691770428   MI. Ajilon[25]         .. NIL ..
+ 739609161   .F. Angostia[]         .. 3RG .. 336 PAR 87 DIL .. 12K -44F 23R
 
-1744652289: ..I. Maranga[25]        .. 3RO .. 
- 255461687: .MI. Nerenda[25]        .. NIL .. NIL .. NIL 
+1744652289   .I. Maranga[25]        .. 3RO .. 
+ 255461687   MI. Nerenda[25]        .. NIL .. NIL .. NIL 
 
- 897954743: ..R. Zova Rehn[25]      .. 3RO .. 292 TRI 24 DIL .. 23K 12F -44R .. 26 67530
-1417222872: ..I. Qualor[25]         .. NIL .. 250 TRI 23 DIL .. 17K 8F -31R .. 25 52349
+ 897954743   .R. Zova Rehn[25]      .. 3RO .. 292 TRI 24 DIL .. 23K 12F -44R .. 26 67530
+1417222872   .I. Qualor[25]         .. NIL .. 250 TRI 23 DIL .. 17K 8F -31R .. 25 52349
 
- 500227886: ..F. Achillon[25]       .. NIL .. 883 PAR 24 DIL .. 8K -31F 17R
- 563050574: ..F. Rada Ban[25]       .. NIL .. 886 PAR 23 DIL .. 8K -31F 17R
- 564692979: ..F. Pareleon[[26]      .. NIL .. 4629 PAR 168 DIL 931 TRI .. 41K -155F 82R .. 2381490 strength level26 hostile
-1090722450: ..K. Ka'Bi[25]          .. NIL .. 958 PAR 20 DIL .. -31K 17F 8R .. 25 160954
- 395344716: ..K. Kol Ran[25]        .. NIL .. 989 PAR 21 DIL .. -31K 17F 8R .. 
- 265649208: ..K. Urthak[26]         .. NIL .. 3869 PAR 193 DIL 1170 TRI .. -155K 82F 41R .. 26 2381490
- 180481608: ..R. Rana Nur[25]       .. NIL .. 991 PAR 20 DIL .. 17K 8F -31R .. 25 164162
- 304388536: ..R. Aesuri[25]         .. NIL .. 1082 PAR 24 DIL .. 17K 8F -31R .. 25 164162
- 809766889: ..R. Constina[26]       .. NIL .. 4971 PAR 189 DIL 619 TRI .. 82K 41F -155R .. 26 2381490
+ 500227886   .F. Achillon[25]       .. NIL .. 883 PAR 24 DIL .. 8K -31F 17R
+ 563050574   .F. Rada Ban[25]       .. NIL .. 886 PAR 23 DIL .. 8K -31F 17R
+ 564692979   .F. Pareleon[[26]      .. NIL .. 4629 PAR 168 DIL 931 TRI .. 41K -155F 82R .. 2381490 strength level26 hostile
+1090722450   .K. Ka'Bi[25]          .. NIL .. 958 PAR 20 DIL .. -31K 17F 8R .. 25 160954
+ 395344716   .K. Kol Ran[25]        .. NIL .. 989 PAR 21 DIL .. -31K 17F 8R .. 
+ 265649208   .K. Urthak[26]         .. NIL .. 3869 PAR 193 DIL 1170 TRI .. -155K 82F 41R .. 26 2381490
+ 180481608   .R. Rana Nur[25]       .. NIL .. 991 PAR 20 DIL .. 17K 8F -31R .. 25 164162
+ 304388536   .R. Aesuri[25]         .. NIL .. 1082 PAR 24 DIL .. 17K 8F -31R .. 25 164162
+ 809766889   .R. Constina[26]       .. NIL .. 4971 PAR 189 DIL 619 TRI .. 82K 41F -155R .. 26 2381490
 
 
 Key:
