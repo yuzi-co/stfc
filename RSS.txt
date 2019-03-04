@@ -51,7 +51,6 @@ Research - Combat
               49200    0        0   0   0   0     100                             R Prime Shields 0 -> 1
               63300    0        0   0   0   0                 125                 R Prime Hulls 0 -> 1
     0  6479    3873    0    0   0   0   0   0   0   0   0   0   0   0   0 21h17m  R Survey Shield Array 4 -> 5
-    0     0    5211    0    0   0   0   0   0   0   0   0   0   0   0   0 19h37m  R Kinetic Shockwave 2 -> 3
 
 Ships
                                                                  Upgrade Type
@@ -124,6 +123,7 @@ DONE
  81600     0   4000    0    0   0 100   0   0   0   0   0   0   0   0   0   0 12h01m  B DIL Warehouse    17 -> 18
                3451   25       25   0  25   0                                  9h20m  R Research Optimization 2 -> 3
 190400     0   2100    0    0   0   0   0   0   0   0   0   0   0   0   0   0 10h22m  B DIL Vault        16 -> 17
+    0      0   4744    0    0   0   0   0   0   0   0   0   0   0   0   0   0 19h37m  R Kinetic Shockwave 3
 
     20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    30s  B PAR Warehouse 1
     50     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0  5m00s  B Operations 2
