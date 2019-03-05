@@ -1,0 +1,99 @@
+#!/usr/bin/perl
+
+# Copyright (c) 2019 Todd T. Fries <todd@fries.net>
+#
+# Permission to use, copy, modify, and distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+# ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+# WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+# ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+# OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+use strict;
+use warnings;
+
+if (!open(OA,"data/o-abilities")) {
+	print "o-abilities can't be opened, ugh\n";
+	exit(1);
+}
+
+our $max = { };
+
+my @officers;
+
+my $l;
+while(<OA>) {
+	chomp($l=$_);
+	if ($l =~ /^([A-Z][a-z']+)\s+(\S+)\s+(.+)\s+([\+\-]\s?[0-9]+%\s.*)$/) {
+		my $o = { };
+		$o->{pos} = $1;
+		$o->{oname} = $2;
+		$o->{aname} = $3;
+		$o->{desc} = $4;
+		push @officers,$o;
+		check_max($o, 'aname');
+		check_max($o, 'oname');
+		next;
+	}
+	print "Unhandled line: $l\n";
+}
+close(OA);
+
+my $onmax = $max->{oname};
+my $anmax = $max->{aname};
+my $ofmt = "%3s %-${onmax}s %-${anmax}s %s\n";
+
+my $lname = "";
+my $ocmanable = "";
+foreach my $o (sort
+	{
+		if ($a->{oname} eq $b->{oname}) {
+			$a->{pos} cmp $b->{pos};
+		} else {
+			$a->{oname} cmp $b->{oname};
+		}
+	} @officers) {
+	if ($lname ne $o->{oname}) {
+		if (length($lname) > 0) {
+			$ocmanable .= "\n";
+		}
+		$lname = $o->{oname};
+	}
+	$ocmanable .= sprintf $ofmt, $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
+}
+
+if (!open(T,"templates/OFFICERS.txt")) {
+	print "templates/OFFICERS.txt can't be opened, ugh\n";
+	exit(1);
+}
+if (!open(O,">OFFICERS.txt")) {
+	print "OFFICERS.txt can't be opened for writing, ugh\n";
+	exit(1);
+}
+
+while(<T>) {
+	chomp($l=$_);
+	$l =~ s/%O_C_MANEAUVER_ABILITY%/${ocmanable}/;
+	print O "${l}\n";
+}
+close(O);
+close(T);
+
+exit(0);
+
+sub check_max {
+	my ($o, $n) = @_;
+	my $len = length($o->{$n});
+	if (!defined($max->{$n})) {
+		$max->{$n} = $len;
+		return;
+	}
+	if ($max->{$n} < $len) {
+		$max->{$n} = $len;
+	}
+}
