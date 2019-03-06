@@ -251,3 +251,82 @@ Ideas for crews that are not clear, like battleship pvp or battleship hostile hu
   - list captain potentials
   - list officer potentials 
   - ? include strength/attack/defense/health
+
+Machine Suggestions
+-------------------
+
+Battleship + hostile (elminiation goals, strength not care so much about rss)
+ ship=battleship flags=hostile,
+ Cap Komal    Battleship Specialist  +30% weapon damage if attacking player
+ Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
+ Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
+ Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Off Gaila    Critical Avoidance     -20% damage if hostile opponent
+ Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
+ Off Gonzales Problem Solver         + 5% critical hit damage if hostile
+ Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
+ Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
+ Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
+ Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+
+Battleship + player
+ ship=battleship flags=player,
+ Cap Komal    Battleship Specialist  +30% weapon damage if attacking player
+ Off Komal    Resist Kinetic         - 7% kinetic damage if player attacking
+ Cap Rukor    Explorer Specialist    +20% weapon damage if attacking player
+ Off Rukor    Energy Boost           + 7% energy weapons if attacking player
+ Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
+ Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+
+Explorer + hostile (elminiation goals, strength not care so much about rss)
+ ship=explorer flags=hostile,
+ Cap Rukor    Explorer Specialist    +20% weapon damage if attacking player
+ Cap Vella    Overmatch              +10% weapon damage if opponent is explorer
+ Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
+ Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
+ Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Off Gaila    Critical Avoidance     -20% damage if hostile opponent
+ Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
+ Off Gonzales Problem Solver         + 5% critical hit damage if hostile
+ Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
+ Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
+ Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
+ Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+
+Explorer + player
+ ship=explorer flags=player,
+ Cap Rukor    Explorer Specialist    +20% weapon damage if attacking player
+ Cap Vella    Overmatch              +10% weapon damage if opponent is explorer
+ Cap Komal    Battleship Specialist  +30% weapon damage if attacking player
+ Off Komal    Resist Kinetic         - 7% kinetic damage if player attacking
+ Off Rukor    Energy Boost           + 7% energy weapons if attacking player
+ Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
+ Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+
+Interceptor + hostile (elminiation goals, strength not care so much about rss)
+ ship=interceptor flags=hostile,
+ Cap Koth     Interceptor Overseer   +20% decrease in repair time
+ Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
+ Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
+ Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
+ Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Off Gaila    Critical Avoidance     -20% damage if hostile opponent
+ Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
+ Off Gonzales Problem Solver         + 5% critical hit damage if hostile
+ Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
+ Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
+ Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
+ Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+
+Interceptor + player
+ ship=interceptor flags=player,
+ Cap Koth     Interceptor Overseer   +20% decrease in repair time
+ Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
+ Cap Komal    Battleship Specialist  +30% weapon damage if attacking player
+ Off Komal    Resist Kinetic         - 7% kinetic damage if player attacking
+ Cap Rukor    Explorer Specialist    +20% weapon damage if attacking player
+ Off Rukor    Energy Boost           + 7% energy weapons if attacking player
+ Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
