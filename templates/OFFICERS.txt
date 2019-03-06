@@ -177,3 +177,24 @@ Ideas for crews that are not clear, like battleship pvp or battleship hostile hu
   - list captain potentials
   - list officer potentials 
   - ? include strength/attack/defense/health
+
+Machine Suggestions
+-------------------
+
+Battleship + hostile (elminiation goals, strength not care so much about rss)
+%battleship[hostile]%
+
+Battleship + player
+%battleship[player]%
+
+Explorer + hostile (elminiation goals, strength not care so much about rss)
+%explorer[hostile]%
+
+Explorer + player
+%explorer[player]%
+
+Interceptor + hostile (elminiation goals, strength not care so much about rss)
+%interceptor[hostile]%
+
+Interceptor + player
+%interceptor[player]%
