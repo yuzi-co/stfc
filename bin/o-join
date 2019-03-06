@@ -87,7 +87,7 @@ while(<T>) {
 			my @flags;
 			$list =~ s/[\[\]%]//g;
 			if ($list =~ /,/) {
-				@flags = split($list,/,/);
+				@flags = split(/,/,$list);
 			} else {
 				@flags = ($list);
 			}
