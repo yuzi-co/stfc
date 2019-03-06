@@ -13,7 +13,8 @@ Ops 15 - your station can get attacked
 Ops 16 - vaults are an option (to keep TRI/DIL/PAR from being raided to 0)
 Ops 17 - Drydock C
 Ops 18 - TRI Gen C, Unlock Ship Hangar
-Ops 20 - Refinery can refine 3* materials, DIL Gen C
+Ops 19 - Grade 3 Ship Research
+Ops 20 - Refinery can refine 3* materials, DIL Gen C, Kehara (G3 Interceptor)
 Ops 22 - PAR Gen D
 Ops 23 - Unlock Science Labs, Unlock Technology Lab, Unlock Foundry
 Ops 26 - (or 27?) drop rate for uncommon g3 materials = 50%
