@@ -24,7 +24,7 @@ if (!open(OA,"data/o-abilities")) {
 
 our $max = { };
 
-my @officers;
+our @officers;
 
 my $l;
 while(<OA>) {
@@ -79,6 +79,33 @@ if (!open(O,">OFFICERS.txt")) {
 while(<T>) {
 	chomp($l=$_);
 	$l =~ s/%O_C_MANEAUVER_ABILITY%/${ocmanable}/;
+	if ($l =~ /%(battleship|explorer|surveyor|interceptor)(\[.*\]%|%)/) {
+		my @olist;
+		my $ship = $1;
+		my $list = $2;
+		if (length($list) > 1) {
+			my @flags;
+			$list =~ s/[\[\]%]//g;
+			if ($list =~ /,/) {
+				@flags = split($list,/,/);
+			} else {
+				@flags = ($list);
+			}
+			print O " ship=${ship} flags=";
+			foreach my $f (@flags) {
+				print O "${f},";
+			}
+			@olist = search_officers($ship, @flags);
+		} else {
+			print O " ship=${ship}";
+			@olist = search_officers($ship);
+		}
+		print O "\n";
+		foreach my $o (@olist) {
+			printf O " ${ofmt}", $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
+		}
+		next;
+	}
 	print O "${l}\n";
 }
 close(O);
@@ -96,4 +123,34 @@ sub check_max {
 	if ($max->{$n} < $len) {
 		$max->{$n} = $len;
 	}
+}
+
+sub search_officers {
+	my (@searches) = @_;
+
+	my @olist;
+
+	my $matchinfo = { };
+
+	foreach my $t ('oname', 'aname', 'desc') {
+		foreach my $s (@searches) {
+			foreach my $o (@officers) {
+				my $oname = $o->{oname};
+				my $pos = $o->{pos};
+				if (defined($matchinfo->{$oname.$pos})) {
+					next;
+				}
+				#print "Searching ${oname} in ${t} for ${s} .. ";
+				if ($o->{$t} =~ /$s/i) {
+					#print " Match!\n";
+					push @olist, $o;
+					$matchinfo->{$oname.$pos} = 1;
+					next;
+				} #else {
+					#print "!Match.\n";
+				#}
+			}
+		}
+	}
+	return @olist;
 }
