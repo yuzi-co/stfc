@@ -31,14 +31,25 @@ our @officers;
 my @flagslist = (
 	'player', 'hostile', 'station', 'mining', 'dodge', 'shield', 'armor', 'hull health',
 	'interceptor', 'battleship', 'explorer', 'surveyor',
+	'hunting', 'mining', 'miner', 'hunter',
 	'ship',
+	'tritanium', 'dilithium', 'parsteel',
 );
+
+# translate lhs into rhs flag name (alias?)
+our $flagtr = { };
+$flagtr->{miner} = 'mining';
+$flagtr->{hunter} = 'hunting';
 
 our $flagexcl = { };
 @{$flagexcl->{player}} = ('hostile', 'station', 'mining');
 @{$flagexcl->{hostile}} = ('player', 'station', 'mining');
 @{$flagexcl->{station}} = ('player', 'hostile', 'mining');
-@{$flagexcl->{mining}} = ('player', 'hostile', 'station');
+@{$flagexcl->{mining}} = ('player', 'hostile', 'station', 'hunting');
+@{$flagexcl->{hunting}} = ('mining', 'station');
+@{$flagexcl->{parsteel}} = ('tritanium', 'dilithium');
+@{$flagexcl->{tritanium}} = ('parsteel', 'dilithium');
+@{$flagexcl->{dilithium}} = ('parsteel', 'tritanium');
 
 my $l;
 while(<OA>) {
@@ -51,13 +62,17 @@ while(<OA>) {
 		$o->{desc} = $4;
 		$o->{aname} =~ s/\s+$//;
 		foreach my $flag (@flagslist) {
-			if (!defined($o->{flags}->{$flag})) {
-				$o->{flags}->{$flag} = 0;
+			my $freal = $flag;
+			if (defined($flagtr->{$flag})) {
+				$freal = $flagtr->{$flag};
+			}
+			if (!defined($o->{flags}->{$freal})) {
+				$o->{flags}->{$freal} = 0;
 			}
 			foreach my $i (('aname', 'desc')) {
 				if ($o->{$i} =~ /${flag}/i) {
-					print $o->{oname}." flag ".${flag}."++\n";
-					$o->{flags}->{$flag}++;
+					print $o->{oname}." flag ".${freal}."++\n";
+					$o->{flags}->{$freal}++;
 				}
 			}
 		}
