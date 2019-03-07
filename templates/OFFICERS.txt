@@ -208,3 +208,11 @@ Interceptor + player
 Interceptor + station
 %interceptor[station]%
 
+Surveyor + mining + DIL
+%surveyor[mining,dilithium]%
+
+Surveyor + mining + TRI
+%surveyor[mining,tritanium]%
+
+Surveyor + mining + PAR
+%surveyor[mining,parsteel]%
