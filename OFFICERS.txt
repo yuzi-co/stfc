@@ -354,16 +354,13 @@ Surveyor + mining + DIL
  ship=surveyor flags=mining,dilithium,
  Cap Domitia  Dilithium Miner        +20% Dilithium mining
  Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
- Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
 
 Surveyor + mining + TRI
  ship=surveyor flags=mining,tritanium,
  Cap K'Bisch  Tritanium Miner        +20% Tritanium mining
  Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
- Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
 
 Surveyor + mining + PAR
  ship=surveyor flags=mining,parsteel,
  Cap Helvia   Parsteel Miner         +50% mining PAR
  Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
- Cap Gaila    Parsteel Hunter        +25% Parsteel if attacking hostile

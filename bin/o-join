@@ -194,7 +194,6 @@ sub search_officers {
 			if ($o->{flags}->{$s} > 0) {
 				my $oskip = 0;
 				foreach my $f (@{$flagexcl->{$s}}) {
-					@olist = grep { $_->{flags}->{$f} == 0 } @olist;
 					my $sf = $o->{flags}->{$f};
 					if (!defined($sf)) {
 						next;
@@ -212,6 +211,11 @@ sub search_officers {
 				}
 				next;
 			}
+		}
+	}
+	foreach my $s (@searches) {
+		foreach my $f (@{$flagexcl->{$s}}) {
+			@olist = grep { $_->{flags}->{$f} == 0 } @olist;
 		}
 	}
 	return @olist;
