@@ -187,14 +187,24 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
 Battleship + player
 %battleship[player]%
 
+Battleship + station
+%battleship[station]%
+
 Explorer + hostile (elminiation goals, strength not care so much about rss)
 %explorer[hostile]%
 
 Explorer + player
 %explorer[player]%
 
+Explorer + station
+%battleship[station]%
+
 Interceptor + hostile (elminiation goals, strength not care so much about rss)
 %interceptor[hostile]%
 
 Interceptor + player
 %interceptor[player]%
+
+Interceptor + station
+%interceptor[station]%
+
