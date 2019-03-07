@@ -1,0 +1,17 @@
+I have seen high and low numbers. Is it predictable?  Can we control enough
+variables to produce a consistently high outcome?
+
+Lets track details to find out.
+
+         ---System------    -----------Ship----------------         -----Opponent-----------------------
+OL XP+  '   System      `  '            Level        Type  `  -vs- '      Level     Name                `
+        Number Level Name  Strength Tier  |   XP/ Max | Name      Strength  | Type    |
+18   1  117464719 29 Rator    15305  4/5 19 1565/2500 S Envoy       368243 29 B Romulan Trained Fighter
+18 190 1184282738 17 Aciben   15305  4/5 19 1755/2500 S Envoy        12978 18 B Pakled Thief
+
+Key
+---
+S = Surveyor
+B = Battleship
+E = Explorer
+I = Interceptor
