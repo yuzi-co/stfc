@@ -184,8 +184,8 @@ sub search_officers {
 	while ($scount <= $#searches) {
 		my $s = $searches[$scount++];
 		foreach my $o (@officers) {
-		my $oname = $o->{oname};
-		my $pos   = $o->{pos};
+			my $oname = $o->{oname};
+			my $pos   = $o->{pos};
 			my $flagval = $o->{flags}->{$s};
 			if (!defined($flagval)) {
 				print "no flag $s found\n";
