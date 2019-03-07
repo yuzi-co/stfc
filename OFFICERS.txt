@@ -19,10 +19,10 @@ Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
 Cap D'jaoki  War of Endurance       +10% health for 1min after winning
 Off D'jaoki  Shatter Defenses       -40% decreases crew health if opponent burning
 
-Cap Domitia  Dilithium Miner        +20% mining DIL
+Cap Domitia  Dilithium Miner        +20% Dilithium mining
 Off Domitia  Hurry Home             +50% warp speed if cargo is full
 
-Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+Cap Gaila    Parsteel Hunter        +25% Parsteel if attacking hostile
 Off Gaila    Critical Avoidance     -20% damage if hostile opponent
 
 Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
@@ -31,7 +31,7 @@ Off Gonzales Problem Solver         + 5% critical hit damage if hostile
 Cap Helvia   Parsteel Miner         +50% mining PAR
 Off Helvia   Gold Rush              +50% warp speed if cargo == 0
 
-Cap K'Bisch  Tritanium Miner        +20% mining TRI
+Cap K'Bisch  Tritanium Miner        +20% Tritanium mining
 Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
 
 Cap Kirk     Motivational           + 8% attack, defense, health of bridge crew
@@ -58,7 +58,7 @@ Off Rukor    Energy Boost           + 7% energy weapons if attacking player
 Cap Scott    Sturdy Ship            +10% ship hull health
 Off Scott    Warp Theory            + 2% warp distance
 
-Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
 Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
 
 Cap Spock    Knowledgeable          + 5% weapon damage to opponent
@@ -76,7 +76,7 @@ Off Uhura    Negotiations           + 9% shield health
 Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
 Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
 
-Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
 Off Vel      Chirurgical Precision  + 7% kinetic weapon damage
 
 Cap Vella    Overmatch              +10% weapon damage if opponent is explorer
@@ -259,15 +259,15 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
  ship=battleship flags=hostile,
  Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
  Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
- Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Cap Gaila    Parsteel Hunter        +25% Parsteel if attacking hostile
  Off Gaila    Critical Avoidance     -20% damage if hostile opponent
  Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
  Off Gonzales Problem Solver         + 5% critical hit damage if hostile
- Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
  Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
- Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+ Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
 
 Battleship + player
  ship=battleship flags=player,
@@ -289,15 +289,15 @@ Explorer + hostile (elminiation goals, strength not care so much about rss)
  ship=explorer flags=hostile,
  Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
  Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
- Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Cap Gaila    Parsteel Hunter        +25% Parsteel if attacking hostile
  Off Gaila    Critical Avoidance     -20% damage if hostile opponent
  Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
  Off Gonzales Problem Solver         + 5% critical hit damage if hostile
- Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
  Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
- Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+ Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
  Cap Vella    Overmatch              +10% weapon damage if opponent is explorer
 
 Explorer + player
@@ -321,16 +321,16 @@ Interceptor + hostile (elminiation goals, strength not care so much about rss)
  ship=interceptor flags=hostile,
  Cap Chen     Modifications          +20% dodge, shields, armor if attacking hostiles
  Off Chen     Energy Absorber        -10% energy weapons if hostile attacking
- Cap Gaila    Parsteel Hunter        +25% PAR if attacking hostile
+ Cap Gaila    Parsteel Hunter        +25% Parsteel if attacking hostile
  Off Gaila    Critical Avoidance     -20% damage if hostile opponent
  Cap Gonzales Solution Finder        + 8% critical hit chance if attacking hostile
  Off Gonzales Problem Solver         + 5% critical hit damage if hostile
  Cap Koth     Interceptor Overseer   +20% decrease in repair time
- Cap Shev     Tritanium Hunter       +25% TRI if attcking hostile
+ Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
  Off Shev     Justice Dealer         + 7% energy weapons if attacking hostile
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
- Cap Vel      Dilithium Hunter       +45% DIL if attacking hostile
+ Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
 
 Interceptor + player
  ship=interceptor flags=player,
@@ -350,3 +350,20 @@ Interceptor + station
  Cap Zahra    Station Expert         +10% hull health if defending station
  Off Zahra    Home Engineer          + 5% weapon damage if defending station
 
+Surveyor + mining + DIL
+ ship=surveyor flags=mining,dilithium,
+ Cap Domitia  Dilithium Miner        +20% Dilithium mining
+ Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
+ Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
+
+Surveyor + mining + TRI
+ ship=surveyor flags=mining,tritanium,
+ Cap K'Bisch  Tritanium Miner        +20% Tritanium mining
+ Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
+ Cap Shev     Tritanium Hunter       +25% Tritanium if attcking hostile
+
+Surveyor + mining + PAR
+ ship=surveyor flags=mining,parsteel,
+ Cap Helvia   Parsteel Miner         +50% mining PAR
+ Cap K'Bisch  Tritanium Miner        +20% Tritanium mining
+ Off K'Bisch  Defensive Mining       -12% damage if attacked while mining
