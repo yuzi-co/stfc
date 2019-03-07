@@ -29,10 +29,11 @@ our $max = { };
 our @officers;
 
 my @flagslist = (
-	'player', 'hostile', 'station', 'mining', 'dodge', 'shield', 'armor', 'hull health',
+	'player', 'hostile', 'station', 'mining',
+	'combat', 'dodge', 'shield', 'armor', 'hull health', 'kinetic', 'energy', 'weapon', 'health',
 	'interceptor', 'battleship', 'explorer', 'surveyor',
 	'hunting', 'mining', 'miner', 'hunter',
-	'ship',
+	'ship', 'captain maneuver',
 	'tritanium', 'dilithium', 'parsteel',
 );
 
@@ -43,8 +44,14 @@ $flagtr->{hunter} = 'hunting';
 
 # auto add additional flags
 our $flagadd = { };
-@{$flagadd->{player}} = ('dodge', 'shield', 'armor', 'hull health');
-@{$flagadd->{hostile}} = ('dodge', 'shield', 'armor', 'hull health');
+@{$flagadd->{combat}} = ('dodge', 'shield', 'armor', 'hull health', 'kinetic' , 'energy', 'weapon', 'health');
+@{$flagadd->{player}} = ('combat');
+@{$flagadd->{hostile}} = ('combat');
+@{$flagadd->{station}} = ('combat');
+
+foreach my $cm (('combat', 'mining')) {
+	push @{$flagadd->{$cm}}, 'captain maneuver';
+}
 
 # one flag excludes other
 our $flagexcl = { };
@@ -149,7 +156,14 @@ while(<T>) {
 			@olist = search_officers($ship);
 		}
 		print O "\n";
-		foreach my $o (@olist) {
+		foreach my $o (sort
+			{
+				if ($a->{pos} eq $b->{pos}) {
+					$a->{oname} cmp $b->{oname};
+				} else {
+					$a->{pos} cmp $b->{pos};
+				}
+			} @olist) {
 			printf O " ${ofmt}", $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
 		}
 		next;
@@ -187,7 +201,9 @@ sub search_officers {
 			my $oname = $o->{oname};
 			my $pos   = $o->{pos};
 			foreach my $sa (@{$flagadd->{$s}}) {
-				push @searches, $sa;
+				if (!grep(/$sa/, @searches)) {
+					push @searches, $sa;
+				}
 			}
 			my $flagval = $o->{flags}->{$s};
 			if (!defined($flagval)) {
