@@ -41,6 +41,12 @@ our $flagtr = { };
 $flagtr->{miner} = 'mining';
 $flagtr->{hunter} = 'hunting';
 
+# auto add additional flags
+our $flagadd = { };
+@{$flagadd->{player}} = ('dodge', 'shield', 'armor', 'hull health');
+@{$flagadd->{hostile}} = ('dodge', 'shield', 'armor', 'hull health');
+
+# one flag excludes other
 our $flagexcl = { };
 @{$flagexcl->{player}} = ('hostile', 'station', 'mining');
 @{$flagexcl->{hostile}} = ('player', 'station', 'mining');
@@ -174,10 +180,12 @@ sub search_officers {
 
 	my $matchinfo = { };
 
-	foreach my $o (@officers) {
+	my $scount = 0;
+	while ($scount <= $#searches) {
+		my $s = $searches[$scount++];
+		foreach my $o (@officers) {
 		my $oname = $o->{oname};
 		my $pos   = $o->{pos};
-		foreach my $s (@searches) {
 			my $flagval = $o->{flags}->{$s};
 			if (!defined($flagval)) {
 				print "no flag $s found\n";
