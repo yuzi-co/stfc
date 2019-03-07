@@ -186,6 +186,9 @@ sub search_officers {
 		foreach my $o (@officers) {
 			my $oname = $o->{oname};
 			my $pos   = $o->{pos};
+			foreach my $sa (@{$flagadd->{$s}}) {
+				push @searches, $sa;
+			}
 			my $flagval = $o->{flags}->{$s};
 			if (!defined($flagval)) {
 				print "no flag $s found\n";

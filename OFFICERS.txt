@@ -268,6 +268,9 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
  Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Battleship + player
  ship=battleship flags=player,
@@ -277,6 +280,9 @@ Battleship + player
  Off Rukor    Energy Boost           + 7% energy weapons if attacking player
  Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
  Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Battleship + station
  ship=battleship flags=station,
@@ -299,6 +305,9 @@ Explorer + hostile (elminiation goals, strength not care so much about rss)
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
  Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Explorer + player
  ship=explorer flags=player,
@@ -309,6 +318,9 @@ Explorer + player
  Off Rukor    Energy Boost           + 7% energy weapons if attacking player
  Cap Vartoq   Interceptor Specialist +20% weapon damage if attacking player
  Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Explorer + station
  ship=battleship flags=station,
@@ -331,6 +343,9 @@ Interceptor + hostile (elminiation goals, strength not care so much about rss)
  Cap T'Laan   Thorough Scans         +15% Ship XP if fighting hostiles
  Off T'Laan   Objective Defense      - 7% damage by kinetic weapons if hostile
  Cap Vel      Dilithium Hunter       +45% Dilithium if attacking hostile
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Interceptor + player
  ship=interceptor flags=player,
@@ -341,6 +356,9 @@ Interceptor + player
  Cap Rukor    Explorer Specialist    +20% weapon damage if attacking player
  Off Rukor    Energy Boost           + 7% energy weapons if attacking player
  Off Vartoq   Kinetic Boost          + 7% kinetic weapon damage if attacking player
+ Off Spock    Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Uhura    Negotiations           + 9% shield health
+ Cap Scott    Sturdy Ship            +10% ship hull health
 
 Interceptor + station
  ship=interceptor flags=station,
