@@ -17,6 +17,8 @@
 use strict;
 use warnings;
 
+use Data::Dumper;
+
 if (!open(OA,"data/o-abilities")) {
 	print "o-abilities can't be opened, ugh\n";
 	exit(1);
@@ -25,6 +27,18 @@ if (!open(OA,"data/o-abilities")) {
 our $max = { };
 
 our @officers;
+
+my @flagslist = (
+	'player', 'hostile', 'station', 'mining', 'dodge', 'shield', 'armor', 'hull health',
+	'interceptor', 'battleship', 'explorer', 'surveyor',
+	'ship',
+);
+
+our $flagexcl = { };
+@{$flagexcl->{player}} = ('hostile', 'station', 'mining');
+@{$flagexcl->{hostile}} = ('player', 'station', 'mining');
+@{$flagexcl->{station}} = ('player', 'hostile', 'mining');
+@{$flagexcl->{mining}} = ('player', 'hostile', 'station');
 
 my $l;
 while(<OA>) {
@@ -35,6 +49,19 @@ while(<OA>) {
 		$o->{oname} = $2;
 		$o->{aname} = $3;
 		$o->{desc} = $4;
+		$o->{aname} =~ s/\s+$//;
+		foreach my $flag (@flagslist) {
+			if (!defined($o->{flags}->{$flag})) {
+				$o->{flags}->{$flag} = 0;
+			}
+			foreach my $i (('aname', 'desc')) {
+				if ($o->{$i} =~ /${flag}/i) {
+					print $o->{oname}." flag ".${flag}."++\n";
+					$o->{flags}->{$flag}++;
+				}
+			}
+		}
+		#print Dumper($o);
 		push @officers,$o;
 		check_max($o, 'aname');
 		check_max($o, 'oname');
@@ -132,23 +159,35 @@ sub search_officers {
 
 	my $matchinfo = { };
 
-	foreach my $t ('oname', 'aname', 'desc') {
+	foreach my $o (@officers) {
+		my $oname = $o->{oname};
+		my $pos   = $o->{pos};
 		foreach my $s (@searches) {
-			foreach my $o (@officers) {
-				my $oname = $o->{oname};
-				my $pos = $o->{pos};
-				if (defined($matchinfo->{$oname.$pos})) {
-					next;
+			my $flagval = $o->{flags}->{$s};
+			if (!defined($flagval)) {
+				print "no flag $s found\n";
+				next;
+			}
+			if ($o->{flags}->{$s} > 0) {
+				my $oskip = 0;
+				foreach my $f (@{$flagexcl->{$s}}) {
+					@olist = grep { $_->{flags}->{$f} == 0 } @olist;
+					my $sf = $o->{flags}->{$f};
+					if (!defined($sf)) {
+						next;
+					}
+					if ($sf > 0) {
+						$oskip++;
+					}
 				}
-				#print "Searching ${oname} in ${t} for ${s} .. ";
-				if ($o->{$t} =~ /$s/i) {
-					#print " Match!\n";
-					push @olist, $o;
+				if ($oskip == 0) {
+					if (defined($matchinfo->{$oname.$pos})) {
+						next;
+					}
 					$matchinfo->{$oname.$pos} = 1;
-					next;
-				} #else {
-					#print "!Match.\n";
-				#}
+					push @olist, $o;
+				}
+				next;
 			}
 		}
 	}
