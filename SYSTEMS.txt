@@ -39,7 +39,7 @@
 1855008555   ... Kaikara[18]        .. DIL .. 53 DIL
 1854874708   ... Kepler-018[20]     .. 2RO .. 50 DIL
  464460417   ... Wezen[18]          .. TRI
-1113049160   ... Zhang[19]          .. TRI
+1113049160   ... Zhang[19]          .. TRI .. 169 TRI
 1012246624   MI. Vement[17]         .. PAR 
 2136091294   MI. Bharani[16]        .. PAR
 1316840322   MI. Eizeb[16]          .. TRI
@@ -77,7 +77,7 @@ IP, BP, OX
      71466   .I. Heima[1]           .. .. 62 PAR
 1203174739   .I. Lycia[14]          .. 2RC .. 369 - 456 PAR
      81250   .I. Bellas[12]         .. 2RC .. DIL
-     83345   .I. Nelve[12]          .. 2RC .. 340 - 421 DIL
+     83345   .I. Nelve[12]          .. 2RC .. 340 - 421 PAR
 1413597356   .F. Foaiveb[23]        .. 214 PAR, 60 DIL .. 6K, -48f, 14R
 
  667166609   .I. Lezap[6]           .. PAR .. 177 PAR ..
