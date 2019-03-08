@@ -15,3 +15,15 @@ Klingon Ships
 Qualor
 Narendra
 Ajilon
+
+North Star
+----------
+Davidful Nojusor Reprisal              +3 Northstar, +250 Romulan, -132 Federation, -88 Klingon, +6 Nero, +3 Freight Vault
+Zhang    Seuac   Crossfire             +100k PAR, +3 Koth
+
+
+
+Prerequisites
+-------------
+The Deadly Years: Reprisal
+Reprisal: The Law Falls Silent
