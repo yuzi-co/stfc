@@ -2,24 +2,27 @@ I have seen high and low numbers. Is it predictable?  Can we control enough
 variables to produce a consistently high outcome?
 
 Lets track details to find out. 
-                                                               Victory?
-         ---System------       -----------Ship----------------    |    -----Opponent-----------------------
-OL XP+  '   System      `     '            Level        Type  `   |   '      Level     Name                `
-        Number Level Name     Strength Tier  |   XP/ Max | Name   |  Strength  | Type    |
-18   1  117464719 29 Rator       15305  4/5 19 1565/2500 S Envoy  n    368243 29 B Romulan Trained Fighter
-18 190 1184282738 17 Aciben      15305  4/5 19 1755/2500 S Envoy  y     12978 18 B Pakled Thief
-18 150 1316840322 16 Eizb        15305  4/5 19 1905/2500 S Envoy  y      9404 16 E Boslic Slave Trader
-18 150 1854874708 20 Kepler-018  15305  4/5 19 2116/2500 S Envoy  y     16477 19 B Pakled Thief
-18 211 1854874708 20 Kepler-018  15305  4/5 19 2156/2500 S Envoy  n     22909  1 B IRW Praesidio
-18  58      81181  9 Whinnul     15305  4/5 19 2214/2500 S Envoy  y      1903 10 E Orion Traitor
-18  47      81181  9 Whinnul     15305  4/5 19 2261/2500 S Envoy  y      1392  9 E Orion Traitor
-18  47      81181  9 Whinnul     14831  4/5 19 2308/2500 S Envoy  y      1392  9 E Orion Traitor
-18  47      81181  9 Whinnul     14831  4/5 19 2355/2500 S Envoy  y      1392  9 E Orion Traitor
-18  47      81181  9 Whinnul     14831  4/5 19 2402/2500 S Envoy  y       956  8 B Takret Militia
-18  37      81181  9 Whinnul     14831  4/5 19 2439/2500 S Envoy  y       956  8 B Takret Militia
-18  37      81181  9 Whinnul     14831  4/5 19 2476/2500 S Envoy  y       956  8 B Takret Militia
-18  58      81181  9 Whinnul     14831  4/5 20   24/2600 S Envoy  y      1870 10 B Takret Militia
-18 -24'levelup'42 12 Orion       15009  4/5 20    0/2600 S Envoy  y      2334 11 E Orion Traitor
+                                                                 Victory?
+         ---System------       -----------Ship------------------    |    -----Opponent-----------------------
+OL XP+  '   System      `     '            Level        Type    `   |   '      Level     Name                `
+        Number Level Name     Strength Tier  |   XP/ Max | Name     |  Strength  | Type    |
+18   1  117464719 29 Rator       15305  4/5 19 1565/2500 S Envoy    n    368243 29 B Romulan Trained Fighter
+18 190 1184282738 17 Aciben      15305  4/5 19 1755/2500 S Envoy    y     12978 18 B Pakled Thief
+18 150 1316840322 16 Eizb        15305  4/5 19 1905/2500 S Envoy    y      9404 16 E Boslic Slave Trader
+18 150 1854874708 20 Kepler-018  15305  4/5 19 2116/2500 S Envoy    y     16477 19 B Pakled Thief
+18 211 1854874708 20 Kepler-018  15305  4/5 19 2156/2500 S Envoy    n     22909  1 B IRW Praesidio
+18  58      81181  9 Whinnul     15305  4/5 19 2214/2500 S Envoy    y      1903 10 E Orion Traitor
+18  47      81181  9 Whinnul     15305  4/5 19 2261/2500 S Envoy    y      1392  9 E Orion Traitor
+18  47      81181  9 Whinnul     14831  4/5 19 2308/2500 S Envoy    y      1392  9 E Orion Traitor
+18  47      81181  9 Whinnul     14831  4/5 19 2355/2500 S Envoy    y      1392  9 E Orion Traitor
+18  47      81181  9 Whinnul     14831  4/5 19 2402/2500 S Envoy    y       956  8 B Takret Militia
+18  37      81181  9 Whinnul     14831  4/5 19 2439/2500 S Envoy    y       956  8 B Takret Militia
+18  37      81181  9 Whinnul     14831  4/5 19 2476/2500 S Envoy    y       956  8 B Takret Militia
+18  58      81181  9 Whinnul     14831  4/5 20   24/2600 S Envoy    y      1870 10 B Takret Militia
+18 -24'levelup'42 12 Orion       15009  4/5 20    0/2600 S Envoy    y      2334 11 E Orion Traitor
+18  80               Davidful    15767      26   80/4900 I Phindra  n     25239 21 S Romulan Trader
+18  80            19 Zhang       15767      26  160/4900 I Phindra  y     12905 18 E Boslic Slave Trader
+18  76            19 Zhang       15767      26  236/4900 I Phindra  n     17996 20 E Boslic Slave Trader
 
 
 Key
