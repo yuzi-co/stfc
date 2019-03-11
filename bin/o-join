@@ -113,9 +113,31 @@ while(<OS>) {
 	if ($l =~ /^(#|\s*)$/) {
 		next;
 	}
-	my $os = { };
-	$os->{line} = $l;
-	push @officer_stats,$os;
+	if ($l =~ /^\s*([0-9]+)\/([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\/([0-9]+)\s+(.*)$/) {
+		my $os = { };
+		$os->{line} = $l;
+		$os->{curl} = $1;
+		$os->{maxl} = $2;
+		$os->{strength} = $3;
+		$os->{attack} = $4;
+		$os->{defense} = $5;
+		$os->{health} = $6;
+		$os->{curp} = $7;
+		$os->{reqp} = $8;
+		$os->{desc} = $9;
+		if ($os->{desc} =~ /^([A-Z].*)\s+\((.*)\)(.*)$/) {
+			$os->{name} = $1;
+			$os->{group} = $2;
+			$os->{rank} = $3;
+			if (defined($os->{rank})) {
+				$os->{rank} =~ s/^\s*//;
+			}
+		}
+		push @officer_stats,$os;
+		next;
+	}
+
+	print "Unhandled line: $l\n";
 }
 close(OS);
 	
@@ -143,9 +165,24 @@ foreach my $o (sort
 	$ocmanable .= sprintf $ofmt, $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
 }
 
+my $osfmt = "%3d/%3d %3d %3d %2d %3d %2d/%2d %-12s %-23s %s\n";
+
 my $os_str = "";
-foreach my $os (@officer_stats) {
-	$os_str .= $os->{line}."\n";
+foreach my $o (@officer_stats) {
+	#$os_str .= $o->{line}."\n";
+	if (!defined($o->{rank})) {
+		$o->{rank} = "<r:undef>";
+	}
+	if (!defined($o->{group})) {
+		$o->{group} = "<g:undef>";
+	}
+	if (!defined($o->{name})) {
+		$o->{name} = "<n:undef>";
+	}
+	$os_str .= sprintf $osfmt, $o->{curl}, $o->{maxl},
+	    $o->{strength}, $o->{attack}, $o->{defense}, $o->{health},
+	    $o->{curp}, $o->{reqp},
+	    $o->{rank}, $o->{name}, $o->{group};
 }
 	
 
