@@ -165,10 +165,26 @@ foreach my $o (sort
 	$ocmanable .= sprintf $ofmt, $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
 }
 
-my $osfmt = "%3d/%3d %3d %3d %2d %3d %2d/%2d %-12s %-23s %s\n";
+my $osfmt = "%3d/%3d %4d %3d %3d %3d %2d/%2d %-12s %-25s %s\n";
 
 my $os_str = "";
-foreach my $o (@officer_stats) {
+foreach my $o (sort {
+		if ($a->{reqp} == 0 && $b->{reqp} == 0) {
+			$b->{attack} <=> $a->{attack};
+		} elsif ($a->{reqp} == 0 && $b->{reqp} > 0) {
+			$b->{reqp} <=> $a->{reqp};
+		} elsif ($a->{reqp} > 0 && $b->{reqp} == 0) {
+			$b->{reqp} <=> $a->{reqp};
+		} elsif ($a->{reqp} > 0 && $b->{reqp} > 0) {
+			if ($a->{attack} == $b->{attack}) {
+				$b->{defense} <=> $a->{defense};
+			} else {
+				$b->{attack} <=> $a->{attack};
+			}
+		} else {
+			$b->{attack} <=> $a->{attack};
+		}
+	} @officer_stats) {
 	#$os_str .= $o->{line}."\n";
 	if (!defined($o->{rank})) {
 		$o->{rank} = "<r:undef>";

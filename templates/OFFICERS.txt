@@ -18,14 +18,14 @@ Nevertheless, I have figured out a few things:
 Stats
 -----
 Level (Current / Max)
-  | Strength
-  |     |  Attack
-  |     |   | Defense
-  |     |   |   | Health
-  |     |   |   |   |  Promotion Progress
-  |     |   |   |   |    |
- \|/   \|/ \|/ \|/ \|/  \|/  Name                                 Rank
------ ---- --- --- --- ----- -------------------------------------- ----------------
+  |   Strength
+  |       |  Attack
+  |       |   | Defense
+  |       |   |   | Health
+  |       |   |   |   |  Promotion Progress
+  |       |   |   |   |    |
+ \|/     \|/ \|/ \|/ \|/  \|/  Name                                 Rank
+------- ---- --- --- --- ----- -------------------------------------- ----------------
 %O_C_STATS%
 
 
