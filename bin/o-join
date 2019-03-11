@@ -19,8 +19,14 @@ use warnings;
 
 use Data::Dumper;
 
+our $opt_v = 0;
+
 if (!open(OA,"data/o-abilities")) {
 	print "o-abilities can't be opened, ugh\n";
+	exit(1);
+}
+if (!open(OS,"data/o-stats")) {
+	print "o-stats can't be opened, ugh\n";
 	exit(1);
 }
 
@@ -84,7 +90,9 @@ while(<OA>) {
 			}
 			foreach my $i (('aname', 'desc')) {
 				if ($o->{$i} =~ /${flag}/i) {
-					print $o->{oname}." flag ".${freal}."++\n";
+					if ($opt_v > 0) {
+						print $o->{oname}." flag ".${freal}."++\n";
+					}
 					$o->{flags}->{$freal}++;
 				}
 			}
@@ -98,6 +106,19 @@ while(<OA>) {
 	print "Unhandled line: $l\n";
 }
 close(OA);
+
+our @officer_stats;
+while(<OS>) {
+	chomp($l=$_);
+	if ($l =~ /^(#|\s*)$/) {
+		next;
+	}
+	my $os = { };
+	$os->{line} = $l;
+	push @officer_stats,$os;
+}
+close(OS);
+	
 
 my $onmax = $max->{oname};
 my $anmax = $max->{aname};
@@ -122,6 +143,12 @@ foreach my $o (sort
 	$ocmanable .= sprintf $ofmt, $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
 }
 
+my $os_str = "";
+foreach my $os (@officer_stats) {
+	$os_str .= $os->{line}."\n";
+}
+	
+
 if (!open(T,"templates/OFFICERS.txt")) {
 	print "templates/OFFICERS.txt can't be opened, ugh\n";
 	exit(1);
@@ -134,6 +161,7 @@ if (!open(O,">OFFICERS.txt")) {
 while(<T>) {
 	chomp($l=$_);
 	$l =~ s/%O_C_MANEAUVER_ABILITY%/${ocmanable}/;
+	$l =~ s/%O_C_STATS%/${os_str}/;
 	if ($l =~ /%(battleship|explorer|surveyor|interceptor)(\[.*\]%|%)/) {
 		my @olist;
 		my $ship = $1;
