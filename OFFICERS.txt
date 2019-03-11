@@ -98,8 +98,8 @@ Level (Current / Max)
   |       |   |   | Health
   |       |   |   |   |  Promotion Progress
   |       |   |   |   |    |
- \|/     \|/ \|/ \|/ \|/  \|/  Name                                 Rank
-------- ---- --- --- --- ----- -------------------------------------- ----------------
+ \|/     \|/ \|/ \|/ \|/  \|/  Rank         Name                      Group
+------- ---- --- --- --- ----- ------------ ------------------------- ----------------
  15/ 15  496  62  31  31 11/36 Lieut. III   Cadet Hikaru Sulu         Another Time
  15/ 15  588  61  25  61 11/36 Lieut. III   Cadet Nyota Uhura         Another Time
   4/ 10  303  55   8  38 12/48 Lieut. JG II D'jaoki                   Romulan Patriots
