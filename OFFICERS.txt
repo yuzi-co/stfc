@@ -91,70 +91,70 @@ Off Zahra      Home Engineer          + 5% weapon damage if defending station
 
 Stats
 -----
-Level (Current / Max)
-  |   Strength
-  |       |  Attack
-  |       |   | Defense
-  |       |   |   | Health
-  |       |   |   |   |  Promotion Progress
-  |       |   |   |   |    |
- \|/     \|/ \|/ \|/ \|/  \|/  Rank         Name                      Group
-------- ---- --- --- --- ----- ------------ ------------------------- ----------------
- 15/ 15  496  62  31  31 11/36 Lieut. III   Cadet Hikaru Sulu         Another Time
- 15/ 15  588  61  25  61 11/36 Lieut. III   Cadet Nyota Uhura         Another Time
-  4/ 10  303  55   8  38 12/48 Lieut. JG II D'jaoki                   Romulan Patriots
- 10/ 10  273  50  19  22  5/30 Lieut. JG II Vartoq                    Glory in the Kill
-  5/  5  260  48  34  48 11/24 Ensign I     Lucia Gonzales            Starfleet Academy
-  5/  5  222  41  41  29  6/20 Ensign I     Grace Chen                Starfleet Academy
-  9/  5  246  41  27  14  3/10 Lieut. JG II Komal                     Glory in the Kill
-  6/ 10  168  35  19   2  7/35 Lieut. JG II Rukor                     Glory in the Kill
- 10/ 10  231  32  32  13 16/20 Lieut. JG II Cadet James T. Kirk       Another Time
- 10/ 10  279  31  31  31 12/25 Lieut. JG II Vel K'Bentayr                         
-  5/  5  200  29  25  46  0/28 Ensign I     Koth                      Klingon Patriots
- 12/ 15  452  28  28  57 12/36 Lieut. III   Cadet Leonard McCoy       Another Time
- 11/ 15  412  26  51  26  9/36 Lieut. III   Instuctor Spock           Another Time
-  1/  5  140  26  32  12  2/24 Ensign I     Vella                     Nero's Crew
-  6/ 10  144  26  12  10  6/25 Lieut. JG II Shev Akria                Starfleet Academy
- 10/ 10  273  22  19  50  4/30 Lieut. JG II Gaila                     Starfleet Academy
- 10/ 10  231  19  42  16 11/20 Lieut. JG II T'Laan                    Starfleet Academy
-  5/  5  200  17  21  62 10/28 Ensign I     Klaa                      Glory in the Kill
-  3/  5  176  14  44  30  0/28 Ensign I     Vixis                     Glory in the Kill
-  5/  5   96  14  22  12  0/10 Ensign I     Jabilo M'Benga            Lower Decks
- 10/ 10  231  13  32  32 12/15 Lieut. JG II Cadet Montgomery Scott    Another Time
-  5/  5  100  11   6  33  1/ 8 Ensign I     Zahra                     Lower Decks
- 10/ 10  273   7  46  38 12/20 Lieut. JG II Helvia                    Surveyors & Miners
- 10/ 10  261   7  42  38  5/30 Lieut. JG II Domitia                   Surveyors & Miners
- 10/ 10  273   7  34  50 19/25 Lieut. JG II K'Bisch                   Surveyors & Miners
-  4/ 95  576 216  36  36  0/ 0              Kras                      Glory in the Kill
-  1/100  576 192  48  48  0/ 0              Gorkon                    Klingon Patriots
- 10/ 18  240 100  10  10  0/ 0              Barot                     Surveyors & Miners
-  5/ 34  240  85  20  15  0/ 0              Chang                     Klingon Patriots
-  3/ 36  240  60  35  25  0/ 0              Nyota Uhura               Enterprise Crew
-  4/ 34  240  50  20  50  0/ 0              Kumak                     Nero's Crew
-  4/100  576  48  48 192  0/ 0              Nero                      Nero's Crew
-  5/ 36  240  45  50  25  0/ 0              Azetbur                   Klingon Patriots
-  2/ 32  240  40  25  55  0/ 0              Kerla                     Klingon Patriots
-  0/ 16  118  37  17   5  0/ 0              Hendorff                  Shakedown Cruise
- 11/ 12  118  37   7  15  0/ 0              M'Ral                     Klingon Patriots
- 11/ 12  118  30  12  17  0/ 0              Javaid                    Nero's crew
- 10/ 14  120  25  25  10  0/ 0              Hikaru Sulu               Enterprise Crew
-  3/ 36  240  25  45  50  0/ 0              Vemet                     Nero's Crew
-  7/ 14  118  22  30   7  0/ 0              Woteln                    Klingon Patriots
-  0/ 12  120  20  20  20  0/ 0              Qa'ug                     Blood & Honor
-  0/ 14  118  20  22  17  0/ 0              Frank Leslie              Shakedown Cruise
-  5/ 34  240  20  45  55  0/ 0              Leonard McCoy             Enterprise Crew
-  7/ 14  120  15  20  25  0/ 0              Officer 0718              Lower Decks
-  7/ 16  118  15  32  12  0/ 0              Montgomery Scott          Enterprise Crew
-  0/ 10  118  12  30  17  0/ 0              L'Nar                     Romulan Patriots
-  0/  7   48  10   6   8  0/ 0              Geoffrey Hadley           Shakedown Cruise
- 10/ 12  120  10  30  20  0/ 0              Arkady Ivanov             Enterprise Crew
-  5/ 32  240  10  15  95  0/ 0              Livis                     Nero's Crew
- 36/ 38  240  10  85  25  0/ 0              Spock                     Enterprise Crew
-  2/ 18  240  10  40  70  0/ 0              Stonn                     Surveyors & Miners
-  5/ 18  240  10  70  40  0/ 0              T'Pring                   Surveyors & Miners
-  0/  6   48   9   8   7  0/ 0              Mae Darwin                Shakedown Cruise
-  9/ 14  118   7  35  17  0/ 0              Arix                      Nero's Crew
-  0/ 14  118   7  27  25  0/ 0              Linkasa                   Blood & Honor
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
+Lieut. JG II Akria, Shev               6/ 10  144  26  12  10  6/25 Starfleet Academy
+             Arix                      9/ 14  118   7  35  17  0/ 0 Nero's Crew
+             Azetbur                   5/ 36  240  45  50  25  0/ 0 Klingon Patriots
+             Barot                    10/ 18  240 100  10  10  0/ 0 Surveyors & Miners
+             Chang                     5/ 34  240  85  20  15  0/ 0 Klingon Patriots
+Ensign I     Chen, Grace               5/  5  222  41  41  29  6/20 Starfleet Academy
+Lieut. JG II D'jaoki                   4/ 10  303  55   8  38 12/48 Romulan Patriots
+             Darwin, Mae               0/  6   48   9   8   7  0/ 0 Shakedown Cruise
+Lieut. JG II Domitia                  10/ 10  261   7  42  38  5/30 Surveyors & Miners
+Lieut. JG II Gaila                    10/ 10  273  22  19  50  4/30 Starfleet Academy
+Ensign I     Gonzales, Lucia           5/  5  260  48  34  48 11/24 Starfleet Academy
+             Gorkon                    1/100  576 192  48  48  0/ 0 Klingon Patriots
+             Hadley, Geoffrey          0/  7   48  10   6   8  0/ 0 Shakedown Cruise
+Lieut. JG II Helvia                   10/ 10  273   7  46  38 12/20 Surveyors & Miners
+             Hendorff                  0/ 16  118  37  17   5  0/ 0 Shakedown Cruise
+             Ivanov, Arkady           10/ 12  120  10  30  20  0/ 0 Enterprise Crew
+             Javaid                   11/ 12  118  30  12  17  0/ 0 Nero's crew
+Lieut. JG II K'Bentayr, Vel           10/ 10  279  31  31  31 12/25 
+Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & Miners
+             Kerla                     2/ 32  240  40  25  55  0/ 0 Klingon Patriots
+Lieut. JG II Kirk, Cadet James T.     10/ 10  231  32  32  13 16/20 Another Time
+Ensign I     Klaa                      5/  5  200  17  21  62 10/28 Glory in the Kill
+Lieut. JG II Komal                     9/  5  246  41  27  14  3/10 Glory in the Kill
+Ensign I     Koth                      5/  5  200  29  25  46  0/28 Klingon Patriots
+             Kras                      4/ 95  576 216  36  36  0/ 0 Glory in the Kill
+             Kumak                     4/ 34  240  50  20  50  0/ 0 Nero's Crew
+             L'Nar                     0/ 10  118  12  30  17  0/ 0 Romulan Patriots
+             Leslie, Frank             0/ 14  118  20  22  17  0/ 0 Shakedown Cruise
+             Linkasa                   0/ 14  118   7  27  25  0/ 0 Blood & Honor
+             Livis                     5/ 32  240  10  15  95  0/ 0 Nero's Crew
+Ensign I     M'Benga, Jabilo           5/  5   96  14  22  12  0/10 Lower Decks
+             M'Ral                    11/ 12  118  37   7  15  0/ 0 Klingon Patriots
+Lieut. III   McCoy, Cadet Leonard     12/ 15  452  28  28  57 12/36 Another Time
+             McCoy, Leonard            5/ 34  240  20  45  55  0/ 0 Enterprise Crew
+             Nero                      4/100  576  48  48 192  0/ 0 Nero's Crew
+             Officer 0718              7/ 14  120  15  20  25  0/ 0 Lower Decks
+             Qa'ug                     0/ 12  120  20  20  20  0/ 0 Blood & Honor
+Lieut. JG II Rukor                     6/ 10  168  35  19   2  7/35 Glory in the Kill
+Lieut. JG II Scott, Cadet Montgomery  10/ 10  231  13  32  32 12/15 Another Time
+             Scott, Montgomery         7/ 16  118  15  32  12  0/ 0 Enterprise Crew
+             Spock                    36/ 38  240  10  85  25  0/ 0 Enterprise Crew
+Lieut. III   Spock, Instuctor         11/ 15  412  26  51  26  9/36 Another Time
+             Stonn                     2/ 18  240  10  40  70  0/ 0 Surveyors & Miners
+Lieut. III   Sulu, Cadet Hikaru       15/ 15  496  62  31  31 11/36 Another Time
+             Sulu, Hikaru             10/ 14  120  25  25  10  0/ 0 Enterprise Crew
+Lieut. JG II T'Laan                   10/ 10  231  19  42  16 11/20 Starfleet Academy
+             T'Pring                   5/ 18  240  10  70  40  0/ 0 Surveyors & Miners
+Lieut. III   Uhura, Cadet Nyota       15/ 15  588  61  25  61 11/36 Another Time
+             Uhura, Nyota              3/ 36  240  60  35  25  0/ 0 Enterprise Crew
+Lieut. JG II Vartoq                   10/ 10  273  50  19  22  5/30 Glory in the Kill
+Ensign I     Vella                     1/  5  140  26  32  12  2/24 Nero's Crew
+             Vemet                     3/ 36  240  25  45  50  0/ 0 Nero's Crew
+Ensign I     Vixis                     3/  5  176  14  44  30  0/28 Glory in the Kill
+             Woteln                    7/ 14  118  22  30   7  0/ 0 Klingon Patriots
+Ensign I     Zahra                     5/  5  100  11   6  33  1/ 8 Lower Decks
 
 
 
@@ -474,3 +474,139 @@ Surveyor + mining + PAR
  Cap Helvia     Parsteel Miner         +50% mining PAR
  Off K'Bisch    Defensive Mining       -12% damage if attacked while mining
  Off McCoy      Psychologist           + 8% Captain Maneuver
+
+Stats again, sorted by Strength
+-------------------------------
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
+Lieut. III   Uhura, Cadet Nyota       15/ 15  588  61  25  61 11/36 Another Time
+             Gorkon                    1/100  576 192  48  48  0/ 0 Klingon Patriots
+             Kras                      4/ 95  576 216  36  36  0/ 0 Glory in the Kill
+             Nero                      4/100  576  48  48 192  0/ 0 Nero's Crew
+Lieut. III   Sulu, Cadet Hikaru       15/ 15  496  62  31  31 11/36 Another Time
+Lieut. III   McCoy, Cadet Leonard     12/ 15  452  28  28  57 12/36 Another Time
+Lieut. III   Spock, Instuctor         11/ 15  412  26  51  26  9/36 Another Time
+Lieut. JG II D'jaoki                   4/ 10  303  55   8  38 12/48 Romulan Patriots
+Lieut. JG II K'Bentayr, Vel           10/ 10  279  31  31  31 12/25 
+Lieut. JG II Gaila                    10/ 10  273  22  19  50  4/30 Starfleet Academy
+Lieut. JG II Helvia                   10/ 10  273   7  46  38 12/20 Surveyors & Miners
+Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & Miners
+Lieut. JG II Vartoq                   10/ 10  273  50  19  22  5/30 Glory in the Kill
+Lieut. JG II Domitia                  10/ 10  261   7  42  38  5/30 Surveyors & Miners
+Ensign I     Gonzales, Lucia           5/  5  260  48  34  48 11/24 Starfleet Academy
+Lieut. JG II Komal                     9/  5  246  41  27  14  3/10 Glory in the Kill
+             Vemet                     3/ 36  240  25  45  50  0/ 0 Nero's Crew
+             Azetbur                   5/ 36  240  45  50  25  0/ 0 Klingon Patriots
+             Chang                     5/ 34  240  85  20  15  0/ 0 Klingon Patriots
+             Kerla                     2/ 32  240  40  25  55  0/ 0 Klingon Patriots
+             Kumak                     4/ 34  240  50  20  50  0/ 0 Nero's Crew
+             Livis                     5/ 32  240  10  15  95  0/ 0 Nero's Crew
+             McCoy, Leonard            5/ 34  240  20  45  55  0/ 0 Enterprise Crew
+             Spock                    36/ 38  240  10  85  25  0/ 0 Enterprise Crew
+             Stonn                     2/ 18  240  10  40  70  0/ 0 Surveyors & Miners
+             T'Pring                   5/ 18  240  10  70  40  0/ 0 Surveyors & Miners
+             Uhura, Nyota              3/ 36  240  60  35  25  0/ 0 Enterprise Crew
+             Barot                    10/ 18  240 100  10  10  0/ 0 Surveyors & Miners
+Lieut. JG II T'Laan                   10/ 10  231  19  42  16 11/20 Starfleet Academy
+Lieut. JG II Scott, Cadet Montgomery  10/ 10  231  13  32  32 12/15 Another Time
+Lieut. JG II Kirk, Cadet James T.     10/ 10  231  32  32  13 16/20 Another Time
+Ensign I     Chen, Grace               5/  5  222  41  41  29  6/20 Starfleet Academy
+Ensign I     Klaa                      5/  5  200  17  21  62 10/28 Glory in the Kill
+Ensign I     Koth                      5/  5  200  29  25  46  0/28 Klingon Patriots
+Ensign I     Vixis                     3/  5  176  14  44  30  0/28 Glory in the Kill
+Lieut. JG II Rukor                     6/ 10  168  35  19   2  7/35 Glory in the Kill
+Lieut. JG II Akria, Shev               6/ 10  144  26  12  10  6/25 Starfleet Academy
+Ensign I     Vella                     1/  5  140  26  32  12  2/24 Nero's Crew
+             Officer 0718              7/ 14  120  15  20  25  0/ 0 Lower Decks
+             Ivanov, Arkady           10/ 12  120  10  30  20  0/ 0 Enterprise Crew
+             Qa'ug                     0/ 12  120  20  20  20  0/ 0 Blood & Honor
+             Sulu, Hikaru             10/ 14  120  25  25  10  0/ 0 Enterprise Crew
+             Arix                      9/ 14  118   7  35  17  0/ 0 Nero's Crew
+             Hendorff                  0/ 16  118  37  17   5  0/ 0 Shakedown Cruise
+             Javaid                   11/ 12  118  30  12  17  0/ 0 Nero's crew
+             L'Nar                     0/ 10  118  12  30  17  0/ 0 Romulan Patriots
+             Leslie, Frank             0/ 14  118  20  22  17  0/ 0 Shakedown Cruise
+             Linkasa                   0/ 14  118   7  27  25  0/ 0 Blood & Honor
+             M'Ral                    11/ 12  118  37   7  15  0/ 0 Klingon Patriots
+             Scott, Montgomery         7/ 16  118  15  32  12  0/ 0 Enterprise Crew
+             Woteln                    7/ 14  118  22  30   7  0/ 0 Klingon Patriots
+Ensign I     Zahra                     5/  5  100  11   6  33  1/ 8 Lower Decks
+Ensign I     M'Benga, Jabilo           5/  5   96  14  22  12  0/10 Lower Decks
+             Darwin, Mae               0/  6   48   9   8   7  0/ 0 Shakedown Cruise
+             Hadley, Geoffrey          0/  7   48  10   6   8  0/ 0 Shakedown Cruise
+
+
+Stats again, sorted by Attack
+-------------------------------
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
+Lieut. III   Sulu, Cadet Hikaru       15/ 15  496  62  31  31 11/36 Another Time
+Lieut. III   Uhura, Cadet Nyota       15/ 15  588  61  25  61 11/36 Another Time
+Lieut. JG II D'jaoki                   4/ 10  303  55   8  38 12/48 Romulan Patriots
+Lieut. JG II Vartoq                   10/ 10  273  50  19  22  5/30 Glory in the Kill
+Ensign I     Gonzales, Lucia           5/  5  260  48  34  48 11/24 Starfleet Academy
+Ensign I     Chen, Grace               5/  5  222  41  41  29  6/20 Starfleet Academy
+Lieut. JG II Komal                     9/  5  246  41  27  14  3/10 Glory in the Kill
+Lieut. JG II Rukor                     6/ 10  168  35  19   2  7/35 Glory in the Kill
+Lieut. JG II Kirk, Cadet James T.     10/ 10  231  32  32  13 16/20 Another Time
+Lieut. JG II K'Bentayr, Vel           10/ 10  279  31  31  31 12/25 
+Ensign I     Koth                      5/  5  200  29  25  46  0/28 Klingon Patriots
+Lieut. III   McCoy, Cadet Leonard     12/ 15  452  28  28  57 12/36 Another Time
+Lieut. III   Spock, Instuctor         11/ 15  412  26  51  26  9/36 Another Time
+Ensign I     Vella                     1/  5  140  26  32  12  2/24 Nero's Crew
+Lieut. JG II Akria, Shev               6/ 10  144  26  12  10  6/25 Starfleet Academy
+Lieut. JG II Gaila                    10/ 10  273  22  19  50  4/30 Starfleet Academy
+Lieut. JG II T'Laan                   10/ 10  231  19  42  16 11/20 Starfleet Academy
+Ensign I     Klaa                      5/  5  200  17  21  62 10/28 Glory in the Kill
+Ensign I     Vixis                     3/  5  176  14  44  30  0/28 Glory in the Kill
+Ensign I     M'Benga, Jabilo           5/  5   96  14  22  12  0/10 Lower Decks
+Lieut. JG II Scott, Cadet Montgomery  10/ 10  231  13  32  32 12/15 Another Time
+Ensign I     Zahra                     5/  5  100  11   6  33  1/ 8 Lower Decks
+Lieut. JG II Helvia                   10/ 10  273   7  46  38 12/20 Surveyors & Miners
+Lieut. JG II Domitia                  10/ 10  261   7  42  38  5/30 Surveyors & Miners
+Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & Miners
+             Kras                      4/ 95  576 216  36  36  0/ 0 Glory in the Kill
+             Gorkon                    1/100  576 192  48  48  0/ 0 Klingon Patriots
+             Barot                    10/ 18  240 100  10  10  0/ 0 Surveyors & Miners
+             Chang                     5/ 34  240  85  20  15  0/ 0 Klingon Patriots
+             Uhura, Nyota              3/ 36  240  60  35  25  0/ 0 Enterprise Crew
+             Kumak                     4/ 34  240  50  20  50  0/ 0 Nero's Crew
+             Nero                      4/100  576  48  48 192  0/ 0 Nero's Crew
+             Azetbur                   5/ 36  240  45  50  25  0/ 0 Klingon Patriots
+             Kerla                     2/ 32  240  40  25  55  0/ 0 Klingon Patriots
+             Hendorff                  0/ 16  118  37  17   5  0/ 0 Shakedown Cruise
+             M'Ral                    11/ 12  118  37   7  15  0/ 0 Klingon Patriots
+             Javaid                   11/ 12  118  30  12  17  0/ 0 Nero's crew
+             Sulu, Hikaru             10/ 14  120  25  25  10  0/ 0 Enterprise Crew
+             Vemet                     3/ 36  240  25  45  50  0/ 0 Nero's Crew
+             Woteln                    7/ 14  118  22  30   7  0/ 0 Klingon Patriots
+             Qa'ug                     0/ 12  120  20  20  20  0/ 0 Blood & Honor
+             Leslie, Frank             0/ 14  118  20  22  17  0/ 0 Shakedown Cruise
+             McCoy, Leonard            5/ 34  240  20  45  55  0/ 0 Enterprise Crew
+             Officer 0718              7/ 14  120  15  20  25  0/ 0 Lower Decks
+             Scott, Montgomery         7/ 16  118  15  32  12  0/ 0 Enterprise Crew
+             L'Nar                     0/ 10  118  12  30  17  0/ 0 Romulan Patriots
+             Hadley, Geoffrey          0/  7   48  10   6   8  0/ 0 Shakedown Cruise
+             Ivanov, Arkady           10/ 12  120  10  30  20  0/ 0 Enterprise Crew
+             Livis                     5/ 32  240  10  15  95  0/ 0 Nero's Crew
+             Spock                    36/ 38  240  10  85  25  0/ 0 Enterprise Crew
+             Stonn                     2/ 18  240  10  40  70  0/ 0 Surveyors & Miners
+             T'Pring                   5/ 18  240  10  70  40  0/ 0 Surveyors & Miners
+             Darwin, Mae               0/  6   48   9   8   7  0/ 0 Shakedown Cruise
+             Arix                      9/ 14  118   7  35  17  0/ 0 Nero's Crew
+             Linkasa                   0/ 14  118   7  27  25  0/ 0 Blood & Honor
+
