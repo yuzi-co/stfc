@@ -140,6 +140,17 @@ while(<OS>) {
 		} else {
 			$os->{name} = $os->{desc};
 		}
+		if (!defined($os->{name})) {
+			$os->{name} = "<n:undef>";
+		}
+		if (!defined($os->{rank}))  {
+			$os->{rank} = "";
+		}
+		if (!defined($os->{group}))  {
+			$os->{group} = "";
+		}
+		parse_name($os);
+		check_max($os, 'rank');
 		push @officer_stats,$os;
 		next;
 	}
@@ -172,9 +183,43 @@ foreach my $o (sort
 	$ocmanable .= sprintf $ofmt, $o->{pos}, $o->{oname}, $o->{aname}, $o->{desc};
 }
 
-my $osfmt = "%3d/%3d %4d %3d %3d %3d %2d/%2d %-12s %-25s %s\n";
+my $rlen = $max->{'rank'};
+my $flen = $max->{'fmt_name'};
+my $osfmt = "%-${rlen}s %-${flen}s %3d/%3d %4d %3d %3d %3d %2d/%2d %s\n";
 
 my $os_str = "";
+foreach my $o (sort {
+		$a->{'fmt_name'} cmp $b->{'fmt_name'}
+	} @officer_stats) {
+	$os_str .= sprintf $osfmt,
+	    $o->{rank},
+	    $o->{'fmt_name'},
+	    $o->{curl}, $o->{maxl},
+	    $o->{strength}, $o->{attack}, $o->{defense}, $o->{health},
+	    $o->{curp}, $o->{reqp},
+	    $o->{group};
+}
+
+my $os_str_strength = "";
+foreach my $o (sort {
+		if ($a->{strength} != $b->{strength}) {
+			$b->{strength} <=> $a->{strength};
+		} else {
+			($b->{attack} + $b->{defense} + $b->{health})
+				<=>
+			($a->{attack} + $a->{defense} + $a->{health});
+		}
+	} @officer_stats) {
+	$os_str_strength .= sprintf $osfmt,
+	    $o->{rank},
+	    $o->{'fmt_name'},
+	    $o->{curl}, $o->{maxl},
+	    $o->{strength}, $o->{attack}, $o->{defense}, $o->{health},
+	    $o->{curp}, $o->{reqp},
+	    $o->{group};
+}
+
+my $os_str_attack = "";
 foreach my $o (sort {
 		if ($a->{reqp} == 0 && $b->{reqp} == 0) {
 			$b->{attack} <=> $a->{attack};
@@ -192,20 +237,13 @@ foreach my $o (sort {
 			$b->{attack} <=> $a->{attack};
 		}
 	} @officer_stats) {
-	#$os_str .= $o->{line}."\n";
-	if (!defined($o->{rank})) {
-		$o->{rank} = "";
-	}
-	if (!defined($o->{group})) {
-		$o->{group} = "";
-	}
-	if (!defined($o->{name})) {
-		$o->{name} = "<n:undef>";
-	}
-	$os_str .= sprintf $osfmt, $o->{curl}, $o->{maxl},
+	$os_str_attack .= sprintf $osfmt,
+	    $o->{rank},
+	    $o->{'fmt_name'},
+	    $o->{curl}, $o->{maxl},
 	    $o->{strength}, $o->{attack}, $o->{defense}, $o->{health},
 	    $o->{curp}, $o->{reqp},
-	    $o->{rank}, $o->{name}, $o->{group};
+	    $o->{group};
 }
 	
 
@@ -222,6 +260,8 @@ while(<T>) {
 	chomp($l=$_);
 	$l =~ s/%O_C_MANEAUVER_ABILITY%/${ocmanable}/;
 	$l =~ s/%O_C_STATS%/${os_str}/;
+	$l =~ s/%O_C_STATS_strength%/${os_str_strength}/;
+	$l =~ s/%O_C_STATS_attack%/${os_str_attack}/;
 	if ($l =~ /%(battleship|explorer|surveyor|interceptor)(\[.*\]%|%)/) {
 		my @olist;
 		my $ship = $1;
@@ -263,6 +303,30 @@ close(T);
 
 exit(0);
 
+sub parse_name {
+	my ($o) = @_;
+
+	my $name = $o->{name};
+	$name =~ s/\s+$//;
+	$name =~ s/^\s+//;
+
+	if ($name =~ /^(.*)\s([A-Z][A-Za-z']+)$/) {
+		$o->{'lhs_name'} = $1;
+		$o->{'rhs_name'} = $2;
+		$o->{'fmt_name'} = sprintf("%s, %s", $2, $1);
+	} else {
+		$o->{'lhs_name'} = $name;
+		$o->{'rhs_name'} = "";
+		$o->{'fmt_name'} = $name;
+	}
+	my $ofmt = $o->{'fmt_name'};
+	#$ofmt = s/^\s*//;
+	#$ofmt = s/\s*$//;
+	$o->{'fmt_name'} = $ofmt;
+	check_max($o, 'fmt_name');
+	check_max($o, 'group');
+	check_max($o, 'rank');
+}
 sub check_max {
 	my ($o, $n) = @_;
 	my $len = length($o->{$n});

@@ -17,15 +17,15 @@ Nevertheless, I have figured out a few things:
 
 Stats
 -----
-Level (Current / Max)
-  |   Strength
-  |       |  Attack
-  |       |   | Defense
-  |       |   |   | Health
-  |       |   |   |   |  Promotion Progress
-  |       |   |   |   |    |
- \|/     \|/ \|/ \|/ \|/  \|/  Rank         Name                      Group
-------- ---- --- --- --- ----- ------------ ------------------------- ----------------
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
 %O_C_STATS%
 
 
@@ -162,3 +162,29 @@ Surveyor + mining + TRI
 
 Surveyor + mining + PAR
 %surveyor[mining,parsteel]%
+
+Stats again, sorted by Strength
+-------------------------------
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
+%O_C_STATS_strength%
+
+Stats again, sorted by Attack
+-------------------------------
+                                    Level (Current / Max)
+                                       |   Strength
+                                       |       |  Attack
+                                       |       |   | Defense
+                                       |       |   |   | Health
+                                       |       |   |   |   |  Promotion Progress
+                                       |       |   |   |   |    |
+Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
+------------ ----------------------- ------- ---- --- --- --- ----- ----------------
+%O_C_STATS_attack%
