@@ -73,12 +73,13 @@ our $flagexcl = { };
 my $l;
 while(<OA>) {
 	chomp($l=$_);
-	if ($l =~ /^([A-Z][a-z']+)\s+"([^"]+)"\s+(.+)\s+([\+\-]\s?[0-9]+%\s.*)$/) {
+	if ($l =~ /^\s+([0-9]+)\s+([A-Z][a-z']+)\s+"([^"]+)"\s+(.+)\s+([\+\-]\s?[0-9]+%\s.*)$/) {
 		my $o = { };
-		$o->{pos} = $1;
-		$o->{oname} = $2;
-		$o->{aname} = $3;
-		$o->{desc} = $4;
+		$o->{serial} = $1;
+		$o->{pos} = $2;
+		$o->{oname} = $3;
+		$o->{aname} = $4;
+		$o->{desc} = $5;
 		$o->{aname} =~ s/\s+$//;
 		foreach my $flag (@flagslist) {
 			my $freal = $flag;
@@ -113,18 +114,19 @@ while(<OS>) {
 	if ($l =~ /^(#|\s*)$/) {
 		next;
 	}
-	if ($l =~ /^\s*([0-9]+)\/([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\/([0-9]+)\s+(.*)$/) {
+	if ($l =~ /^\s+([0-9]+)\s+([0-9]+)\/([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\/([0-9]+)\s+(.*)$/) {
 		my $os = { };
+		$os->{serial} = $1;
 		$os->{line} = $l;
-		$os->{curl} = $1;
-		$os->{maxl} = $2;
-		$os->{strength} = $3;
-		$os->{attack} = $4;
-		$os->{defense} = $5;
-		$os->{health} = $6;
-		$os->{curp} = $7;
-		$os->{reqp} = $8;
-		$os->{desc} = $9;
+		$os->{curl} = $2;
+		$os->{maxl} = $3;
+		$os->{strength} = $4;
+		$os->{attack} = $5;
+		$os->{defense} = $6;
+		$os->{health} = $7;
+		$os->{curp} = $8;
+		$os->{reqp} = $9;
+		$os->{desc} = $10;
 		if ($os->{desc} =~ /^([A-Z].*)\s+\((.*)\)(.*)$/) {
 			$os->{name} = $1;
 			$os->{group} = $2;
