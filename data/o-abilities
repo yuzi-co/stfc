@@ -1,50 +1,50 @@
- 1 Cap "Cadet Kirk" Motivational           + 8% attack, defense, health of bridge crew
- 1 Off "Cadet Kirk" Tactician              + 8% weapon damage
- 2 Cap "Chen"       Modifications          +20% dodge, shields, armor if attacking hostiles
- 2 Off "Chen"       Energy Absorber        -10% energy weapons if hostile attacking
- 3 Cap "D'jaoki"    War of Endurance       +10% health for 1min after winning
- 3 Off "D'jaoki"    Shatter Defenses       -40% decreases crew health if opponent burning
- 4 Cap "Domitia"    Dilithium Miner        +20% Dilithium mining
- 1 Off "Domitia"    Hurry Home             +50% warp speed if cargo is full
- 1 Cap "Gaila"      Parsteel Hunter        +25% Parsteel if attacking hostile
- 1 Off "Gaila"      Critical Avoidance     -20% damage if hostile opponent
- 1 Cap "Gonzales"   Solution Finder        + 8% critical hit chance if attacking hostile
- 1 Off "Gonzales"   Problem Solver         + 5% critical hit damage if hostile
- 1 Cap "Helvia"     Parsteel Miner         +50% mining PAR
- 1 Off "Helvia"     Gold Rush              +50% warp speed if cargo == 0
- 1 Cap "K'Bisch"    Tritanium Miner        +20% Tritanium mining
- 1 Off "K'Bisch"    Defensive Mining       -12% damage if attacked while mining
- 1 Cap "Klaa"       Hot Pursuit            +25% impulse speed
- 1 Off "Klaa"       Critical Strike        + 8% critical hit damage
- 1 Cap "Komal"      Battleship Specialist  +30% weapon damage if attacking player
- 1 Off "Komal"      Resist Kinetic         - 7% kinetic damage if player attacking
- 1 Cap "Koth"       Interceptor Overseer   +20% decrease in repair time
- 1 Off "Koth"       Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
- 1 Cap "M'Benga"    Break Through          +10% armor+shield+accuracy if defending station
- 1 Off "M'Benga"    Slip Through           +10% dodge+armor+shield deflection if defending station
- 1 Cap "McCoy"      Doctor                 +10% health of all officers
- 1 Off "McCoy"      Psychologist           + 8% Captain Maneuver
- 1 Cap "Rukor"      Explorer Specialist    +20% weapon damage if attacking player
- 1 Off "Rukor"      Energy Boost           + 7% energy weapons if attacking player
- 1 Cap "Scott"      Sturdy Ship            +10% ship hull health
- 1 Off "Scott"      Warp Theory            + 2% warp distance
- 1 Cap "Shev"       Tritanium Hunter       +25% Tritanium if attcking hostile
- 1 Off "Shev"       Justice Dealer         + 7% energy weapons if attacking hostile
- 1 Cap "Spock"      Knowledgeable          + 5% weapon damage to opponent
- 1 Off "Spock"      Kobayashi Manu         +12% shield deflection, armor, dodge
- 1 Cap "Sulu"       Big Shot               + 5% damage first round
- 1 Off "Sulu"       Fighting Spirit        +10% increases all officer attack
- 1 Cap "T'Laan"     Thorough Scans         +15% Ship XP if fighting hostiles
- 1 Off "T'Laan"     Objective Defense      - 7% damage by kinetic weapons if hostile
- 1 Cap "Uhura"      Scan the Enemy         -10% decrease weapon damage of opponent
- 1 Off "Uhura"      Negotiations           + 9% shield health
- 1 Cap "Vartoq"     Interceptor Specialist +20% weapon damage if attacking player
- 1 Off "Vartoq"     Kinetic Boost          + 7% kinetic weapon damage if attacking player
- 1 Cap "Vel"        Dilithium Hunter       +45% Dilithium if attacking hostile
- 1 Off "Vel"        Chirurgical Precision  + 7% kinetic weapon damage
- 1 Cap "Vella"      Overmatch              +10% weapon damage if opponent is explorer
- 1 Off "Vella"      Sturdy Companion       + 5% officer health
- 1 Cap "Vixis"      Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
- 1 Off "Vixis"      Energy Absorption      -10% decrease energy weapons of opponnents
- 1 Cap "Zahra"      Station Expert         +10% hull health if defending station
- 1 Off "Zahra"      Home Engineer          + 5% weapon damage if defending station
+ 1 Cap "Cadet Kirk"   Motivational           + 8% attack, defense, health of bridge crew
+ 1 Off "Cadet Kirk"   Tactician              + 8% weapon damage
+ 2 Cap "Chen"         Modifications          +20% dodge, shields, armor if attacking hostiles
+ 2 Off "Chen"         Energy Absorber        -10% energy weapons if hostile attacking
+ 3 Cap "D'jaoki"      War of Endurance       +10% health for 1min after winning
+ 3 Off "D'jaoki"      Shatter Defenses       -40% decreases crew health if opponent burning
+ 4 Cap "Domitia"      Dilithium Miner        +20% Dilithium mining
+ 4 Off "Domitia"      Hurry Home             +50% warp speed if cargo is full
+ 5 Cap "Gaila"        Parsteel Hunter        +25% Parsteel if attacking hostile
+ 5 Off "Gaila"        Critical Avoidance     -20% damage if hostile opponent
+ 6 Cap "Gonzales"     Solution Finder        + 8% critical hit chance if attacking hostile
+ 6 Off "Gonzales"     Problem Solver         + 5% critical hit damage if hostile
+ 7 Cap "Helvia"       Parsteel Miner         +50% mining PAR
+ 7 Off "Helvia"       Gold Rush              +50% warp speed if cargo == 0
+ 8 Cap "K'Bisch"      Tritanium Miner        +20% Tritanium mining
+ 8 Off "K'Bisch"      Defensive Mining       -12% damage if attacked while mining
+ 9 Cap "Klaa"         Hot Pursuit            +25% impulse speed
+ 9 Off "Klaa"         Critical Strike        + 8% critical hit damage
+10 Cap "Komal"        Battleship Specialist  +30% weapon damage if attacking player
+10 Off "Komal"        Resist Kinetic         - 7% kinetic damage if player attacking
+11 Cap "Koth"         Interceptor Overseer   +20% decrease in repair time
+11 Off "Koth"         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+12 Cap "M'Benga"      Break Through          +10% armor+shield+accuracy if defending station
+12 Off "M'Benga"      Slip Through           +10% dodge+armor+shield deflection if defending station
+13 Cap "Cadet McCoy"  Doctor                 +10% health of all officers
+13 Off "Cadet McCoy"  Psychologist           + 8% Captain Maneuver
+14 Cap "Rukor"        Explorer Specialist    +20% weapon damage if attacking player
+14 Off "Rukor"        Energy Boost           + 7% energy weapons if attacking player
+15 Cap "Cadet Scotty" Sturdy Ship            +10% ship hull health
+15 Off "Cadet Scotty" Warp Theory            + 2% warp distance
+16 Cap "Shev"         Tritanium Hunter       +25% Tritanium if attcking hostile
+16 Off "Shev"         Justice Dealer         + 7% energy weapons if attacking hostile
+17 Cap "Instr Spock"  Knowledgeable          + 5% weapon damage to opponent
+17 Off "Instr Spock"  Kobayashi Manu         +12% shield deflection, armor, dodge
+18 Cap "Cadet Sulu"   Big Shot               + 5% damage first round
+18 Off "Cadet Sulu"   Fighting Spirit        +10% increases all officer attack
+19 Cap "T'Laan"       Thorough Scans         +15% Ship XP if fighting hostiles
+19 Off "T'Laan"       Objective Defense      - 7% damage by kinetic weapons if hostile
+20 Cap "Cadet Uhura"  Scan the Enemy         -10% decrease weapon damage of opponent
+20 Off "Cadet Uhura"  Negotiations           + 9% shield health
+21 Cap "Vartoq"       Interceptor Specialist +20% weapon damage if attacking player
+21 Off "Vartoq"       Kinetic Boost          + 7% kinetic weapon damage if attacking player
+22 Cap "Vel"          Dilithium Hunter       +45% Dilithium if attacking hostile
+22 Off "Vel"          Chirurgical Precision  + 7% kinetic weapon damage
+23 Cap "Vella"        Overmatch              +10% weapon damage if opponent is explorer
+23 Off "Vella"        Sturdy Companion       + 5% officer health
+24 Cap "Vixis"        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+24 Off "Vixis"        Energy Absorption      -10% decrease energy weapons of opponnents
+25 Cap "Zahra"        Station Expert         +10% hull health if defending station
+25 Off "Zahra"        Home Engineer          + 5% weapon damage if defending station
