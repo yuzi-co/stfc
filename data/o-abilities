@@ -48,3 +48,5 @@
 24 Off "Vixis"        Energy Absorption      -10% decrease energy weapons of opponnents
 25 Cap "Zahra"        Station Expert         +10% hull health if defending station
 25 Off "Zahra"        Home Engineer          + 5% weapon damage if defending station
+26 Cap "Scotty"       Miracle Worker         -10% time to repair the ship
+26 Off "Scotty"       Born Engineer          +10% hull health
