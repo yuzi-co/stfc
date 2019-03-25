@@ -245,6 +245,24 @@ foreach my $o (sort {
 	    $o->{curp}, $o->{reqp},
 	    $o->{group};
 }
+
+my $o_str_group = "";
+my $group = "";
+my $ogroup = "";
+foreach my $o (sort {
+			if ($a->{group} eq $b->{group}) {
+				$a->{'fmt_name'} cmp $b->{'fmt_name'}
+			} else {
+				$a->{group} cmp $b->{group};
+			}
+		} @officer_stats) {
+		$group = $o->{group};
+		if ($ogroup eq "" || $group ne $ogroup) {
+			$o_str_group .= "\n==> ${group}\n";
+			$ogroup = $group;
+		}
+		$o_str_group .= "    ".$o->{'fmt_name'}."\n";;
+}
 	
 
 if (!open(T,"templates/OFFICERS.txt")) {
@@ -262,6 +280,7 @@ while(<T>) {
 	$l =~ s/%O_C_STATS%/${os_str}/;
 	$l =~ s/%O_C_STATS_strength%/${os_str_strength}/;
 	$l =~ s/%O_C_STATS_attack%/${os_str_attack}/;
+	$l =~ s/%O_C_GROUP%/${o_str_group}/;
 	if ($l =~ /%(battleship|explorer|surveyor|interceptor)(\[.*\]%|%)/) {
 		my @olist;
 		my $ship = $1;
