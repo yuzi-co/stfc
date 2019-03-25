@@ -12,6 +12,12 @@ Nevertheless, I have figured out a few things:
    this once a captain has been chosen
  - station abilities are active only if the officer is on a ship docked at
    the station
+ - boring math: promotion level * ( attack + defense + health ) = strength
+    Name           Level
+    Ensign I            = 2
+    Lieut. JG II        = 3
+    Lieut. III          = 4
+    Lieut. Commander IV = 5
 
 %O_C_MANEAUVER_ABILITY%
 
@@ -188,3 +194,7 @@ Stats again, sorted by Attack
 Rank         Name                     \|/     \|/ \|/ \|/ \|/  \|/  Group
 ------------ ----------------------- ------- ---- --- --- --- ----- ----------------
 %O_C_STATS_attack%
+
+Officers by Group
+-----------------
+%O_C_GROUP%
