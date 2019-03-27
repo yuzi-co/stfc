@@ -12,12 +12,23 @@ Nevertheless, I have figured out a few things:
    this once a captain has been chosen
  - station abilities are active only if the officer is on a ship docked at
    the station
- - boring math: promotion level * ( attack + defense + health ) = strength
-    Name           Level
-    Ensign I            = 2
-    Lieut. JG II        = 3
-    Lieut. III          = 4
-    Lieut. Commander IV = 5
+ - boring math: promotion (grade+1) * ( attack + defense + health ) = strength
+    Name                  Grade Max Level
+    Not yet unlocked    = 1
+    Ensign I            = 1    = 5
+    Lieut. JG II        = 2    = 10
+    Lieut. III          = 3    = 15
+    Lieut. Commander IV = 4    = 20
+    ? V                 = 5    = 30
+
+Cap 0718         Station Knowledge      + 4% critical hit chances if defending station
+Off 0718         Computer Precision     + 5% increase officer defenses
+
+Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
+Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+
+Cap Arkady       Always Enthusiast      +50% chance of inspiring morale for 3 rounds
+Off Arkady       Shields Refactor       +10% shield health
 
 Cap Cadet Kirk   Motivational           + 8% attack, defense, health of bridge crew
 Off Cadet Kirk   Tactician              + 8% weapon damage
@@ -40,6 +51,9 @@ Off Chen         Energy Absorber        -10% energy weapons if hostile attacking
 Cap D'jaoki      War of Endurance       +10% health for 1min after winning
 Off D'jaoki      Shatter Defenses       -40% decreases crew health if opponent burning
 
+Cap Darwin       Defending Power        +10% damage if attacked by player
+Off Darwin       Interceptor Trainer    +20% ship xp on interceptors
+
 Cap Domitia      Dilithium Miner        +20% Dilithium mining
 Off Domitia      Hurry Home             +50% warp speed if cargo is full
 
@@ -49,11 +63,20 @@ Off Gaila        Critical Avoidance     -20% damage if hostile opponent
 Cap Gonzales     Solution Finder        + 8% critical hit chance if attacking hostile
 Off Gonzales     Problem Solver         + 5% critical hit damage if hostile
 
+Cap Hadley       Galaxy Traveler        +15% warp speed
+Off Hadley       Survey Trainer         +20% ship xp on surveyors
+
 Cap Helvia       Parsteel Miner         +50% mining PAR
 Off Helvia       Gold Rush              +50% warp speed if cargo == 0
 
+Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
+Off Hendorff     Explorer Trainer       +20% ship xp on explorers
+
 Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
 Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+
+Cap Javaid       Overwhelming Fire      +20% shield piercing
+Off Javaid       Reinforcements         +15% armor if battleship
 
 Cap K'Bisch      Tritanium Miner        +20% Tritanium mining
 Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
@@ -67,8 +90,14 @@ Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
 Cap Koth         Interceptor Overseer   +20% decrease in repair time
 Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
 
+Cap L'Nar        Romulan Health         +20% health of officers
+Off L'Nar        Klingon Pursue         +25% damage against klingon ships of crew's attack
+
 Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
 Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
+
+Cap Qa'ug        Excel under Pressure   -35% decreases opponents officers stats if hull breach
+Off Qa'ug        Blood and Honor        +30% accuracy if hull breach
 
 Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
 Off Rukor        Energy Boost           + 7% energy weapons if attacking player
@@ -78,6 +107,9 @@ Off Scotty       Born Engineer          +10% hull health
 
 Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
 Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
+
+Cap Sulu         Do Not Test Me         +40% chance of inspiring morale for one round if critically hit
+Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
 
 Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
 Off T'Laan       Objective Defense      - 7% damage by kinetic weapons if hostile
@@ -284,17 +316,22 @@ Machine Suggestions
 
 Battleship + hostile (elminiation goals, strength not care so much about rss)
  ship=battleship flags=hostile,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
  Cap Chen         Modifications          +20% dodge, shields, armor if attacking hostiles
  Cap Gaila        Parsteel Hunter        +25% Parsteel if attacking hostile
  Cap Gonzales     Solution Finder        + 8% critical hit chance if attacking hostile
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
@@ -302,192 +339,261 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
  Off Gaila        Critical Avoidance     -20% damage if hostile opponent
  Off Gonzales     Problem Solver         + 5% critical hit damage if hostile
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off T'Laan       Objective Defense      - 7% damage by kinetic weapons if hostile
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Battleship + player
  ship=battleship flags=player,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Darwin       Defending Power        +10% damage if attacked by player
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vartoq       Kinetic Boost          + 7% kinetic weapon damage if attacking player
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Battleship + station
  ship=battleship flags=station,
+ Cap 0718         Station Knowledge      + 4% critical hit chances if defending station
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
  Cap Zahra        Station Expert         +10% hull health if defending station
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
  Off Zahra        Home Engineer          + 5% weapon damage if defending station
 
 Explorer + hostile (elminiation goals, strength not care so much about rss)
  ship=explorer flags=hostile,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
  Cap Chen         Modifications          +20% dodge, shields, armor if attacking hostiles
  Cap Gaila        Parsteel Hunter        +25% Parsteel if attacking hostile
  Cap Gonzales     Solution Finder        + 8% critical hit chance if attacking hostile
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Chen         Energy Absorber        -10% energy weapons if hostile attacking
  Off Gaila        Critical Avoidance     -20% damage if hostile opponent
  Off Gonzales     Problem Solver         + 5% critical hit damage if hostile
+ Off Hendorff     Explorer Trainer       +20% ship xp on explorers
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off T'Laan       Objective Defense      - 7% damage by kinetic weapons if hostile
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Explorer + player
  ship=explorer flags=player,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Darwin       Defending Power        +10% damage if attacked by player
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
+ Off Hendorff     Explorer Trainer       +20% ship xp on explorers
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vartoq       Kinetic Boost          + 7% kinetic weapon damage if attacking player
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Explorer + station
  ship=battleship flags=station,
+ Cap 0718         Station Knowledge      + 4% critical hit chances if defending station
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
  Cap Zahra        Station Expert         +10% hull health if defending station
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
  Off Zahra        Home Engineer          + 5% weapon damage if defending station
 
 Interceptor + hostile (elminiation goals, strength not care so much about rss)
  ship=interceptor flags=hostile,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
  Cap Chen         Modifications          +20% dodge, shields, armor if attacking hostiles
  Cap Gaila        Parsteel Hunter        +25% Parsteel if attacking hostile
  Cap Gonzales     Solution Finder        + 8% critical hit chance if attacking hostile
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Chen         Energy Absorber        -10% energy weapons if hostile attacking
+ Off Darwin       Interceptor Trainer    +20% ship xp on interceptors
  Off Gaila        Critical Avoidance     -20% damage if hostile opponent
  Off Gonzales     Problem Solver         + 5% critical hit damage if hostile
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off T'Laan       Objective Defense      - 7% damage by kinetic weapons if hostile
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Interceptor + player
  ship=interceptor flags=player,
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Darwin       Defending Power        +10% damage if attacked by player
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
+ Off Darwin       Interceptor Trainer    +20% ship xp on interceptors
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vartoq       Kinetic Boost          + 7% kinetic weapon damage if attacking player
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
 
 Interceptor + station
  ship=interceptor flags=station,
+ Cap 0718         Station Knowledge      + 4% critical hit chances if defending station
+ Cap Arix         Plasma Backlash        +10% chance of burning opponent if energy weapon
  Cap Cadet Scotty Sturdy Ship            +10% ship hull health
  Cap Cadet Uhura  Scan the Enemy         -10% decrease weapon damage of opponent
+ Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
+ Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
  Cap Zahra        Station Expert         +10% hull health if defending station
+ Off Arix         Powered Armor          +15% armor if combat starts with hull health < 70%
+ Off Arkady       Shields Refactor       +10% shield health
  Off Cadet Kirk   Tactician              + 8% weapon damage
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Cadet Uhura  Negotiations           + 9% shield health
+ Off Darwin       Interceptor Trainer    +20% ship xp on interceptors
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
+ Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
+ Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
  Off Vel          Chirurgical Precision  + 7% kinetic weapon damage
  Off Vixis        Energy Absorption      -10% decrease energy weapons of opponnents
  Off Zahra        Home Engineer          + 5% weapon damage if defending station
@@ -496,18 +602,21 @@ Surveyor + mining + DIL
  ship=surveyor flags=mining,dilithium,
  Cap Domitia      Dilithium Miner        +20% Dilithium mining
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
+ Off Hadley       Survey Trainer         +20% ship xp on surveyors
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Surveyor + mining + TRI
  ship=surveyor flags=mining,tritanium,
  Cap K'Bisch      Tritanium Miner        +20% Tritanium mining
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
+ Off Hadley       Survey Trainer         +20% ship xp on surveyors
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Surveyor + mining + PAR
  ship=surveyor flags=mining,parsteel,
  Cap Helvia       Parsteel Miner         +50% mining PAR
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
+ Off Hadley       Survey Trainer         +20% ship xp on surveyors
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Stats again, sorted by Strength
