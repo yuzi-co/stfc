@@ -50,3 +50,95 @@
 25 Off "Zahra"        Home Engineer          + 5% weapon damage if defending station
 26 Cap "Scotty"       Miracle Worker         -10% time to repair the ship
 26 Off "Scotty"       Born Engineer          +10% hull health
+27 Cap "Darwin"       Defending Power        +10% damage if attacked by player
+27 Off "Darwin"       Interceptor Trainer    +20% ship xp on interceptors
+28 Cap "Hadley"       Galaxy Traveler        +15% warp speed
+28 Off "Hadley"       Survey Trainer         +20% ship xp on surveyors
+29 Cap "0718"         Station Knowledge      + 4% critical hit chances if defending station
+29 Off "0718"         Computer Precision     + 5% increase officer defenses
+30 Cap "Qa'ug"        Excel under Pressure   -35% decreases opponents officers stats if hull breach
+30 Off "Qa'ug"        Blood and Honor        +30% accuracy if hull breach
+31 Cap "Hendorff"     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
+31 Off "Hendorff"     Explorer Trainer       +20% ship xp on explorers
+32 Cap "L'Nar"        Romulan Health         +20% health of officers
+32 Off "L'Nar"        Klingon Pursue         +25% damage against klingon ships of crew's attack
+33 Cap "Leslie"
+33 Off "Leslie"
+34 Cap "Linkasa"
+34 Off "Linkasa"
+35 Cap "Severus"
+35 Off "Severus"
+36 Cap "Yan'agh"
+36 Off "Yan'agh"
+37 Cap "Zhou"
+37 Off "Zhou"
+38 Cap "Vemet"
+38 Off "Vemet"
+39 Cap "Azetbur"
+39 Off "Azetbur"
+40 Cap "Chang"
+40 Off "Chang"
+41 Cap "Decius"
+41 Off "Decius"
+42 Cap "Harrison"
+42 Off "Harrison"
+43 Cap "Keenser"
+43 Off "Keenser"
+44 Cap "Kerla"
+44 Off "Kerla"
+45 Cap "Krell"
+45 Off "Krell"
+46 Cap "Kumak"
+46 Off "Kumak"
+47 Cap "Kuron"
+47 Off "Kuron"
+48 Cap "Livis"
+48 Off "Livis"
+49 Cap "Mara"
+49 Off "Mara"
+50 Cap "Bones"
+50 Off "Bones"
+51 Cap "Mirek"
+51 Off "Mirek"
+52 Cap "Moreau"
+52 Off "Moreau"
+53 Cap "Spock"
+53 Off "Spock"
+54 Cap "Stonn"
+54 Off "Stonn"
+55 Cap "T'Pring"
+55 Off "T'Pring"
+56 Cap "Tal"
+56 Off "Tal"
+57 Cap "Uhura"
+57 Off "Uhura"
+58 Cap "Yuki"
+58 Off "Yuki"
+59 Cap "Barot"
+59 Off "Barot"
+60 Cap "Carol"
+60 Off "Carol"
+61 Cap "Charvanek"
+61 Off "Charvanek"
+62 Cap "Gorkon"
+62 Off "Gorkon"
+63 Cap "Kang"
+63 Off "Kang"
+64 Cap "Kirk"
+64 Off "Kirk"
+65 Cap "Kras"
+65 Off "Kras"
+66 Cap "Mitchell"
+66 Off "Mitchell"
+67 Cap "Nero"
+67 Off "Nero"
+68 Cap "Pike"
+68 Off "Pike"
+69 Cap "Arkady" Always Enthusiast +50% chance of inspiring morale for 3 rounds
+69 Off "Arkady" Shields Refactor  +10% shield health
+70 Cap "Sulu"   Do Not Test Me    +40% chance of inspiring morale for one round if critically hit
+70 Off "Sulu"   Ranking Fire      +15% energy weapons if ship has morale
+71 Cap "Arix"   Plasma Backlash   +10% chance of burning opponent if energy weapon
+71 Off "Arix"   Powered Armor     +15% armor if combat starts with hull health < 70%
+72 Cap "Javaid" Overwhelming Fire +20% shield piercing
+72 Off "Javaid" Reinforcements    +15% armor if battleship
