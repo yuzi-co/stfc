@@ -42,6 +42,7 @@ Grade 2 Refinery Log
    Date/Time      RL OL Time 2RCO  2RC 2CC 2UC  2RGO  2RG 2UG  2CG  2ROO  2RO 2UO 2CO
 20190307 12:17:52 18 18  10h 56000  3K   0  35 65000   3K  10  180 41000   3K   0 180
 20190311 08:58:08 18 19  10h 48000  3K   0  10 58000   3K   0  360 32000   3K  15   0
+20190328 12:22:20 19 19  10h  8115  3K  35   0 11000   3K  10    0  3823   3K  20   0
 
 Grade 3 Refinery Log
 --------------------
