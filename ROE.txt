@@ -1,5 +1,5 @@
-Rules Of Engagement
--------------------
+Rules Of Engagement (applicable to server 016)
+----------------------------------------------
 
 Fair Game to Attack:
 - a miner on a mine with 0 resources
