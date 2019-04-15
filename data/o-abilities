@@ -62,10 +62,10 @@
 31 Off "Hendorff"     Explorer Trainer       +20% ship xp on explorers
 32 Cap "L'Nar"        Romulan Health         +20% health of officers
 32 Off "L'Nar"        Klingon Pursue         +25% damage against klingon ships of crew's attack
-33 Cap "Leslie"
-33 Off "Leslie"
-34 Cap "Linkasa"
-34 Off "Linkasa"
+33 Cap "Leslie"       Minor Damage Control   + 5% restore hull if hull health is < 35%
+33 Off "Leslie"       Battleship Trainer     +20% ship xp on battleships
+34 Cap "Linkasa"      Way of the Klingon     +10% defense of all officers after winning a battle
+34 Off "Linkasa"      Defensive Tactics      +25% armor of ship by total attack of crew
 35 Cap "Severus"
 35 Off "Severus"
 36 Cap "Yan'agh"
