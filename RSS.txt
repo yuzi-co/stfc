@@ -52,22 +52,34 @@ Research - Combat
               63300    0        0   0   0   0                 125                 R Prime Hulls 0 -> 1
     0  6479    3873    0    0   0   0   0   0   0   0   0   0   0   0   0 21h17m  R Survey Shield Array 4 -> 5
 
-Ships
-                                                                 Upgrade Type
-  PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 2BP 2EP 2IP Time   \|/Description
-        7250           0        0   0   0   0   0   0   0   0   0   0   0 20h00m  E Shield MK2 + 8 2SP
-        9000    220    0        0   0   0   0   0   0   0   0   0   0   0         E Cargo Bay MK2 + 16 2SP
-       12500   2900    0        0   0  63   0   0   0   0   0  54   0   0         T Phase Cannon MK5
-       12500   2900    0        0   0  63   0   0   0   0   0  54   0   0         T Phase Cannon MK5
-        8500           0        0   0   0   0   0   0   0   0  18   0   0         T Cargo Bay MK5
-               1400    0        0   0 375   0   0   0   0   0  36   0   0         T Warp Engines MK5
-       21000           0        0   0 750   0   0   0   0   0  54   0   0         T TRI Armor MK5
+Ships - G2
+                                                                                  Upgrade Type
+  PAR   TRI    DIL   2CC  2UC 2CG 2UG 2CO 2UO 3CG 3UG 3CC 3CO 3UO 2BP 2EP 2IP 2SP Time   \|/Description
+       12500   2900    0    0   0   0  63   0   0   0   0   0   0  54   0   0   0         T Phase Cannon MK5
+       12500   2900    0    0   0   0  63   0   0   0   0   0   0  54   0   0   0         T Phase Cannon MK5
+        8500           0    0   0   0   0   0   0   0   0   0   0  18   0   0   0         T Cargo Bay MK5
+               1400    0    0   0   0 375   0   0   0   0   0   0  36   0   0   0         T Warp Engines MK5
+       21000           0    0   0   0 750   0   0   0   0   0   0  54   0   0   0         T TRI Armor MK5
+    0 230000  34500    0  275   0   0   0   0   0   0   0   0   0   0   0   0 475         E6 Mining Laser MK7
+    0 305000      0 1350    0   0   0   0   0   0   0   0   0   0   0   0   0  88         E6 Shield MK7
+    0 308000  13000    0  220   0   0   0   0   0   0   0   0   0   0   0   0 325         E6 Cargo Bay MK7
+    0  76000  21500    0  160   0   0   0   0   0   0   0   0   0   0   0   0 250         E6 Phase Emitter MK7
+    0  50500  13500    0    0   0   0   0 350   0   0   0   0   0 245   0   0   0         T6 Phase Cannon 1 MK7
+    0  50500  13500    0    0   0   0   0 350   0   0   0   0   0 245   0   0   0         T6 Phase Cannon 2 MK7
+    0  36000   9500    0    0   0 250   0   0   0   0   0   0   0   0 325   0   0         U6 Phaser Turret 2 MK7
+    0  62000   2300    0  180   0   0   0   0   0   0   0   0   0   0   0 230   0         P6 Photonic Torpedoes 1 MK7
+    0  28000   1000    0   80   0   0   0   0   0   0   0   0   0   0   0 100   0         P5 Photonic Torpedoes 1 MK7
+    0  28000   1000    0   80   0   0   0   0   0   0   0   0   0   0   0 100   0         P5 Photonic Torpedoes 2 MK7
+    
+
 
 
 Key
 ---
 R = Research
 T = Tallia
+U = Turas
+P = Phandra
 B = Building
 E = Envoy
 PAR = Parsteel
@@ -129,3 +141,6 @@ DONE
     50     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0  5m00s  B Operations 2
     10     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    15s  B PAR Gen B 1
     20     0      0    0    0   0   0   0   0   0   0   0   0   0   0   0   0    45s  B PAR Gen A 2
+     0  7250           0        0   0   0   0   0   0   0   0   0   0   0   0 20h00m  E Shield MK2 + 8 2SP
+     0  9000    220    0        0   0   0   0   0   0   0   0   0   0   0   0         E Cargo Bay MK2 + 16 2SP
+    0  36000   9500    0    0   0 250   0   0   0   0   0   0   0   0 325   0   0         U6 Phaser Turret 1 MK7
