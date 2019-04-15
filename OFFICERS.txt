@@ -93,6 +93,12 @@ Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponen
 Cap L'Nar        Romulan Health         +20% health of officers
 Off L'Nar        Klingon Pursue         +25% damage against klingon ships of crew's attack
 
+Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
+Off Leslie       Battleship Trainer     +20% ship xp on battleships
+
+Cap Linkasa      Way of the Klingon     +10% defense of all officers after winning a battle
+Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
+
 Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
 Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
 
@@ -325,6 +331,7 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
  Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
@@ -341,6 +348,8 @@ Battleship + hostile (elminiation goals, strength not care so much about rss)
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Leslie       Battleship Trainer     +20% ship xp on battleships
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -358,6 +367,7 @@ Battleship + player
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
@@ -371,6 +381,8 @@ Battleship + player
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Leslie       Battleship Trainer     +20% ship xp on battleships
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -387,6 +399,7 @@ Battleship + station
  Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
@@ -399,6 +412,8 @@ Battleship + station
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Leslie       Battleship Trainer     +20% ship xp on battleships
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -417,6 +432,7 @@ Explorer + hostile (elminiation goals, strength not care so much about rss)
  Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
@@ -434,6 +450,7 @@ Explorer + hostile (elminiation goals, strength not care so much about rss)
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -451,6 +468,7 @@ Explorer + player
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
@@ -465,6 +483,7 @@ Explorer + player
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -481,6 +500,7 @@ Explorer + station
  Cap Hendorff     Excellent Security     +20% dodge, armor, shield deflection if combat starts with hull health < 60%
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
@@ -493,6 +513,8 @@ Explorer + station
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Leslie       Battleship Trainer     +20% ship xp on battleships
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -512,6 +534,7 @@ Interceptor + hostile (elminiation goals, strength not care so much about rss)
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Shev         Tritanium Hunter       +25% Tritanium if attcking hostile
  Cap T'Laan       Thorough Scans         +15% Ship XP if fighting hostiles
  Cap Vel          Dilithium Hunter       +45% Dilithium if attacking hostile
@@ -529,6 +552,7 @@ Interceptor + hostile (elminiation goals, strength not care so much about rss)
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Scotty       Born Engineer          +10% hull health
  Off Shev         Justice Dealer         + 7% energy weapons if attacking hostile
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -547,6 +571,7 @@ Interceptor + player
  Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Komal        Battleship Specialist  +30% weapon damage if attacking player
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap Rukor        Explorer Specialist    +20% weapon damage if attacking player
  Cap Vartoq       Interceptor Specialist +20% weapon damage if attacking player
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
@@ -561,6 +586,7 @@ Interceptor + player
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Komal        Resist Kinetic         - 7% kinetic damage if player attacking
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off Rukor        Energy Boost           + 7% energy weapons if attacking player
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
@@ -578,6 +604,7 @@ Interceptor + station
  Cap Instr Spock  Knowledgeable          + 5% weapon damage to opponent
  Cap Javaid       Overwhelming Fire      +20% shield piercing
  Cap Koth         Interceptor Overseer   +20% decrease in repair time
+ Cap Leslie       Minor Damage Control   + 5% restore hull if hull health is < 35%
  Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
  Cap Vella        Overmatch              +10% weapon damage if opponent is explorer
  Cap Vixis        Fake Communiques       + 6% chance delaying opponent weapon fire by 1 round
@@ -591,6 +618,7 @@ Interceptor + station
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
+ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
  Off Scotty       Born Engineer          +10% hull health
  Off Sulu         Ranking Fire           +15% energy weapons if ship has morale
