@@ -18,8 +18,22 @@ Ajilon
 
 North Star
 ----------
-Davidful Nojusor Reprisal              +3 Northstar, +250 Romulan, -132 Federation, -88 Klingon, +6 Nero, +3 Freight Vault
-Zhang    Seuac   Crossfire             +100k PAR, +3 Koth
+System    Planet           Name                  Rewards
+Davidful  Nojusor          Reprisal              +3 NS, +250R, -132F, -88 K, +6 Nero, +3 Freight Vault
+Zhang     Seuac            Crossfire                    +100k PAR, +3 Koth
+Krah'Hor  Vos'Keth Station A Sharp Eye           +3 NS, +35k TRI, +3 Freight Vault, -19F 80K -51R
+           ...continued    Cloak and Dagger      +2 NS, +300k PAR, +2 Freight Vault, -81F -54K 160R
+Krah'Hor  Vos'Keth Station Theft of an Icon      +2 NS, +50 Klingon Credits, +2 Freight Vault, -16F 70K -43R
+Lorilla   Starbase 82      Corbonite Maneuver    +2 NS, +40 Fed Credits, +2 Freight Vault, 60F -39K -9R
+Australis Yagerap          Day of Honor          +1 NS, 1 Freight Vault, +2 Chang Shards, -13F 60K -35R
+           ...continued    Divided Attention     +2 NS, 40 Fed Credit, 2 Freight Vault, 60F -39K -9R
+           ...continued    Fallen Centurion      +1 NS, 40 Rom Credit, 1 Freight Vault, -26F -17K 60R
+Voss      Kyle             No Stone Unturned     +2 NS, 8 0718 Shards, 2 Freight Vault, 250F -198K -44R
+                           Requires: Gone Too Far
+Kaikara   ?
+                                                 ____
+                                                 18 NS
+
 
 
 
