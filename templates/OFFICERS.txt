@@ -13,13 +13,14 @@ Nevertheless, I have figured out a few things:
  - station abilities are active only if the officer is on a ship docked at
    the station
  - boring math: promotion (grade+1) * ( attack + defense + health ) = strength
-    Name                  Grade Max Level
+                              Max   Promotion
+    Name                Grade Level Cost (Officer XP)
     Not yet unlocked    = 1
-    Ensign I            = 1    = 5
-    Lieut. JG II        = 2    = 10
-    Lieut. III          = 3    = 15
-    Lieut. Commander IV = 4    = 20
-    ? V                 = 5    = 30
+    Ensign I            = 1    5      500
+    Lieut. JG II        = 2    10
+    Lieut. III          = 3    15   50000
+    Lieut. Commander IV = 4    20
+    ? V                 = 5    30
 
 %O_C_MANEAUVER_ABILITY%
 
