@@ -16,11 +16,14 @@ Nevertheless, I have figured out a few things:
                               Max   Promotion
     Name                Grade Level Cost (Officer XP)
     Not yet unlocked    = 1
-    Ensign I            = 1    5      500
+    Ensign I            = 1    5      500 ? 2500
     Lieut. JG II        = 2    10
     Lieut. III          = 3    15   50000
     Lieut. Commander IV = 4    20
     ? V                 = 5    30
+
+   Notes:
+     Uncommon Lucia Gonzales Ensign I promotion costs 2500 oxp
 
 Cap 0718         Station Knowledge      + 4% critical hit chances if defending station
 Off 0718         Computer Precision     + 5% increase officer defenses
@@ -79,8 +82,14 @@ Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
 Cap Javaid       Overwhelming Fire      +20% shield piercing
 Off Javaid       Reinforcements         +15% armor if battleship
 
+Cap Joaquin      Firewall Protection    +50% protected cargo
+Off Joaquin      Data Miner             +40% mining rate of corrupt data and decoded data
+
 Cap K'Bisch      Tritanium Miner        +20% Tritanium mining
 Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
+
+Cap Kati         Hail of Fire           +04% chances of critical hit per round if target is defense platform
+Off Kati         Enhanced Weaponry      +15% critical hit damage if attacking a station
 
 Cap Klaa         Hot Pursuit            +25% impulse speed
 Off Klaa         Critical Strike        + 8% critical hit damage
@@ -102,6 +111,9 @@ Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of cr
 
 Cap M'Benga      Break Through          +10% armor+shield+accuracy if defending station
 Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
+
+Cap Otto         Smash the Defenses     +20% damage if target is defense platform
+Off Otto         Brute Force            +20% attack of all bridge officers
 
 Cap Qa'ug        Excel under Pressure   -35% decreases opponents officers stats if hull breach
 Off Qa'ug        Blood and Honor        +30% accuracy if hull breach
@@ -167,9 +179,11 @@ Lieut. JG II Helvia                   10/ 10  273   7  46  38 12/20 Surveyors & 
              Hendorff                  0/ 16  118  37  17   5  0/ 0 Shakedown Cruise
              Ivanov, Arkady           10/ 12  120  10  30  20  0/ 0 Enterprise Crew
              Javaid                   11/ 12  118  30  12  17  0/ 0 Nero's Crew
+             Joaquin                   0/ 14  158  25  12  42  0/ 0 Khan's Crew
 Lieut. JG II K'Bentayr, Vel           10/ 10  279  31  31  31 12/25 Starfleet Academy
 Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & Miners
              Kang                      0/ 95  576 216  60  12  0/ 0 Blood & Honor
+             Kati                     17/ 20  158  37   5  37  0/ 0 Khan's Crew
              Keenser                   2/ 34  240  10  80  30  0/ 0 Lower Decks
              Kerla                     4/ 32  240  40  25  55  0/ 0 Klingon Patriots
 Lieut. JG II Kirk, Cadet James T.     10/ 10  231  32  32  13 16/20 Another Time
@@ -196,6 +210,7 @@ Lieut. III   McCoy, Cadet Leonard     12/ 15  452  28  28  57 12/36 Another Time
              Moreau, Marlena           0/ 38  240  40  40  40  0/ 0 Shakedown Cruise
              Nero                      7/100  576  48  48 192  0/ 0 Nero's Crew
              Officer 0718              7/ 14  120  15  20  25  0/ 0 Lower Decks
+             Otto                     15/ 16  158  65   7   7  0/ 0 Khan's Crew
              Pike, Christopher         0/100  576  72 108 108  0/ 0 Shakedown Cruise
              Qa'ug                     0/ 12  120  20  20  20  0/ 0 Blood & Honor
 Lieut. JG II Rukor                     6/ 10  168  35  19   2  7/35 Glory in the Kill
@@ -412,6 +427,7 @@ Battleship + station
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
+ Off Kati         Enhanced Weaponry      +15% critical hit damage if attacking a station
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Leslie       Battleship Trainer     +20% ship xp on battleships
  Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
@@ -513,6 +529,7 @@ Explorer + station
  Off Cadet Uhura  Negotiations           + 9% shield health
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
+ Off Kati         Enhanced Weaponry      +15% critical hit damage if attacking a station
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Leslie       Battleship Trainer     +20% ship xp on battleships
  Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
@@ -618,6 +635,7 @@ Interceptor + station
  Off Darwin       Interceptor Trainer    +20% ship xp on interceptors
  Off Instr Spock  Kobayashi Manu         +12% shield deflection, armor, dodge
  Off Javaid       Reinforcements         +15% armor if battleship
+ Off Kati         Enhanced Weaponry      +15% critical hit damage if attacking a station
  Off Koth         Open Them Up           + 5% incrases kinetic weapons if opponent has hull breach
  Off Linkasa      Defensive Tactics      +25% armor of ship by total attack of crew
  Off M'Benga      Slip Through           +10% dodge+armor+shield deflection if defending station
@@ -632,6 +650,7 @@ Surveyor + mining + DIL
  Cap Domitia      Dilithium Miner        +20% Dilithium mining
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Hadley       Survey Trainer         +20% ship xp on surveyors
+ Off Joaquin      Data Miner             +40% mining rate of corrupt data and decoded data
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Surveyor + mining + TRI
@@ -639,6 +658,7 @@ Surveyor + mining + TRI
  Cap K'Bisch      Tritanium Miner        +20% Tritanium mining
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Hadley       Survey Trainer         +20% ship xp on surveyors
+ Off Joaquin      Data Miner             +40% mining rate of corrupt data and decoded data
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Surveyor + mining + PAR
@@ -646,6 +666,7 @@ Surveyor + mining + PAR
  Cap Helvia       Parsteel Miner         +50% mining PAR
  Off Cadet McCoy  Psychologist           + 8% Captain Maneuver
  Off Hadley       Survey Trainer         +20% ship xp on surveyors
+ Off Joaquin      Data Miner             +40% mining rate of corrupt data and decoded data
  Off K'Bisch      Defensive Mining       -12% damage if attacked while mining
 
 Stats again, sorted by Strength
@@ -710,6 +731,9 @@ Ensign I     Klaa                      5/  5  200  17  21  62 10/28 Glory in the
 Ensign I     Koth                      5/  5  200  29  25  46  0/28 Klingon Patriots
 Ensign I     Vixis                     3/  5  176  14  44  30  0/28 Glory in the Kill
 Lieut. JG II Rukor                     6/ 10  168  35  19   2  7/35 Glory in the Kill
+             Joaquin                   0/ 14  158  25  12  42  0/ 0 Khan's Crew
+             Kati                     17/ 20  158  37   5  37  0/ 0 Khan's Crew
+             Otto                     15/ 16  158  65   7   7  0/ 0 Khan's Crew
 Ensign I     Scott, Montgomery         1/ 32  150  19  40  16  3/ 5 Enterprise Crew
 Lieut. JG II Akria, Shev               6/ 10  144  26  12  10  6/25 Starfleet Academy
 Ensign I     Vella                     1/  5  140  26  32  12  2/24 Nero's Crew
@@ -777,6 +801,7 @@ Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & 
              Chang                     5/ 34  240  85  20  15  0/ 0 Klingon Patriots
              Pike, Christopher         0/100  576  72 108 108  0/ 0 Shakedown Cruise
              Mara                      0/ 34  240  70  15  35  0/ 0 Blood & Honor
+             Otto                     15/ 16  158  65   7   7  0/ 0 Khan's Crew
              Uhura, Nyota             10/ 36  240  60  35  25  0/ 0 Enterprise Crew
              Mitchell, Gary            0/110  576  60 132  96  0/ 0 Lower Decks
              Kumak                     6/ 34  240  50  20  50  0/ 0 Nero's Crew
@@ -790,11 +815,13 @@ Lieut. JG II K'Bisch                  10/ 10  273   7  34  50 19/25 Surveyors & 
              Moreau, Marlena           0/ 38  240  40  40  40  0/ 0 Shakedown Cruise
              Hendorff                  0/ 16  118  37  17   5  0/ 0 Shakedown Cruise
              M'Ral                    11/ 12  118  37   7  15  0/ 0 Klingon Patriots
+             Kati                     17/ 20  158  37   5  37  0/ 0 Khan's Crew
              Charvanek, Liviana        0/ 95  576  36  36 216  0/ 0 Romulan Patriots
              Javaid                   11/ 12  118  30  12  17  0/ 0 Nero's Crew
              Sulu, Hikaru             10/ 14  120  25  25  10  0/ 0 Enterprise Crew
              Vemet                     3/ 36  240  25  45  50  0/ 0 Nero's Crew
              Vement                    5/ 36  240  25  45  50  0/ 0 Nero's Crew
+             Joaquin                   0/ 14  158  25  12  42  0/ 0 Khan's Crew
              Woteln                    7/ 14  118  22  30   7  0/ 0 Klingon Patriots
              Yan'agh                   0/ 10  118  22   5  32  0/ 0 Blood & Honor
              Qa'ug                     0/ 12  120  20  20  20  0/ 0 Blood & Honor
@@ -854,6 +881,11 @@ Officers by Group
     Rukor
     Vartoq
     Vixis
+
+==> Khan's Crew
+    Joaquin
+    Kati
+    Otto
 
 ==> Klingon Patriots
     Azetbur
