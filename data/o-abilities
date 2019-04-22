@@ -142,3 +142,9 @@
 71 Off "Arix"   Powered Armor     +15% armor if combat starts with hull health < 70%
 72 Cap "Javaid" Overwhelming Fire +20% shield piercing
 72 Off "Javaid" Reinforcements    +15% armor if battleship
+73 Cap "Joaquin" Firewall Protection +50% protected cargo
+73 Off "Joaquin" Data Miner       +40% mining rate of corrupt data and decoded data
+74 Cap "Kati" Hail of Fire        +04% chances of critical hit per round if target is defense platform
+74 Off "Kati" Enhanced Weaponry   +15% critical hit damage if attacking a station
+75 Cap "Otto" Smash the Defenses  +20% damage if target is defense platform
+75 Off "Otto" Brute Force         +20% attack of all bridge officers
