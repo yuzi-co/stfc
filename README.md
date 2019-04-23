@@ -23,7 +23,7 @@ not attempt to data mine their bot. I advise you to do the same.  If you
 wish to checkout HiveMind head to:
 
 ```
-	[link](<https://discord.gg/bwPDTVB> "HiveMind Public")
+	[HiveMind Public](<https://discord.gg/bwPDTVB>)
 ```
 
 Enjoy!
