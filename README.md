@@ -8,7 +8,7 @@ To: anyone reading this
 I've noted a few individuals asking for info.  Rather than repeat it
 every time someone asks, I collect it here for my own use and others.
 
-I welcome others to contribute, or corrections.  I am only human!
+I welcome others to contribute, or send corrections.  I am only human!
 
 While 100% of the data in these files is collected and entered by me, a
 small bit of (fleshed out northstar missions) was retyped from HiveMind.
@@ -22,7 +22,7 @@ give in a given system.  I may spot check my info from HiveMind but will
 not attempt to data mine their bot. I advise you to do the same.  If you
 wish to checkout HiveMind head to:
 
-	[link](https://discord.gg/bwPDTVB HiveMind Public)
+	[link](<https://discord.gg/bwPDTVB> "HiveMind Public")
 
 Enjoy!
 
