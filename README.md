@@ -10,6 +10,20 @@ every time someone asks, I collect it here for my own use and others.
 
 I welcome others to contribute, or corrections.  I am only human!
 
+While 100% of the data in these files is collected and entered by me, a
+small bit of (fleshed out northstar missions) was retyped from HiveMind.
+The rest is based on my own data entry from my own mobile devices.  I
+would be remiss to not point out this awesome resource
+that is a bot on a discord server you can query for info.  It is more
+info complete than my personal crib notes.  I still update my own notes
+based on what I see since that is how I understand info.  I also have a
+few bits they have not yet implemented, such as range of rss hostiles
+give in a given system.  I may spot check my info from HiveMind but will
+not attempt to data mine their bot. I advise you to do the same.  If you
+wish to checkout HiveMind head to:
+
+	[link](https://discord.gg/bwPDTVB HiveMind Public)
+
 Enjoy!
 
 Thanks,
