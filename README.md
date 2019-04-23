@@ -22,7 +22,9 @@ give in a given system.  I may spot check my info from HiveMind but will
 not attempt to data mine their bot. I advise you to do the same.  If you
 wish to checkout HiveMind head to:
 
+```
 	[link](<https://discord.gg/bwPDTVB> "HiveMind Public")
+```
 
 Enjoy!
 
