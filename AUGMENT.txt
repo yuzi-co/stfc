@@ -1,0 +1,21 @@
+Strange is this new faction.
+
+lvl18 shipyard required to build the Botany Bay surveyor ship.
+
+lvl20 required to see plutonium in the augment faction store.
+
+lvl28 + pawn reputation required to see uncommon plutonium in the faction store.
+
+3 officers with maneuvers specific to augment faction (Khan's Crew)
+
+Otto
+  Captain Maneauver - Smash the Defenses  +20% damage against defense platforms
+  Officer Ability   - Brute Force         +20% attack of all bridge officers 
+
+Joaquin
+  Captain Maneauver - Firewall Protection +50% protected cargo
+  Officer Ability   - Data Miner          +40% data mining rate
+  
+Kati
+  Captain Maneauver - Hail of Fire        + 4% chance critical hit if targetting a defense platform
+  Officer Ability   - Data Miner          +15% critical hit damage if tagetting a station
