@@ -37,3 +37,18 @@ Joaquin
 Kati
   Captain Maneauver - Hail of Fire        + 4% chance critical hit if targetting a defense platform
   Officer Ability   - Data Miner          +15% critical hit damage if tagetting a station
+
+Items available in the faction store:
+
+Free
+   6 build parts for Botnay Bay *timer* (disappears after have 60bp)
+
+Augment Credits can buy...
+  12 - 1 chest  Augment Recruit I *timer*
+  24 - 2 chests Augment Recruit I *timer*
+ 
+Corrupted Data can buy..
+ 150 -  50 Augment Credits
+ 100 - 125 Augment Reputation
+
+*timer* - once you purchase, a timer is set to unlock again after a delay
