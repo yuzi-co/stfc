@@ -20,7 +20,7 @@ lvl18 shipyard required to build the Botany Bay surveyor ship.
 
 lvl20 required to see plutonium in the augment faction store.
 
-lvl28 + pawn reputation required to see uncommon plutonium in the faction store.
+lvl24 + pawn reputation required to see uncommon plutonium in the faction store.
 
 lvl30 required to see rare plutonium in the faction store.
 
