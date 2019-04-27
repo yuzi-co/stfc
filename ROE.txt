@@ -7,10 +7,18 @@ Fair Game to Attack:
 - a warship on a mine is fair game to attack
 - if you get bumped 'against roe rules' you can attack with your warship and
   get your miner back on (or have help to do so)
+- warship in space
 
 Can't Attack:
 - a miner actively mining with 0 recoverable cargo and resources still left
   in the mine
+- a miner resetting a node
+
+Common Courtesy:
+- do not warp directly to a node from another system
+- do not monopolize resources (one alliance occupying all nodes in a system is
+  not permitted)
+
 
 Some further verbose reasoning:
 
@@ -45,5 +53,25 @@ need to be sent home.
 
 Note your 'Inbox' has a record of your last 20 battles, in the event you
 want to write down who attacked you or click on his name to send him a
-polite message ;-)
+polite message or check if they got resources (over protected cargo) ;-)
 
+-----------------------------------------------------------------------------
+
+The above is my verbage and my interpretation of ROE.  The below is the
+actual approved verbage approved by the council of server 016 on April 26, 2019:
+
+Mining Rules of Engagement for Galaxy:
+
+1. Surveyor Class "Mining Ships" can be engaged for combat while mining under the following circumstances:
+   a. Miner is over the protected cargo capacity.
+   b. Miner is on a zero node. A message must be sent to player indicating why they were removed from mine.
+
+2. Surveyor Class "Mining Ships" are not free to target under the following conditions.
+   a. Actively Mining and not over the protected cargo capacity.
+   b. Resetting a node with the same miner.  This is evident and common courtesy.
+
+3. Mining Etiquette
+   a. Do not warp directly to a node from another system
+   b. No monopolization of resources. An Alliance(s) shall not be allowed to occupy all the nodes of any system.
+
+War Ships are open to attack at any time.  This includes a battleship, explorer, and interceptor floating in space or engaged in the act of mining.
