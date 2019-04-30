@@ -50,5 +50,6 @@ Augment Credits can buy...
 Corrupted Data can buy..
  150 -  50 Augment Credits
  100 - 125 Augment Reputation
+ 200 - 200 Augment Reputation
 
 *timer* - once you purchase, a timer is set to unlock again after a delay
