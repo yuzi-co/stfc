@@ -46,6 +46,9 @@ Free
 Augment Credits can buy...
   12 - 1 chest  Augment Recruit I *timer*
   24 - 2 chests Augment Recruit I *timer*
+  12 - 1 chest  Augemnt Recruit II *timer* (Kati / Otto)
+  30 - 2 chests Augemnt Recruit II *timer* (Kati / Otto)
+  60 - 3 chests Augemnt Recruit II *timer* (Kati / Otto)
  
 Corrupted Data can buy..
  150 -  50 Augment Credits
