@@ -12,7 +12,7 @@ Fair Game to Attack:
 Can't Attack:
 - a miner actively mining with 0 recoverable cargo and resources still left
   in the mine
-- a miner resetting a node
+- a miner resetting a node with the same ship
 
 Common Courtesy:
 - do not warp directly to a node from another system
@@ -68,7 +68,7 @@ Mining Rules of Engagement for Galaxy:
 
 2. Surveyor Class "Mining Ships" are not free to target under the following conditions.
    a. Actively Mining and not over the protected cargo capacity.
-   b. Resetting a node with the same miner.  This is evident and common courtesy.
+   b. Resetting a node with the SAME MINER.  This is evident and common courtesy.
 
 3. Mining Etiquette
    a. Do not warp directly to a node from another system
