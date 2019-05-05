@@ -13,22 +13,15 @@ Can't Attack:
 - a miner actively mining with 0 recoverable cargo and resources still left
   in the mine
 - a miner resetting a node with the same ship
+- a NorthStar unless 0 node or full (not mining) (DC only)
 
 Common Courtesy:
 - do not warp directly to a node from another system
 - do not monopolize resources (one alliance occupying all nodes in a system is
   not permitted)
 
-Be warned:
-
-  Dark Council (DC) is a group of 10 alliances (some top 10) that are
-  separate from Leadership Council (LC). DC is trying to push their RoE
-  which is slightly different.  Major departure from the current LC RoE
-  is they want a NS ship to mine until full or 0 node. Then you can hit
-  them.  They further threaten if anyone hits a DC member NS they will
-  retaliate with 10 miners being killed.  While I personally think this
-  is bullying and not civil nor nice, I also can do nothing to prevent it
-  so feel like passing it on as a warning.
+There are two councils, both with different RoE.  It is unclear how they can
+co exist so enjoy being careful!
 
 Some further verbose reasoning:
 
@@ -65,10 +58,14 @@ Note your 'Inbox' has a record of your last 20 battles, in the event you
 want to write down who attacked you or click on his name to send him a
 polite message or check if they got resources (over protected cargo) ;-)
 
+Screenshots are somoetimes necessary to prove various attack scenarios.
+The battle report shows who, the battle log 1st entry shows who attacked.
+
 -----------------------------------------------------------------------------
 
 The above is my verbage and my interpretation of ROE.  The below is the
-actual approved verbage approved by the council of server 016 on April 26, 2019:
+actual approved verbage approved by the Leadership Council of server 016
+on April 26, 2019:
 
 Mining Rules of Engagement for Galaxy:
 
@@ -85,3 +82,16 @@ Mining Rules of Engagement for Galaxy:
    b. No monopolization of resources. An Alliance(s) shall not be allowed to occupy all the nodes of any system.
 
 War Ships are open to attack at any time.  This includes a battleship, explorer, and interceptor floating in space or engaged in the act of mining.
+
+-----------------------------------------------------------------------------
+
+The Dark Council (DC) has the following as their RoE:
+
+1. Miners can't be attacked unless Opc or on a 0 node--message intention
+   or explanation, if feasible
+2. NORTHSTARS can only be attacked on 0 node or when unable to mine (capacity
+   reached)
+3. Any RoE violations will be dealt with immediately. 10 miners of the
+   offending alliance will be hit for each 1 RoE violation. 
+4. RoE may be suspended for scopely events/wars/player made events/and to
+   manage RoE violations as deemed necessary by the Dark Council.
