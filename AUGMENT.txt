@@ -57,15 +57,28 @@ Augment Credits can buy...
   12 - 1 chest  Augemnt Recruit II *timer* (Kati / Otto)
   30 - 2 chests Augemnt Recruit II *timer* (Kati / Otto)
   60 - 3 chests Augemnt Recruit II *timer* (Kati / Otto)
+ 110 - 1 chest  Augment Recruit III *timer* (Kati, Otto, Joaquin, lvl20)
+ 270 - 2 chests Augment Recruit III *timer* (Kati, Otto, Joaquin, lvl20)
+ 540 - 3 chests Augment Recruit III *timer* (Kati, Otto, Joaquin, lvl20)
+  50 - 1 chest  Augment 5 Joaquin Shards        (pawn?     rep required, lvl20)
+     - 1 chest  Augment 5 shards Marla McGivers (associate rep required, lvl20)
+     - 1 chest  Augment 5 shards Joachim        (friend    rep required, lvl20)
+     - 1 chest  Augment 5 shards Kahan          (ally      rep required, lvl20)
+ 120 - 50 Common Plutonium *timer* (lvl20)
+  25 - 1 chest  200,000 PAR *timer* *limited* (lvl19?)
+ 150 - 1 chest  200,000 TRI *timer* *limited* (lvl19?)
+  75 - 1 chest   20,000 DIL *timer* *limited* (lvl19?)
 
-  25 - 1 chest  200,000 PAR *timer* *limited*
- 150 - 1 chest  200,000 TRI *timer* *limited*
-  75 - 1 chest   20,000 DIL *timer* *limited*
  
 Corrupted Data can buy..
- 150 -  50 Augment Credits
- 100 - 125 Augment Reputation
- 200 - 200 Augment Reputation
+ 150 -  50 Augment Credits (lvl19)
+1500 - 360 Augment Credits (lvl20)
+ 100 - 125 Augment Reputation (lvl19)
+ 200 - 200 Augment Reputation (lvl19)
+ 950 - 400 Augment Reputation (lvl20)
+
+Decoded Data can buy..
+ 500 - 250 Agument Credits (lvl20)
 
 *timer* - once you purchase, a timer is set to unlock again after a delay
 *limited* - not always available
