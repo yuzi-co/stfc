@@ -87,11 +87,15 @@ War Ships are open to attack at any time.  This includes a battleship, explorer,
 
 The Dark Council (DC) has the following as their RoE:
 
-1. Miners can't be attacked unless Opc or on a 0 node--message intention
-   or explanation, if feasible
+1. Miners actively mining normally can't' be attacked unless Opc or on a
+   0 node.
 2. NORTHSTARS can only be attacked on 0 node or when unable to mine (capacity
    reached)
 3. Any RoE violations will be dealt with immediately. 10 miners of the
-   offending alliance will be hit for each 1 RoE violation. 
-4. RoE may be suspended for scopely events/wars/player made events/and to
+   offending alliance will be hit for each 1 RoE violation by the individual
+   or a single designee.
+4/D. Envoys and Botney Bay miners can be removed from 3* nodes in Tau Ceti,
+   Argentomea, and Lixar if no other nodes are available and a daily mission
+   needs to be completed.
+5. RoE may be suspended for scopely events/wars/player made events/and to
    manage RoE violations as deemed necessary by the Dark Council.
