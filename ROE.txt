@@ -83,19 +83,48 @@ Mining Rules of Engagement for Galaxy:
 
 War Ships are open to attack at any time.  This includes a battleship, explorer, and interceptor floating in space or engaged in the act of mining.
 
+---
+
+LC proposed (not in effect, just a poroposal for discussion!)
+
+We would like to present this compromise combined ROE to the LC and the DC
+for official consideration.
+
+1. Surveyor Class "Mining Ships" can be engaged for combat while mining
+   under the following circumstances:
+   a. Miner is over the protected cargo capacity.
+   b. Miner is on a zero node. A message must be sent to player indicating
+      why they were removed from mine.
+   c. NORTHSTARS can only be attacked on 0 node or when unable to mine
+      (capacity reached). 
+
+2. Miners (survey class ships) shall be considered to be actively mining
+   during the process of resetting a node with the same ship (it's common
+   courtesy and in the spirit of fair gameplay).
+
+3/D. FORTUNATE, ENVOY and BOTANY BAY ships can be removed from 3* nodes in
+   Tau Ceti, Argentomea, and Liza after meeting ALL of the following
+   conditions:
+   a. If there are no zero nodes in the system
+   b. If there are no open nodes in the system
+   c. If you actually NEED node to finish dailies (don't be a bully)
+   d. Player must have no other nodes in system to use this rule
+
+Note: RoE may be suspended for scopely PvP events/wars/Dual Council
+approved events as approved by both councils.
+
 -----------------------------------------------------------------------------
 
 The Dark Council (DC) has the following as their RoE:
 
-1. Miners actively mining normally can't be attacked unless Opc or on a
-   0 node.
+1. Miners actively mining normally can't be attacked unless Opc or on a 0 node.
 2. NORTHSTARS can only be attacked on 0 node or when unable to mine (capacity
-   reached)
+   reached) 
 3. Any RoE violations will be dealt with immediately. 10 miners of the
    offending alliance will be hit for each 1 RoE violation by the individual
    or a single designee.
 4/D. Envoys and Botney Bay miners can be removed from 3* nodes in Tau Ceti,
    Argentomea, and Lixar if no other nodes are available and a daily mission
    needs to be completed.
-5. RoE may be suspended for scopely events/wars/player made events/and to
+5. RoE may be suspended for Scopely events/wars/player made events/and to
    manage RoE violations as deemed necessary by the Dark Council.
