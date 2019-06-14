@@ -13,15 +13,15 @@ Can't Attack:
 - a miner actively mining with 0 recoverable cargo and resources still left
   in the mine
 - a miner resetting a node with the same ship
-- a NorthStar unless 0 node or full (not mining) (DC only)
+- a NorthStar unless 0 node or full (not mining)
 
 Common Courtesy:
-- do not warp directly to a node from another system
-- do not monopolize resources (one alliance occupying all nodes in a system is
-  not permitted)
+- do not monopolize resources (all nodes in one system to one alliance..)
+- personal experience suggests that asking when < 1000 units if they will
+  be around after reset wins friends, attacking during reset, while permitted,
+  wins bad mojo
 
-There are two councils, both with different RoE.  It is unclear how they can
-co exist so enjoy being careful!
+There are three councils, recently united under one RoE.
 
 Some further verbose reasoning:
 
