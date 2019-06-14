@@ -54,6 +54,16 @@ could recover, and that it only shows more than 0 if they've gone over
 their protected cargo limit, they've exceeded their welcome on the mine and
 need to be sent home.
 
+Given that players in the server are becoming more numerous above lvl20 where
+g3 is a needed resource, the limited number of mines are a sore thumb.
+Generally, higher level players have miners beyond an Envoy, some choose to
+purchase a NorthStar, and mines can be mined faster with the faster miners,
+freeing them up faster.  Generally higher level players reach deeper into
+higher level systems.  So, dividing things into < 28 and 28+ level systems
+where envoys without proper captain can be bumped if a player with a faster
+miner can get their dailies in is the conclusion enough people have agreed
+with that it is now in RoE.
+
 Note your 'Inbox' has a record of your last 20 battles, in the event you
 want to write down who attacked you or click on his name to send him a
 polite message or check if they got resources (over protected cargo) ;-)
