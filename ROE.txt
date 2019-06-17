@@ -1,83 +1,4 @@
-Rules Of Engagement (applicable to server 016)
-----------------------------------------------
-
-Fair Game to Attack:
-- a miner on a mine with 0 resources
-- a miner on a mine with recoverable cargo (see below)
-- a warship on a mine is fair game to attack
-- if you get bumped 'against roe rules' you can attack with your warship and
-  get your miner back on (or have help to do so)
-- warship in space
-
-Can't Attack:
-- a miner actively mining with 0 recoverable cargo and resources still left
-  in the mine
-- a miner resetting a node with the same ship
-- a NorthStar unless 0 node or full (not mining)
-
-Common Courtesy:
-- do not monopolize resources (all nodes in one system to one alliance..)
-- personal experience suggests that asking when < 1000 units if they will
-  be around after reset wins friends, attacking during reset, while permitted,
-  wins bad mojo
-
-There are three councils, recently united under one RoE.
-
-Some further verbose reasoning:
-
-Recoverable cargo .. if you tap the mine, it shows you the resource, and has
-a [scan] and [attack] button.  If you tap the 'scan' button, you get a battle
-lineup.  If you tap the [rewards] chest at the bottom, it will show you
-'Enemy Cargo'.  If 'Enemy Cargo' is empty, they are not over their protected
-limit.  If you want to see your ship's protected limit, you select your
-ship, then tap the [manage] button (only available when at your base), then
-on the right choose the 'details' tab and under the 'utility' section you
-can see your protected cargo limit.
-
-See 'NOTES.txt' on ship color meaning.
-
-Given that mining resources reset once a miner leaves after resources are 0,
-miners that start mining then go afk that deplete the mine are 'wasting' the
-potential to mine for others.
-
-Given that there is typically a lot of protected cargo, attacking a miner
-that has 0 resources left in the mine sends them back to their base with
-resources, and frees up the mine to be mined by others.
-
-Given that a warship (and mot a mining ship) mines much more slowly than
-a mining ship, if everybody mined with warships, many fewer resources would
-be mined and they would tie up the mines.  Therefore, a warship is 'fair game'
-to attack on a mine.
-
-Given that you can scan ships on mines to determine if there is cargo you
-could recover, and that it only shows more than 0 if they've gone over
-their protected cargo limit, they've exceeded their welcome on the mine and
-need to be sent home.
-
-Given that players in the server are becoming more numerous above lvl20 where
-g3 is a needed resource, the limited number of mines are a sore thumb.
-Generally, higher level players have miners beyond an Envoy, some choose to
-purchase a NorthStar, and mines can be mined faster with the faster miners,
-freeing them up faster.  Generally higher level players reach deeper into
-higher level systems.  So, dividing things into < 28 and 28+ level systems
-where envoys without proper captain can be bumped if a player with a faster
-miner can get their dailies in is the conclusion enough people have agreed
-with that it is now in RoE.
-
-Note your 'Inbox' has a record of your last 20 battles, in the event you
-want to write down who attacked you or click on his name to send him a
-polite message or check if they got resources (over protected cargo) ;-)
-
-Screenshots are somoetimes necessary to prove various attack scenarios.
-The battle report shows who, the battle log 1st entry shows who attacked.
-
------------------------------------------------------------------------------
-
-The above is my verbage and my interpretation of ROE.  The below is the
-actual verbage from DC (Dark Council) that the other two councils (LC and CoG)
-are following.  It was presented just before 6/11/2019:
-
-Rules of Engagement
+Rules of Engagement (presented by Dark Council on Server 016)
 
 1. Raw Materials -Ore/Crystal/Gas
 
@@ -122,3 +43,84 @@ Rules of Engagement
    c. Repeated violations result in retaliation against members of the
       aggressor's alliance. Must be approved by leadership of the victim's
       alliance and notification sent to aggressor's alliance.
+
+
+-----------------------------------------------------------------------------
+
+My own words:
+
+Fair Game to Attack:
+- a miner on a mine with 0 resources
+- some miners on some mines with recoverable cargo (see below)
+- a warship on a mine is fair game to attack
+- if you get bumped 'against roe rules' you can attack with your warship and
+  get your miner back on (or have help to do so)
+- warship in space
+
+Can't Attack:
+- a miner actively mining with 0 recoverable cargo and resources still left
+  in the mine
+- a NorthStar unless 0 node or full (not mining)
+- a survey ship not a botnay bay unless 0 node or full for Dil/Par/Tri
+
+Common Courtesy:
+- do not monopolize resources (all nodes in one system to one alliance..)
+- personal experience suggests that asking when < 1000 units if they will
+  be around after reset wins friends, attacking during reset, while permitted,
+  wins bad mojo
+
+There are three councils, recently united under one RoE.
+
+Some further verbose reasoning:
+
+Recoverable cargo .. if you tap the mine, it shows you the resource, and has
+a [scan] and [attack] button.  If you tap the 'scan' button, you get a battle
+lineup.  If you tap the [rewards] chest at the bottom, it will show you
+'Enemy Cargo'.  If 'Enemy Cargo' is empty, they are not over their protected
+limit.  If you want to see your ship's protected limit, you select your
+ship, then tap the [manage] button (only available when at your base), then
+on the right choose the 'details' tab and under the 'utility' section you
+can see your protected cargo limit.
+
+See 'NOTES.txt' on ship color meaning.
+
+Given that mining resources reset once a miner leaves after resources are 0,
+miners that start mining then go afk that sit on 0 are 'wasting' the
+potential to mine for others.
+
+Given that there is typically a lot of protected cargo, attacking a miner
+that has 0 resources left in the mine sends them back to their base with
+resources, and frees up the mine to be mined by others.
+
+Given that a warship (and mot a mining ship) mines much more slowly than
+a mining ship, if everybody mined with warships, many fewer resources would
+be mined and they would tie up the mines.  Therefore, a warship is 'fair game'
+to attack on a mine.
+
+Given that the botnay bay is extremely slow mining anything but data, they
+are not welcomed to mine anything other than data.
+
+Given that you can scan ships on mines to determine if there is cargo you
+could recover, and that it only shows more than 0 if they've gone over
+their protected cargo limit, they've exceeded their welcome on the mine and
+need to be sent home if not a ns or not dil/par/tri.
+
+Given that players in the server are becoming more numerous above lvl20 where
+g3 is a needed resource, the limited number of mines are a sore thumb.
+Generally, higher level players have miners beyond an Envoy, some choose to
+purchase a NorthStar, and mines can be mined faster with the faster miners,
+freeing them up faster.  Generally higher level players reach deeper into
+higher level systems.  So, dividing things into < 28 and 28+ level systems
+where envoys without proper captain can be bumped if a player with a faster
+miner can get their dailies in is the conclusion enough people have agreed
+with that it is now in RoE.
+
+Given that survey ships other than botnay bay are much slower on data mines,
+they are not weclome on data mines.
+
+Note your 'Inbox' has a record of your last 20 battles, in the event you
+want to write down who attacked you or click on his name to send him a
+polite message or check if they got resources (over protected cargo) ;-)
+
+Screenshots are somoetimes necessary to prove various attack scenarios.
+The battle report shows who, the battle log 1st entry shows who attacked.
