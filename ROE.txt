@@ -79,22 +79,46 @@ are following.  It was presented just before 6/11/2019:
 
 Rules of Engagement
 
-1. Miners actively mining normally can't be attacked unless Opc or on a
-   0 node.
+1. Raw Materials -Ore/Crystal/Gas
 
-2. NORTHSTARS can only be attacked on 0 node or when unable to mine
-   (capacity reached).
+   Miners actively mining are protected unless over protected cargo
+   limit or on a zero node.
 
-3. Botany Bays are only protected while mining data. 
+   Northstars actively mining can only be attacked on zero node or when
+   unable to mine (capacity reached).
 
-4. Any RoE violations will be dealt with immediately. The offending
-   player will be KOS for 24hrs. Optionally 5 miners of the offending
-   player's alliance maybe be killed instead if approved by leadership.
+   Botany Bays are not protected when mining Raw Materials
 
-5/D. If you need the mine take it. (Valid only in lvl 28 and above
-     systems on Envoy and Fortunate miners). Retaliation by a player after
-     using this clause is not covered by rule 4. Should only be used if no
-     other nodes are available and/or a daily mission needs to be completed.
+2. Data -Corrupted/Decoded
 
-6. RoE may be suspended for Scopely events/wars/player made events/and
-   to manage RoE violations as deemed necessary by the alliance/DC/LC
+   Botany Bays actively mining are protected unless over protected cargo
+   limit or on a zero node.
+
+   All other miners are unprotected when mining Data.
+
+3. Common Resources -Dilithium/Tritanium/Parsteel
+
+   Miners actively mining are protected unless on a zero node.
+
+4. Exceptions (Rule D)
+
+   a. In level 29 systems and above on raw material nodes, Envoys &
+      Fortunates can be removed in favor of a more efficient miner if no
+      other mines can be found and/or a daily needs to be completed.
+      Retaliation does not apply to either party when this rule is used.
+
+   b. Scopley events/wars/player made events/and to manage ROE violations
+      as deemed necessary by the alliance and/or DC. Notifications will
+      be sent out to other alliances as far ahead as feasible.
+
+5. Violations
+
+   a. Minor incidents should be worked out between the involved players,
+      especially in the case of a game bug.
+
+   b. Violations result in a 24/hr KOS between the alliance and the aggressor
+      if the issue cannot be worked out between the players.
+
+   c. Repeated violations result in retaliation against members of the
+      aggressor's alliance. Must be approved by leadership of the victim's
+      alliance and notification sent to aggressor's alliance.
