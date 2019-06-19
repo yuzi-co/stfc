@@ -1,4 +1,4 @@
-Server 016 has 3 Councils
+Server 016 has 2 Councils
 -------------------------
 
 Dark Council (DC) Alliances
@@ -17,16 +17,5 @@ OO/ØØ/ÒÓ
 TXLA/B/C
 SPTN
 
-Leadership Council (LC) Alliances
-PLDN 
-SC
-SCRG
-TAXI
-UNT
-TOG
-USMC
-TTS
-GAL
-TPK
-SSP
-
+Leadership Council
+Switzerland (neutral) meeting place
