@@ -1,5 +1,6 @@
 Leaderboard
 
+```
 Level|Power|Power Destroyed|Player Ships|PVP Ratio|Hostiles|Damage to Players|[Alliance] Current Name 
 22  588639  4442721  1626  1.49   2707  25753830 [UNSC] HanStolo
 22  547679 10665682  6283  2.63   2455  54298060 [MOOP] kencleanairsystem
@@ -7,3 +8,4 @@ Level|Power|Power Destroyed|Player Ships|PVP Ratio|Hostiles|Damage to Players|[A
 25 1084328  9558469  3974  1.97  22444  58775920 [XIII] Chupacabraz
 29 2203823 31676758 10834  2.09   5233 229690656 [*]    StripedHorse
 30 2599634 53838980  6195  1.82  12230 360939136 [DOCK] DockHolliday
+```
