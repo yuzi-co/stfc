@@ -8,12 +8,12 @@ the free 6 bp per 22h in addition to the 36 you got from the missions.
 A few days later (if you don't buy the rest) you can have the build parts to
 build.
 
+Look for a free 1M tritanium card in the free chest area.
+
 Once built, you complete the 'build the Botnay Bay' mission that then
 unlocks the path into augment space.  Further missions will unlock further
 paths, but once your path is unlocked, any ship can set course that has
 a high enough warp level.
-
-Look for a free 1M tritanium card in the free chest area.
 
 Look at the faction store for cards to unlock officers by purchasing chests
 with augment faction credits.
@@ -32,19 +32,27 @@ lvl24 + pawn reputation required to see uncommon plutonium in the faction store.
 
 lvl30 required to see rare plutonium in the faction store.
 
-3 officers with maneuvers specific to augment faction (Khan's Crew)
+4 officers with maneuvers specific to augment faction (Khan's Crew)
 
 Otto
   Captain Maneauver - Smash the Defenses  +20% damage against defense platforms
-  Officer Ability   - Brute Force         +20% attack of all bridge officers 
+  Officer Ability   - Brute Force         +20% - 40% attack of all bridge officers (depending on level)
 
 Joaquin
   Captain Maneauver - Firewall Protection +50% protected cargo
-  Officer Ability   - Data Miner          +40% data mining rate
+  Officer Ability   - Data Miner          +40% - 80% data mining rate (depending on level)
   
 Kati
   Captain Maneauver - Hail of Fire        + 4% chance critical hit if targetting a defense platform
-  Officer Ability   - Data Miner          +15% critical hit damage if tagetting a station
+  Officer Ability   - Data Miner          +15% - 20% critical hit damage if tagetting a station (depending on level)
+
+Joachim
+  Captain Maneauver - Patient Tactician   +50% chance increase mitigation first round of combat
+  Officer Ability   - Unflinching Resolve -10% decrease weapon damage of ships + defense platforms if attacking a station
+
+Marla McGivers
+  Captain Maneauver - History Repeats Itself +20% repair speed of ship
+  Officer Ability   - Let Me Help You     +50% attack, defense, health of cap
 
 Items available in the faction store:
 
