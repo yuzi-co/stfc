@@ -1,11 +1,16 @@
 Leaderboard
 
 ```
-Level|Power|Power Destroyed|Player Ships|PVP Ratio|Hostiles|Damage to Players|[Alliance] Current Name 
-22  588639  4442721  1626  1.49   2707  25753830 [UNSC] HanStolo
-22  547679 10665682  6283  2.63   2455  54298060 [MOOP] kencleanairsystem
-25 1104612 10221011  7109  2.93   3054  59107680 [?]    USSProsperity
-25 1084328  9558469  3974  1.97  22444  58775920 [XIII] Chupacabraz
-29 2203823 31676758 10834  2.09   5233 229690656 [*]    StripedHorse
-30 2599634 53838980  6195  1.82  12230 360939136 [DOCK] DockHolliday
+                                            Player   PVP
+                                       Power Ships Ratio           Damage
+Level                              Destroyed     |     | Hostiles      to
+|  [Alliance] CurrentName     Power        |     |     |      |   Players
+|  |                              |        |     |     |      |         |
+22 [MOOP] kencleanairsystem  547679 10665682  6283  2.63   2455  54298060 
+22 [UNSC] HanStolo           588639  4442721  1626  1.49   2707  25753830 
+25 [?]    USSProsperity     1104612 10221011  7109  2.93   3054  59107680 
+25 [XIII] Chupacabraz       1084328  9558469  3974  1.97  22444  58775920 
+29 [BHMA] AsimovOne         2184298   878739   517  0.27    773  25885110
+29 [*]    StripedHorse      2203823 31676758 10834  2.09   5233 229690656 
+30 [DOCK] DockHolliday      2599634 53838980  6195  1.82  12230 360939136 
 ```
