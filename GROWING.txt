@@ -16,9 +16,10 @@ Ops 18 - TRI Gen C, Unlock Ship Hangar
 Ops 19 - Grade 3 Ship Research
 Ops 20 - Refinery can refine 3* materials, DIL Gen C, Kehara (G3 Interceptor)
        - Daily spelunker switches to spelunker 3 aka '2000 g2' -> '2000 g3'
-Ops 22 - PAR Gen D
+Ops 22 - PAR Gen D, Vahklas (G3 Explorer), '2 batch runs' available in refinery
 Ops 23 - Unlock Science Labs, Unlock Technology Lab, Unlock Foundry
-Ops 26 - (or 27?) drop rate for uncommon g3 materials = 50%
+Ops 24 - Kumari (G3 Battleship)
+Ops 26 - ECS Horizon (G3 Surveyor), (or 27?) drop rate for uncommon g3 materials = 50%
 Ops 28 - TRI Gen D, Drydock D
 Ops 30 - DIL Gen D
 Ops 32 - PAR Gen E
@@ -27,7 +28,6 @@ Ops 40 - DIL Gen E, Armory
 Ops 42 - PAR Gen F
 Ops 50 - DIL Gen F,G,H; TRI Gen F,G,H; PAR Gen G,H; Covert Think Tank; Shield Generator
 Ops 50 - Sensor Station; Bank; Market
-         
 
 Ship Hangar - by default 10 slots, after Ops 18 can unlock the ability to
               upgrade it, hull strength is increased for all ships as a result,
